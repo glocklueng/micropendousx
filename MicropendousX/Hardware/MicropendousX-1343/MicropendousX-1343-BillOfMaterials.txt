@@ -1,7 +1,7 @@
 QTY, Manufacturer Part#     , Cost($USD each) - References - Description
 
 1  , LPC1343FBD48           , 6.30 - IC1 - IC MCU 32BIT 32KB FLASH 48LQFP
-2  , 500R15N220JV4T         , 0.04 - C1 C2 - CAP CER 22PF 50V NP0 0805
+2  , CC0603JRNP09BN180      , 0.05 - C1 C2 - CAP CERAMIC 18PF 50V NP0 0603
 1  , 08055C103KAT2A         , 0.03 - C7 - CAP CERM .01UF 10% 50V X7R 0805
 2  , GRM21BR71E104KA01L     , 0.04 - C5 C6 - CAP CER .1UF 25V 10% X7R 0805
 3  , LMK212BJ106KG-T        , 0.28 - C3 C4 C8 - CAP CER 10uF 10V X5R 0805
@@ -19,7 +19,7 @@ QTY, Manufacturer Part#     , Cost($USD each) - References - Description
 1  , ZLDO1117G33TA          , 0.62 - U4 - IC REG LDO 1A 3.3V SOT223            
 1  , ABLS-12.000MHZ-B4-T    , 0.46 - X1 - CRYSTAL 12.000 MHZ 18PF HC49US 30ppm
 2  , 68001-220HLF           , 1.00 - P1 P2 - CONN HEADER 20POS .100 STR 15AU
------------------------Total:15.85
+-----------------------Total:15.86
 
 Notes:	- Component costs listed are for single quantity orders from DigiKey
 	- The outer male headers P1, P2 can be replaced with PPPC201LFBN-RC female headers
