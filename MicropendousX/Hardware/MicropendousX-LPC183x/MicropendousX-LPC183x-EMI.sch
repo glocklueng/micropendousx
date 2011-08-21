@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/15/2011 4:26:38 PM
+EESchema Schematic File Version 2  date 8/20/2011 8:34:09 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +34,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 7
+Sheet 4 9
 Title "MicropendousX-LPC183x"
-Date "15 aug 2011"
+Date "21 aug 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -44,6 +44,51 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
+Text GLabel 4000 1750 1    40   Output ~ 0
+GPS_CTS
+Text GLabel 4300 1750 1    40   Input ~ 0
+GPS_TXD
+Text GLabel 4600 1750 1    40   Input ~ 0
+GPS_RTS
+Text GLabel 4200 1750 1    40   Output ~ 0
+GPS_RXD
+Text GLabel 9600 1250 1    40   BiDi ~ 0
+~EMC_CS0~
+Text GLabel 9500 1250 1    40   BiDi ~ 0
+~EMC_OE~
+Text GLabel 9400 1250 1    40   BiDi ~ 0
+~EMC_WE~
+Text GLabel 10550 1250 1    40   BiDi ~ 0
+~EMC_RAS~
+Text GLabel 10450 1250 1    40   BiDi ~ 0
+~EMC_CAS~
+Text GLabel 10000 1250 1    40   BiDi ~ 0
+~EMC_BLS0~
+Text GLabel 10250 1850 1    40   BiDi ~ 0
+EMC_D00
+Text GLabel 10350 1850 1    40   BiDi ~ 0
+EMC_D01
+Text GLabel 10550 1850 1    40   BiDi ~ 0
+EMC_D03
+Text GLabel 10450 1850 1    40   BiDi ~ 0
+EMC_D02
+Text GLabel 10750 1850 1    40   BiDi ~ 0
+EMC_D05
+Text GLabel 10650 1850 1    40   BiDi ~ 0
+EMC_D04
+Text GLabel 10950 1850 1    40   BiDi ~ 0
+EMC_D07
+Text GLabel 10850 1850 1    40   BiDi ~ 0
+EMC_D06
+$Comp
+L NAND_TSOP48 IC3
+U 1 1 4E4F96C3
+P 10250 3200
+F 0 "IC3" H 9950 2300 40  0000 C CNN
+F 1 "NAND" H 10000 4150 40  0000 C CNN
+	1    10250 3200
+	1    0    0    -1  
+$EndComp
 $Comp
 L CONN-24 P2
 U 1 1 4E498086
@@ -79,13 +124,9 @@ NoConn ~ 5000 1750
 NoConn ~ 4900 1750
 NoConn ~ 4800 1750
 NoConn ~ 4700 1750
-NoConn ~ 4600 1750
 NoConn ~ 4500 1750
 NoConn ~ 4400 1750
-NoConn ~ 4300 1750
-NoConn ~ 4200 1750
 NoConn ~ 4100 1750
-NoConn ~ 4000 1750
 NoConn ~ 3650 6350
 NoConn ~ 8350 1750
 NoConn ~ 8200 1750
@@ -262,10 +303,10 @@ Wire Wire Line
 	10200 5650 10200 5750
 Connection ~ 10200 5750
 $Comp
-L VDDIO_3V3 #PWR01
+L VDDIO_3V3 #PWR031
 U 1 1 4E23BF04
 P 10300 5400
-F 0 "#PWR01" H 10300 5500 30  0001 C CNN
+F 0 "#PWR031" H 10300 5500 30  0001 C CNN
 F 1 "VDDIO_3V3" H 10300 5500 30  0000 C CNN
 	1    10300 5400
 	1    0    0    -1  
