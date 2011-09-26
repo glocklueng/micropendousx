@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2011 6:49:29 PM
+EESchema Schematic File Version 2  date 9/25/2011 11:28:51 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 7
 Title "MicropendousX-LPC183x"
-Date "25 sep 2011"
+Date "26 sep 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -46,15 +46,9 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
-$Comp
-L VDDIO_3V3 #PWR078
-U 1 1 4E7F4AB8
-P 2600 3150
-F 0 "#PWR078" H 2600 3250 30  0001 C CNN
-F 1 "VDDIO_3V3" H 2600 3250 30  0000 C CNN
-	1    2600 3150
-	1    0    0    -1  
-$EndComp
+Connection ~ 5450 5850
+Wire Wire Line
+	5650 5850 4250 5850
 Wire Wire Line
 	2600 3250 2750 3250
 Wire Wire Line
@@ -107,8 +101,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 4050 4700 4000
 Connection ~ 4450 5650
-Wire Wire Line
-	4250 5650 5450 5650
 Connection ~ 4050 2050
 Wire Wire Line
 	4050 2050 5100 2050
@@ -397,8 +389,6 @@ Wire Wire Line
 	2750 3250 2750 3200
 Wire Wire Line
 	2750 3000 2750 2800
-Wire Wire Line
-	4250 5850 5450 5850
 Connection ~ 4450 5850
 Connection ~ 4700 4050
 Wire Wire Line
@@ -463,6 +453,27 @@ Wire Wire Line
 	3050 2900 3150 2900
 Wire Wire Line
 	3150 2600 1600 2600
+Wire Wire Line
+	5650 5650 4250 5650
+Connection ~ 5450 5650
+$Comp
+L C_MINI C22
+U 1 1 4E7FE693
+P 5650 5750
+F 0 "C22" V 5600 5825 30  0000 C CNN
+F 1 "u01" V 5700 5800 25  0000 C CNN
+	1    5650 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L VDDIO_3V3 #PWR078
+U 1 1 4E7F4AB8
+P 2600 3150
+F 0 "#PWR078" H 2600 3250 30  0001 C CNN
+F 1 "VDDIO_3V3" H 2600 3250 30  0000 C CNN
+	1    2600 3150
+	1    0    0    -1  
+$EndComp
 $Comp
 L C_MINI C21
 U 1 1 4E7EE540

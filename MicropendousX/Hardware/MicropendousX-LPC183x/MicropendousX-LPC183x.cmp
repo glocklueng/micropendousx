@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/25/2011 4:35:56 AM
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/25/2011 10:42:50 PM
 
 BeginCmp
 TimeStamp = /4E1DDB8A/4E50034F;
@@ -151,6 +151,13 @@ BeginCmp
 TimeStamp = /4E1DDB8A/4E7EE540;
 Reference = C21;
 ValeurCmp = 33n;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDB8A/4E7FE693;
+Reference = C22;
+ValeurCmp = u01;
 IdModule  = 0603_Opendous;
 EndCmp
 
@@ -416,7 +423,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4E7664EA;
 Reference = D5;
-ValeurCmp = CGRM4004;
+ValeurCmp = PMEG3020EH;
 IdModule  = SOD123;
 EndCmp
 
