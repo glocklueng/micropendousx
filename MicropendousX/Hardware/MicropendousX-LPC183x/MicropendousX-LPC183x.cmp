@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/23/2011 7:47:35 AM
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/24/2011 6:08:52 PM
 
 BeginCmp
 TimeStamp = /4E1DDB8A/4E50034F;
@@ -113,10 +113,10 @@ IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E1DDD5A/4E763C6B;
+TimeStamp = /4E1DDD5A/4E7E4D31;
 Reference = C16;
-ValeurCmp = 0u1;
-IdModule  = 0603_Opendous;
+ValeurCmp = 4u7;
+IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
@@ -409,8 +409,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4E7664EA;
 Reference = D5;
-ValeurCmp = PMEG3030;
-IdModule  = SOD128;
+ValeurCmp = CGRM4004;
+IdModule  = SOD123;
 EndCmp
 
 BeginCmp
@@ -477,10 +477,10 @@ IdModule  = DFN8_0.65mmPitch_3x3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E1DDD5A/4E763C55;
+TimeStamp = /4E1DDD5A/4E7E4C50;
 Reference = IC9;
-ValeurCmp = XC622x;
-IdModule  = SOT89-5_Opendous;
+ValeurCmp = AP7361;
+IdModule  = DFN8_0.65mmPitch_3x3mm;
 EndCmp
 
 BeginCmp
@@ -752,6 +752,20 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDD5A/4E7C6F37;
 Reference = R24;
+ValeurCmp = 47k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD5A/4E7E4F1F;
+Reference = R25;
+ValeurCmp = 147k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD5A/4E7E4F1E;
+Reference = R26;
 ValeurCmp = 47k;
 IdModule  = 0603_Opendous;
 EndCmp

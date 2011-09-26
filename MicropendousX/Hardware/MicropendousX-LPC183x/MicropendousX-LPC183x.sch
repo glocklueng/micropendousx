@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/23/2011 8:04:30 AM
+EESchema Schematic File Version 2  date 9/24/2011 9:18:58 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 7
 Title "MicropendousX-LPC183x"
-Date "23 sep 2011"
+Date "25 sep 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
