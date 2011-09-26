@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2011 2:41:21 AM
+EESchema Schematic File Version 2  date 9/25/2011 4:24:57 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,19 +46,14 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
-Text GLabel 6450 7600 2    40   Input ~ 0
-LTC3559_VCC
-Text Label 6450 7600 2    30   ~ 0
-LTC3559_VCC
-Text Label 3150 2050 2    30   ~ 0
-LTC3559_VCC
+Connection ~ 5100 4250
+Wire Wire Line
+	5300 4250 4300 4250
 Connection ~ 2750 1700
 Wire Wire Line
 	2950 1700 2350 1700
-Connection ~ 4650 4250
-Wire Wire Line
-	5250 4250 4450 4250
-Connection ~ 5050 4050
+Connection ~ 4500 4250
+Connection ~ 4900 4050
 Wire Wire Line
 	3150 950  3150 1900
 Wire Wire Line
@@ -99,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 2350 2250 2350
 Wire Wire Line
-	4850 4050 4850 4000
+	4700 4050 4700 4000
 Connection ~ 4450 5650
 Wire Wire Line
 	5450 5650 4250 5650
@@ -158,7 +153,7 @@ Connection ~ 4650 2750
 Connection ~ 4650 2150
 Connection ~ 5250 5850
 Connection ~ 4650 5850
-Connection ~ 4850 4250
+Connection ~ 4700 4250
 Connection ~ 5050 5850
 Connection ~ 4850 5650
 Wire Wire Line
@@ -217,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 6700 6050 6650
 Wire Wire Line
-	4850 4300 4850 4250
+	4700 4300 4700 4250
 Connection ~ 2450 1900
 Wire Wire Line
 	2450 1950 2450 1900
@@ -394,7 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 5850 4250 5850
 Connection ~ 4450 5850
-Connection ~ 4850 4050
+Connection ~ 4700 4050
 Wire Wire Line
 	5700 1550 5650 1550
 Wire Wire Line
@@ -450,26 +445,42 @@ Connection ~ 9850 3450
 Wire Wire Line
 	3100 1300 3150 1300
 Connection ~ 3150 1300
-Connection ~ 5050 4250
+Connection ~ 4900 4250
+Connection ~ 4500 4050
 Wire Wire Line
-	5250 4050 4450 4050
-Connection ~ 4650 4050
+	5300 4050 4300 4050
+Connection ~ 5100 4050
+$Comp
+L C_MINI C21
+U 1 1 4E7EE540
+P 5300 4150
+F 0 "C21" V 5250 4200 30  0000 C CNN
+F 1 "33n" V 5350 4200 25  0000 C CNN
+	1    5300 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 6450 7600 2    40   Input ~ 0
+LTC3559_VCC
+Text Label 6450 7600 2    30   ~ 0
+LTC3559_VCC
+Text Label 3150 2050 2    30   ~ 0
+LTC3559_VCC
 $Comp
 L C_MINI C19
 U 1 1 4E7C660E
-P 5050 4150
-F 0 "C19" V 5000 4200 30  0000 C CNN
-F 1 "0u1" V 5100 4200 25  0000 C CNN
-	1    5050 4150
+P 4900 4150
+F 0 "C19" V 4850 4200 30  0000 C CNN
+F 1 "0u1" V 4950 4200 25  0000 C CNN
+	1    4900 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L C_MINI C18
 U 1 1 4E7C6609
-P 4650 4150
-F 0 "C18" V 4600 4200 30  0000 C CNN
-F 1 "1u0" V 4700 4200 25  0000 C CNN
-	1    4650 4150
+P 4500 4150
+F 0 "C18" V 4450 4200 30  0000 C CNN
+F 1 "1u0" V 4550 4200 25  0000 C CNN
+	1    4500 4150
 	0    1    1    0   
 $EndComp
 Text GLabel 3100 1300 0    40   Input ~ 0
@@ -1031,10 +1042,10 @@ $EndComp
 $Comp
 L VDD3V3 #PWR0104
 U 1 1 4E495263
-P 4850 4000
-F 0 "#PWR0104" H 4850 4100 30  0001 C CNN
-F 1 "VDD3V3" H 4850 4100 30  0000 C CNN
-	1    4850 4000
+P 4700 4000
+F 0 "#PWR0104" H 4700 4100 30  0001 C CNN
+F 1 "VDD3V3" H 4700 4100 30  0000 C CNN
+	1    4700 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1414,10 +1425,10 @@ $EndComp
 $Comp
 L C_MINI C50
 U 1 1 4DE9D212
-P 5250 4150
-F 0 "C50" V 5200 4200 30  0000 C CNN
-F 1 "33n" V 5300 4200 25  0000 C CNN
-	1    5250 4150
+P 5100 4150
+F 0 "C50" V 5050 4200 30  0000 C CNN
+F 1 "33n" V 5150 4200 25  0000 C CNN
+	1    5100 4150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1432,19 +1443,19 @@ $EndComp
 $Comp
 L GND #PWR0133
 U 1 1 4DE9D210
-P 4850 4300
-F 0 "#PWR0133" H 4850 4300 30  0001 C CNN
-F 1 "GND" H 4850 4230 30  0001 C CNN
-	1    4850 4300
+P 4700 4300
+F 0 "#PWR0133" H 4700 4300 30  0001 C CNN
+F 1 "GND" H 4700 4230 30  0001 C CNN
+	1    4700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_MINI C17
 U 1 1 4DE9D20F
-P 4850 4150
-F 0 "C17" V 4800 4200 30  0000 C CNN
-F 1 "4u7" V 4900 4200 25  0000 C CNN
-	1    4850 4150
+P 4700 4150
+F 0 "C17" V 4650 4200 30  0000 C CNN
+F 1 "4u7" V 4750 4200 25  0000 C CNN
+	1    4700 4150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1549,10 +1560,10 @@ $EndComp
 $Comp
 L C_MINI C24
 U 1 1 4DE1FF8D
-P 4450 4150
-F 0 "C24" V 4400 4200 30  0000 C CNN
-F 1 "10u" V 4500 4200 25  0000 C CNN
-	1    4450 4150
+P 4300 4150
+F 0 "C24" V 4250 4200 30  0000 C CNN
+F 1 "10u" V 4350 4200 25  0000 C CNN
+	1    4300 4150
 	0    1    1    0   
 $EndComp
 $Comp

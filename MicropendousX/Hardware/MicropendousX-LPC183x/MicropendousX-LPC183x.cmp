@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/25/2011 2:16:13 AM
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/25/2011 4:24:54 AM
 
 BeginCmp
 TimeStamp = /4E1DDB8A/4E50034F;
@@ -145,6 +145,13 @@ TimeStamp = /4E1DDD5A/4E7C6F27;
 Reference = C20;
 ValeurCmp = 4u7;
 IdModule  = 0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDB8A/4E7EE540;
+Reference = C21;
+ValeurCmp = 33n;
+IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
@@ -1613,6 +1620,216 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDDAA/4E7EC6E8;
 Reference = V89;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0F4;
+Reference = V90;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0F5;
+Reference = V91;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0F8;
+Reference = V92;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0F9;
+Reference = V93;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0F7;
+Reference = V94;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0F6;
+Reference = V95;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED100;
+Reference = V96;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED101;
+Reference = V97;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0FF;
+Reference = V98;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0FE;
+Reference = V99;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0FB;
+Reference = V100;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0FA;
+Reference = V101;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0FC;
+Reference = V102;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED0FD;
+Reference = V103;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7ED102;
+Reference = V104;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0B0;
+Reference = V105;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0AF;
+Reference = V106;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0AC;
+Reference = V107;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0AB;
+Reference = V108;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0AD;
+Reference = V109;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0AE;
+Reference = V110;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0A4;
+Reference = V111;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0A3;
+Reference = V112;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0A5;
+Reference = V113;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0A6;
+Reference = V114;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0A9;
+Reference = V115;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0AA;
+Reference = V116;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0A8;
+Reference = V117;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0A7;
+Reference = V118;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDDAA/4E7EE0A2;
+Reference = V119;
 ValeurCmp = VIA;
 IdModule  = 1Pin_15mil_VIA;
 EndCmp
