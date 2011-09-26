@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/19/2011 4:52:56 AM
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/23/2011 7:47:35 AM
 
 BeginCmp
 TimeStamp = /4E1DDB8A/4E50034F;
@@ -43,7 +43,7 @@ IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E1DDB8A/4E7416ED;
+TimeStamp = /4E1DDD5A/4E7C5964;
 Reference = C6;
 ValeurCmp = 0u1;
 IdModule  = 0603_Opendous;
@@ -87,7 +87,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDD5A/4E762E07;
 Reference = C12;
-ValeurCmp = 10u;
+ValeurCmp = 4u7;
 IdModule  = 0805_Opendous;
 EndCmp
 
@@ -106,9 +106,9 @@ IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E1DDD5A/4E76307E;
+TimeStamp = /4E1DDD5A/4E7C706E;
 Reference = C15;
-ValeurCmp = 10u;
+ValeurCmp = 4u7;
 IdModule  = 0805_Opendous;
 EndCmp
 
@@ -124,6 +124,27 @@ TimeStamp = /4E1DDB8A/4DE9D20F;
 Reference = C17;
 ValeurCmp = 4u7;
 IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDB8A/4E7C6609;
+Reference = C18;
+ValeurCmp = 1u0;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDB8A/4E7C660E;
+Reference = C19;
+ValeurCmp = 0u1;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD5A/4E7C6F27;
+Reference = C20;
+ValeurCmp = 4u7;
+IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
@@ -388,8 +409,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4E7664EA;
 Reference = D5;
-ValeurCmp = RECTIFIER;
-IdModule  = SOD123;
+ValeurCmp = PMEG3030;
+IdModule  = SOD128;
 EndCmp
 
 BeginCmp
@@ -449,10 +470,10 @@ IdModule  = SO8E_4x5mm_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E1DDD5A/4E76303B;
+TimeStamp = /4E1DDD5A/4E7C6ED0;
 Reference = IC8;
-ValeurCmp = 1117-5;
-IdModule  = SOT223_Opendous;
+ValeurCmp = AP7361;
+IdModule  = DFN8_0.65mmPitch_3x3mm;
 EndCmp
 
 BeginCmp
@@ -514,6 +535,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4E490210;
 Reference = L3;
+ValeurCmp = FB;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD5A/4E7C57DF;
+Reference = L4;
 ValeurCmp = FB;
 IdModule  = 0603_Opendous;
 EndCmp
@@ -708,6 +736,27 @@ IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /4E1DDD7A/4E7C4A03;
+Reference = R22;
+ValeurCmp = 199k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD5A/4E7C6EE5;
+Reference = R23;
+ValeurCmp = 247k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD5A/4E7C6F37;
+Reference = R24;
+ValeurCmp = 47k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E1DDD7A/4E229BC4;
 Reference = R36;
 ValeurCmp = 10k;
@@ -801,7 +850,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDD2A/4E232E52;
 Reference = R51;
-ValeurCmp = 200k;
+ValeurCmp = 199k;
 IdModule  = 0603_Opendous;
 EndCmp
 

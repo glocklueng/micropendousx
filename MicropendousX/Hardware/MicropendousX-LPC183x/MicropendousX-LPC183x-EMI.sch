@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/19/2011 7:25:32 AM
+EESchema Schematic File Version 2  date 9/23/2011 8:04:30 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 7
 Title "MicropendousX-LPC183x"
-Date "19 sep 2011"
+Date "23 sep 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -46,6 +46,8 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
+Text Notes 4100 7550 0    40   ~ 0
+SC70-6 Load Switches:\nSi1865DL, Si1869DH, FDG6342L
 Wire Wire Line
 	5250 6900 5250 6050
 Connection ~ 4950 6050
@@ -238,10 +240,10 @@ EMC_D00
 Text Label 6100 6900 2    30   ~ 0
 MMC_VDD
 $Comp
-L GND #PWR037
+L GND #PWR040
 U 1 1 4E23313A
 P 5050 7150
-F 0 "#PWR037" H 5050 7150 30  0001 C CNN
+F 0 "#PWR040" H 5050 7150 30  0001 C CNN
 F 1 "GND" H 5050 7080 30  0001 C CNN
 	1    5050 7150
 	1    0    0    -1  
@@ -274,10 +276,10 @@ F 1 "0u1" V 5100 7050 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR038
+L GND #PWR041
 U 1 1 4E232CE9
 P 6800 7350
-F 0 "#PWR038" H 6800 7350 30  0001 C CNN
+F 0 "#PWR041" H 6800 7350 30  0001 C CNN
 F 1 "GND" H 6800 7280 30  0001 C CNN
 	1    6800 7350
 	1    0    0    -1  
@@ -296,10 +298,10 @@ R1-C1
 Text Label 4500 6500 0    30   ~ 0
 R2
 $Comp
-L VDDIO_3V3 #PWR039
+L VDDIO_3V3 #PWR042
 U 1 1 4E23302F
 P 4850 6500
-F 0 "#PWR039" H 4850 6600 30  0001 C CNN
+F 0 "#PWR042" H 4850 6600 30  0001 C CNN
 F 1 "VDDIO_3V3" H 4850 6600 30  0000 C CNN
 	1    4850 6500
 	1    0    0    -1  
@@ -314,19 +316,19 @@ F 1 "470p" V 5100 6250 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR040
+L GND #PWR043
 U 1 1 4E232F75
 P 4500 6800
-F 0 "#PWR040" H 4500 6800 30  0001 C CNN
+F 0 "#PWR043" H 4500 6800 30  0001 C CNN
 F 1 "GND" H 4500 6730 30  0001 C CNN
 	1    4500 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR044
 U 1 1 4E232F44
 P 3850 6250
-F 0 "#PWR041" H 3850 6250 30  0001 C CNN
+F 0 "#PWR044" H 3850 6250 30  0001 C CNN
 F 1 "GND" H 3850 6180 30  0001 C CNN
 	1    3850 6250
 	1    0    0    -1  
@@ -341,10 +343,10 @@ F 1 "0u1" V 3900 6150 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VDDIO_3V3 #PWR042
+L VDDIO_3V3 #PWR045
 U 1 1 4E232F42
 P 3850 5950
-F 0 "#PWR042" H 3850 6050 30  0001 C CNN
+F 0 "#PWR045" H 3850 6050 30  0001 C CNN
 F 1 "VDDIO_3V3" H 3850 6050 30  0000 C CNN
 	1    3850 5950
 	1    0    0    -1  
