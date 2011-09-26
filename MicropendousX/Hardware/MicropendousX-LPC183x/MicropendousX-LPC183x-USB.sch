@@ -29,8 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:opendous
-LIBS:Opennect_Schematic_Symbols_Library
 LIBS:MicropendousX-LPC183x-cache
 EELAYER 25  0
 EELAYER END
