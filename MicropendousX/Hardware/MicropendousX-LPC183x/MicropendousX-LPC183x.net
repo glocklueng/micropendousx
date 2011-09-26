@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  9/18/2011 3:49:56 PM
+# EESchema Netlist Version 1.1 created  9/18/2011 8:03:48 PM
 (
  ( /4E1DDD5A/4E763CBB $noname  D4 MBR120 {Lib=D_SCHOTTKY}
   (    1 3V3 )
@@ -30,10 +30,10 @@
  ( /4E1DDD5A/4E76303B $noname  IC8 5V_REG {Lib=REG_1084_RO252-3L_DPAK}
   (    1 GND )
   (    2 5V0 )
-  (    3 DC_VIN )
+  (    3 6V0 )
  )
  ( /4E1DDD5A/4E762E07 $noname  C12 10u {Lib=C_MINI}
-  (    1 DC_VIN )
+  (    1 6V0 )
   (    2 GND )
  )
  ( /4E1DDD5A/4E7625C4 $noname  R8 10k {Lib=R_MINI}
@@ -86,8 +86,8 @@
  )
  ( /4E1DDD5A/4E7380E6 $noname  U9 Opennect-Controller-SingleEnded-x4 {Lib=OPENNECT-CONTROLLER-SINGLEENDED-X4}
   (   A1 GND )
-  (   A2 DC_VIN )
-  (   A3 DC_VIN )
+  (   A2 6V0 )
+  (   A3 6V0 )
   (   A4 GND )
   (   A5 SSP1_SCK-ENET_REF_CLK )
   (   A6 SSP1_MISO-ENET_RXD1 )
@@ -341,7 +341,7 @@
   (  M12 ? )
   (  M13 GND )
   (  M14 ? )
-  (  M15 ? )
+  (  M15 GPIO5_2 )
   (  M16 ? )
   (   N1 ? )
   (   N2 ? )
@@ -409,7 +409,7 @@
   (  T16 GPIO5_0-EMC_A13-ENET_MDC )
  )
  ( /4E1DDD5A/4E4904A9 $noname  J1 DC_POWER_JACK {Lib=DC_POWER_JACK}
-  (    1 DC_VIN )
+  (    1 6V0 )
   (    2 GND )
   (    3 GND )
  )
@@ -422,7 +422,7 @@
   (    2 VDDIO_3V3 )
  )
  ( /4E1DDD5A/4E22B68E $noname  C103 1u0 {Lib=C_MINI}
-  (    1 DC_VIN )
+  (    1 6V0 )
   (    2 GND )
  )
  ( /4E1DDD5A/4E22B68D $noname  C104 1u0 {Lib=C_MINI}
@@ -447,21 +447,21 @@
  )
  ( /4E1DDD2A/4E7533C9 $noname  D3 MBR120 {Lib=D_SCHOTTKY}
   (    1 /External_Memory_Interface/MMC_VDD )
-  (    2 N-000109 )
+  (    2 N-000082 )
  )
  ( /4E1DDD2A/4E7533AE $noname  D2 MBR120 {Lib=D_SCHOTTKY}
   (    1 /External_Memory_Interface/MMC_VDD )
-  (    2 N-000110 )
+  (    2 N-000081 )
  )
  ( /4E1DDD2A/4E75339A $noname  IC5 TPS22960 {Lib=TPS22960}
   (    1 VDDIO_3V3 )
   (    2 GPIO3_3 )
   (    3 GPIO3_4 )
   (    4 VDD1V8 )
-  (    5 N-000109 )
+  (    5 N-000082 )
   (    6 GND )
   (    7 VDDIO_3V3 )
-  (    8 N-000110 )
+  (    8 N-000081 )
  )
  ( /4E1DDD2A/4E232FAA $noname  C120 u01 {Lib=C_MINI}
   (    1 /External_Memory_Interface/MMC_VDD )
@@ -523,15 +523,18 @@
  )
  ( /4E1DDD6A/4DE5FF44 $noname  F1 750mA {Lib=FUSE-MINI}
   (    1 VBUS )
-  (    2 N-000215 )
+  (    2 N-000236 )
  )
  ( /4E1DDD6A/4DE0B950 $noname  U1 USB-microAB {Lib=USBCONN-HOSTCAPABLE}
-  (    1 N-000215 )
+  (    1 N-000236 )
   (    2 /USB/USB-microAB_D- )
   (    3 /USB/USB-microAB_D+ )
   (    4 GND_microAB )
   (    5 GNDPWR )
   (    6 USB0_ID )
+ )
+ ( /4E1DDD7A/4E7650C6 $noname  TP7 WAKEUP0 {Lib=CONN_1}
+  (    1 WAKEUP0 )
  )
  ( /4E1DDD7A/4E73D76B $noname  TP3 NMI {Lib=CONN_1}
   (    1 /System/NMI )
@@ -544,56 +547,56 @@
   (    1 /System/nTRST )
  )
  ( /4E1DDD7A/4E22F2F6 $noname  JP7 JUMPER-3 {Lib=JUMPER-3}
-  (    1 N-000247 )
+  (    1 N-000249 )
   (    2 EMC_A07 )
   (    3 N-000248 )
  )
  ( /4E1DDD7A/4E22F2F5 $noname  R44 10k {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000247 )
+  (    2 N-000249 )
  )
  ( /4E1DDD7A/4E22F2F4 $noname  R45 10k {Lib=R_MINI}
   (    1 N-000248 )
   (    2 VDDIO_3V3 )
  )
  ( /4E1DDD7A/4E22F2EF $noname  R47 10k {Lib=R_MINI}
-  (    1 N-000249 )
+  (    1 N-000247 )
   (    2 VDDIO_3V3 )
  )
  ( /4E1DDD7A/4E22F2EE $noname  R46 10k {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000250 )
+  (    2 N-000246 )
  )
  ( /4E1DDD7A/4E22F2ED $noname  JP6 JUMPER-3 {Lib=JUMPER-3}
-  (    1 N-000250 )
+  (    1 N-000246 )
   (    2 EMC_A06 )
-  (    3 N-000249 )
+  (    3 N-000247 )
  )
  ( /4E1DDD7A/4E22F2E5 $noname  JP8 JUMPER-3 {Lib=JUMPER-3}
   (    1 N-000245 )
   (    2 EMC_A08 )
-  (    3 N-000246 )
+  (    3 N-000244 )
  )
  ( /4E1DDD7A/4E22F2E4 $noname  R42 10k {Lib=R_MINI}
   (    1 GND )
   (    2 N-000245 )
  )
  ( /4E1DDD7A/4E22F2E3 $noname  R43 10k {Lib=R_MINI}
-  (    1 N-000246 )
+  (    1 N-000244 )
   (    2 VDDIO_3V3 )
  )
  ( /4E1DDD7A/4E22F243 $noname  R41 10k {Lib=R_MINI}
-  (    1 N-000251 )
+  (    1 N-000253 )
   (    2 VDDIO_3V3 )
  )
  ( /4E1DDD7A/4E22F23F $noname  R40 10k {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000239 )
+  (    2 N-000252 )
  )
  ( /4E1DDD7A/4E22F233 $noname  JP0 JUMPER-3 {Lib=JUMPER-3}
-  (    1 N-000239 )
+  (    1 N-000252 )
   (    2 EMC_A00 )
-  (    3 N-000251 )
+  (    3 N-000253 )
  )
  ( /4E1DDD7A/4E22A214 $noname  SW1 RESET {Lib=SWITCH_PUSHBUTTON}
   (    1 GND )
@@ -681,6 +684,32 @@
   (    1 VDDIO_3V3 )
   (    2 GND )
  )
+ ( /4E1DDB8A/4E7667E9 $noname  R20 10k {Lib=R_MINI}
+  (    1 GND )
+  (    2 GPIO5_2 )
+ )
+ ( /4E1DDB8A/4E7666DA $noname  R10 1k2 {Lib=R_MINI}
+  (    1 GND )
+  (    2 6V0 )
+ )
+ ( /4E1DDB8A/4E7666AB $noname  R11 1k65 {Lib=R_MINI}
+  (    1 /Power_Supply/LTC3559_PROG )
+  (    2 N-000028 )
+ )
+ ( /4E1DDB8A/4E766690 $noname  Q1 MOSFET {Lib=MOSFET_N_OPENDOUS}
+  (    1 6V0 )
+  (    2 GND )
+  (    3 N-000028 )
+ )
+ ( /4E1DDB8A/4E7664EA $noname  D5 RECTIFIER {Lib=D_RECTIFIER}
+  (    1 /Power_Supply/LTC3559_VCC )
+  (    2 6V0 )
+ )
+ ( /4E1DDB8A/4E7664CE $noname  Q2 FDN304 {Lib=MOSFET_P_OPENDOUS}
+  (    1 6V0 )
+  (    2 /Power_Supply/LTC3559_VCC )
+  (    3 VBUS )
+ )
  ( /4E1DDB8A/4E763371 $noname  TP6 IO0 {Lib=CONN_1}
   (    1 /Power_Supply/IO0 )
  )
@@ -701,54 +730,54 @@
   (    2 GND )
  )
  ( /4E1DDB8A/4E738DA5 $noname  C10 u22 {Lib=C_MINI}
-  (    1 N-000010 )
+  (    1 N-000013 )
   (    2 GND )
  )
  ( /4E1DDB8A/4E738D45 $noname  R6 200k {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000008 )
+  (    2 N-000009 )
  )
  ( /4E1DDB8A/4E738D39 $noname  C9 1u0 {Lib=C_MINI}
   (    1 +BATT )
   (    2 GND )
  )
  ( /4E1DDB8A/4E738CFE $noname  R4 1k {Lib=R_MINI}
-  (    1 N-000010 )
+  (    1 N-000013 )
   (    2 +BATT )
  )
  ( /4E1DDB8A/4E738C22 $noname  R3 0R03 {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000009 )
+  (    2 N-000005 )
  )
  ( /4E1DDB8A/4E738C06 $noname  IC2 STC3100 {Lib=STC3100}
   (    1 /Power_Supply/IO0 )
-  (    2 N-000008 )
+  (    2 N-000009 )
   (    3 I2C1_SDA-U3_TXD )
   (    4 I2C1_SCL-U3_RXD )
   (    5 GND )
-  (    6 N-000009 )
+  (    6 N-000005 )
   (    7 +BATT )
-  (    8 N-000010 )
+  (    8 N-000013 )
   (    9 GND )
  )
  ( /4E1DDB8A/4E502E5D $noname  R15 1k {Lib=R_MINI}
-  (    1 N-000005 )
+  (    1 /Power_Supply/LTC3559_HPWR )
   (    2 +BATT )
  )
  ( /4E1DDB8A/4E502D6E $noname  D1 CHRG {Lib=D_LED}
-  (    1 N-000004 )
-  (    2 VBUS )
- )
- ( /4E1DDB8A/4E502D5A $noname  R12 1k {Lib=R_MINI}
-  (    1 N-000002 )
-  (    2 N-000004 )
- )
- ( /4E1DDB8A/4E502BDC $noname  R13 10k {Lib=R_MINI}
   (    1 N-000015 )
   (    2 VBUS )
  )
+ ( /4E1DDB8A/4E502D5A $noname  R12 1k {Lib=R_MINI}
+  (    1 /Power_Supply/LTC3559_~CHRG~ )
+  (    2 N-000015 )
+ )
+ ( /4E1DDB8A/4E502BDC $noname  R13 10k {Lib=R_MINI}
+  (    1 N-000008 )
+  (    2 VBUS )
+ )
  ( /4E1DDB8A/4E502B5D $noname  R14 1k74 {Lib=R_MINI}
-  (    1 N-000016 )
+  (    1 /Power_Supply/LTC3559_PROG )
   (    2 GND )
  )
  ( /4E1DDB8A/4E5029A0 $noname  R18 806k {Lib=R_MINI}
@@ -761,42 +790,42 @@
  )
  ( /4E1DDB8A/4E50299A $noname  R17 259k {Lib=R_MINI}
   (    1 GND )
-  (    2 N-000027 )
+  (    2 N-000026 )
  )
  ( /4E1DDB8A/4E502996 $noname  R16 806k {Lib=R_MINI}
-  (    1 N-000027 )
+  (    1 N-000026 )
   (    2 VDD33 )
  )
  ( /4E1DDB8A/4E502951 $noname  L6 4.7uH {Lib=L_MINI}
   (    1 VDD1V8 )
-  (    2 N-000013 )
+  (    2 N-000003 )
  )
  ( /4E1DDB8A/4E502950 $noname  L5 4.7uH {Lib=L_MINI}
   (    1 VDD33 )
-  (    2 N-000012 )
+  (    2 N-000004 )
  )
  ( /4E1DDB8A/4E50034F $noname  BT1 Li-Ion {Lib=BATTERY_LI-ION}
   (    1 +BATT )
-  (    2 N-000009 )
-  (    3 N-000015 )
+  (    2 N-000005 )
+  (    3 N-000008 )
  )
  ( /4E1DDB8A/4E500341 $noname  IC6 LTC3559 {Lib=LTC3559}
   (    1 GND )
   (    2 +BATT )
   (    3 GND )
-  (    4 N-000027 )
+  (    4 N-000026 )
   (    5 +BATT )
-  (    6 N-000012 )
+  (    6 N-000004 )
   (    7 +BATT )
-  (    8 N-000013 )
+  (    8 N-000003 )
   (    9 GPIO3_7 )
   (   10 N-000020 )
-  (   11 VBUS )
-  (   12 N-000005 )
-  (   13 N-000015 )
-  (   14 N-000016 )
-  (   15 N-000002 )
-  (   16 VBUS )
+  (   11 GPIO5_2 )
+  (   12 /Power_Supply/LTC3559_HPWR )
+  (   13 N-000008 )
+  (   14 /Power_Supply/LTC3559_PROG )
+  (   15 /Power_Supply/LTC3559_~CHRG~ )
+  (   16 /Power_Supply/LTC3559_VCC )
   (   17 GND )
  )
  ( /4E1DDB8A/4E490210 $noname  L3 FB {Lib=L_MINI}
@@ -867,11 +896,11 @@
   (    2 GND )
  )
  ( /4E1DDB8A/4DE60206 $noname  C13 10u {Lib=C_MINI}
-  (    1 VBUS )
+  (    1 /Power_Supply/LTC3559_VCC )
   (    2 GND )
  )
  ( /4E1DDB8A/4DE5EA56 $noname  C14 0u1 {Lib=C_MINI}
-  (    1 VBUS )
+  (    1 /Power_Supply/LTC3559_VCC )
   (    2 GND )
  )
  ( /4E1DDB8A/4DE20082 $noname  C34 10u {Lib=C_MINI}
@@ -888,7 +917,7 @@
  )
  ( /4E1DDB8A/4DE1FFE8 $noname  C30 22p {Lib=C_MINI}
   (    1 VDD33 )
-  (    2 N-000027 )
+  (    2 N-000026 )
  )
  ( /4E1DDB8A/4DE1FFE7 $noname  C32 22p {Lib=C_MINI}
   (    1 VDD1V8 )
@@ -978,25 +1007,25 @@
   (    1 ? )
  )
  ( /4E1DDDAA/4D45B673 $noname  V320 VIA {Lib=VIA}
-  (    1 ? )
+  (    1 SSP1_SSEL-ENET_TXD1 )
  )
  ( /4E1DDDAA/4D45B672 $noname  V319 VIA {Lib=VIA}
-  (    1 ? )
+  (    1 SSP1_SCK-ENET_REF_CLK )
  )
  ( /4E1DDDAA/4D45B671 $noname  V317 VIA {Lib=VIA}
-  (    1 ? )
+  (    1 CLKOUT-I2S1_RX_SCK )
  )
  ( /4E1DDDAA/4D45B670 $noname  V318 VIA {Lib=VIA}
-  (    1 ? )
+  (    1 SPIFI_SCK-CGU_OUT1 )
  )
  ( /4E1DDDAA/4D45B66F $noname  V326 VIA {Lib=VIA}
-  (    1 SPIFI_SIO2 )
+  (    1 SPIFI_SIO2-I2S1_RX_WS )
  )
  ( /4E1DDDAA/4D45B66E $noname  V325 VIA {Lib=VIA}
   (    1 USB0_ID )
  )
  ( /4E1DDDAA/4D45B66D $noname  V327 VIA {Lib=VIA}
-  (    1 SPIFI_SIO2 )
+  (    1 SPIFI_SIO2-I2S1_RX_WS )
  )
  ( /4E1DDDAA/4D45B66C $noname  V328 VIA {Lib=VIA}
   (    1 USB0_DP )
@@ -1005,13 +1034,13 @@
   (    1 USB0_ID )
  )
  ( /4E1DDDAA/4D45B66A $noname  V323 VIA {Lib=VIA}
-  (    1 ? )
+  (    1 U2_RXD-GPIO0_3-ENET_RX_DV )
  )
  ( /4E1DDDAA/4D45B669 $noname  V321 VIA {Lib=VIA}
-  (    1 ? )
+  (    1 GPIO0_12-ENET_MDIO )
  )
  ( /4E1DDDAA/4D45B668 $noname  V322 VIA {Lib=VIA}
-  (    1 ? )
+  (    1 U2_TXD-GPIO0_2-ENET_RXD0 )
  )
  ( /4E1DDDAA/4D45B667 $noname  V338 VIA {Lib=VIA}
   (    1 GND )
@@ -1038,7 +1067,7 @@
   (    1 GND )
  )
  ( /4E1DDDAA/4D45B65F $noname  V332 VIA {Lib=VIA}
-  (    1 DC_VIN )
+  (    1 6V0 )
  )
  ( /4E1DDDAA/4D45B65E $noname  V331 VIA {Lib=VIA}
   (    1 USB0_DM )
@@ -1830,94 +1859,230 @@ $component D2
  SM*
  SLP1006P2
 $endlist
+$component D5
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "VDDA" "VDDA"
- C6 1
- U2 2
- IC1 B4
- L3 1
- C64 1
-Net 2 "" ""
- R12 1
- IC6 15
-Net 3 "VBUS" "VBUS"
- F1 1
- C13 1
- D1 2
- R13 2
- V60 1
- V61 1
- V59 1
- IC6 16
- C14 1
- IC6 11
- IC1 F1
-Net 4 "" ""
- R12 2
- D1 1
-Net 5 "" ""
- IC6 12
- R15 1
-Net 6 "I2C1_SCL-U3_RXD" "I2C1_SCL-U3_RXD"
- R55 1
- IC1 K11
- IC2 4
-Net 7 "I2C1_SDA-U3_TXD" "I2C1_SDA-U3_TXD"
- IC1 J12
- R54 1
- IC2 3
-Net 8 "" ""
- R6 2
- IC2 2
-Net 9 "" ""
- IC2 6
- BT1 2
- R3 2
-Net 10 "" ""
- IC2 8
- R4 1
- C10 1
-Net 11 "+BATT" "+BATT"
- R15 2
- IC6 7
- C9 1
- C26 1
- R4 2
- IC6 5
- IC6 2
- BT1 1
- IC2 7
- C11 1
-Net 12 "" ""
- IC6 6
- L5 2
-Net 13 "" ""
+Net 1 "VDDIO_3V3" "VDDIO_3V3"
+ C36 1
+ C37 1
+ C34 1
+ C107 1
+ V32 1
+ V31 1
+ V29 1
+ V30 1
+ IC5 1
+ D4 2
+ C108 1
+ V208 1
+ V207 1
+ U4 1
+ IC5 7
+ IC1 E12
+ IC1 L10
+ IC1 H10
+ IC1 G10
+ IC1 L9
+ C51 1
+ C29 1
+ C8 1
+ C27 1
+ IC1 N13
+ IC4 5
+ V212 1
+ V205 1
+ V206 1
+ V210 1
+ V209 1
+ IC7 8
+ R37 1
+ V211 1
+ V213 1
+ V214 1
+ V218 1
+ V217 1
+ V215 1
+ V216 1
+ V219 1
+ V220 1
+ V221 1
+ V36 1
+ V35 1
+ V33 1
+ V34 1
+ IC1 F8
+ IC1 N7
+ IC1 K7
+ IC1 J7
+ IC1 F7
+ C113 2
+ C113 1
+ R39 2
+ R36 1
+ R41 2
+ IC1 D7
+ IC1 J6
+ IC1 G3
+ IC1 F3
+ V38 1
+ V37 1
+ C44 1
+ L3 2
+ C43 1
+ R43 2
+ C7 1
+ R45 2
+ R56 2
+ R57 2
+ C106 1
+ IC3 16
+ R55 2
+ R54 2
+ C114 1
+ C114 2
+ R7 2
+ R47 2
+ U9 B17
+ L2 1
+Net 2 "VDD1V8" "VDD1V8"
+ R18 2
+ IC5 4
+ L6 1
+ C32 1
+ C55 1
+Net 3 "" ""
  IC6 8
  L6 2
-Net 14 "GND" "GND"
- V27 1
- V39 1
+Net 4 "" ""
+ IC6 6
+ L5 2
+Net 5 "" ""
+ R3 2
+ BT1 2
+ IC2 6
+Net 6 "/Power Supply/LTC3559_~CHRG~" "LTC3559_~CHRG~"
+ R12 1
+ IC6 15
+Net 7 "VBUS" "VBUS"
+ Q2 3
+ V59 1
+ V60 1
+ V61 1
+ D1 2
+ R13 2
+ F1 1
+ IC1 F1
+Net 8 "" ""
+ R13 1
+ IC6 13
+ BT1 3
+Net 9 "" ""
+ R6 2
+ IC2 2
+Net 10 "I2C1_SDA-U3_TXD" "I2C1_SDA-U3_TXD"
+ R54 1
+ IC2 3
+ IC1 J12
+Net 11 "I2C1_SCL-U3_RXD" "I2C1_SCL-U3_RXD"
+ R55 1
+ IC2 4
+ IC1 K11
+Net 12 "+BATT" "+BATT"
+ BT1 1
+ IC6 2
+ C26 1
+ R4 2
+ R15 2
+ IC2 7
+ C11 1
+ C9 1
+ IC6 5
+ IC6 7
+Net 13 "" ""
+ C10 1
+ IC2 8
+ R4 1
+Net 14 "/Power Supply/LTC3559_HPWR" "LTC3559_HPWR"
+ R15 1
+ IC6 12
+Net 15 "" ""
+ D1 1
+ R12 2
+Net 16 "VDDA" "VDDA"
+ L3 1
+ IC1 B4
+ U2 2
+ C64 1
+ C6 1
+Net 17 "VSSA" "VSSA"
+ U2 1
+ U2 3
+ U2 4
+ U2 7
+ C64 2
+ C6 2
+ IC1 B2
+ L1 1
+Net 18 "/Power Supply/VBAT" "VBAT"
+ IC1 B10
+ TP5 1
+ C115 1
+Net 19 "GND" "GND"
+ IC3 8
+ R8 1
+ J1 2
+ U9 B13
+ U9 B32
+ U9 A32
+ U9 A22
+ U9 B12
+ U9 A12
+ U9 B31
+ U9 A21
+ J1 3
+ C43 2
+ C44 2
+ C15 2
+ C7 2
+ IC8 1
+ C12 2
+ U9 A1
  U9 B1
- U11 6
- V46 1
- V28 1
- V45 1
- V47 1
- U11 10
- V48 1
- V44 1
- V43 1
- V41 1
- V57 1
- V58 1
- U11 17
- V42 1
- C118 2
- C120 2
+ IC4 2
+ IC9 2
+ C16 2
+ U9 A4
+ U9 B4
+ U9 B16
+ U9 A26
+ U9 B27
+ U9 A18
+ U9 B18
+ U9 B28
+ U9 B20
+ U9 A11
+ U9 B11
+ U9 B23
+ U9 B24
+ U9 A15
+ U9 A25
+ V17 1
+ V18 1
+ V335 1
+ V333 1
+ V334 1
+ V340 1
+ V339 1
+ V337 1
+ V39 1
+ V40 1
  V2 1
- C119 2
  V1 1
  V3 1
  V4 1
@@ -1929,499 +2094,426 @@ Net 14 "GND" "GND"
  V13 1
  V15 1
  V16 1
- U9 A1
  V12 1
- V40 1
  V11 1
  V9 1
  V10 1
  V26 1
  V25 1
- IC4 2
- IC9 2
- C16 2
- V18 1
- V17 1
- V19 1
- V20 1
- V24 1
- V23 1
- V21 1
+ V27 1
+ V28 1
  V22 1
- U9 B20
- J1 2
+ V21 1
+ V23 1
+ V24 1
+ V20 1
+ V19 1
+ V338 1
+ V341 1
+ V344 1
+ V347 1
+ V345 1
+ V346 1
  R44 1
- J1 3
- U9 A11
- U9 B11
- U9 A21
- R42 1
- U9 B31
- U9 A12
- U9 B12
- U9 A26
- U9 B27
- U9 A18
- U9 B18
- U9 B28
  R46 1
  U9 A29
- IC3 8
- U9 B23
- C44 2
+ C103 2
+ C104 2
  C105 2
  C106 2
- C43 2
- C104 2
- C7 2
- C103 2
- U9 A22
- U9 A32
- U9 B32
- U9 B13
- R5 1
- L10 2
  L11 1
- R8 1
- C12 2
- IC8 1
- C15 2
- IC7 4
- C5 2
- R40 1
- V54 1
- V53 1
- V55 1
- V56 1
- V52 1
- V51 1
- V49 1
- V50 1
- U9 A4
- U9 B4
- IC5 6
- C4 2
- C3 2
- X1 4
- X1 2
- C1 2
- C2 2
- U9 B16
- U9 B24
+ L10 2
+ R5 1
+ R42 1
  C108 2
- U9 A15
- U9 A25
- SW1 1
- C8 2
- U4 9
- U4 5
+ R40 1
+ C5 2
+ IC7 4
+ V336 1
+ V50 1
+ V49 1
+ V51 1
+ V52 1
+ V56 1
+ V55 1
+ V53 1
+ V54 1
+ V57 1
+ V58 1
+ V42 1
+ V41 1
+ V43 1
+ V44 1
+ V48 1
+ V47 1
+ V45 1
+ V46 1
+ C2 2
+ C1 2
+ X1 2
+ X1 4
+ C3 2
+ C4 2
  U4 3
- C34 2
- C37 2
- C36 2
- IC1 G1
- C109 4
- C109 3
- IC1 K10
- IC1 J10
- C107 2
- C29 2
- C26 2
- C24 2
- C27 2
- C13 2
- C14 2
- IC1 K8
- IC1 J8
- IC1 H8
+ U4 5
+ U4 9
+ C8 2
+ SW1 1
+ IC5 6
+ IC1 H9
+ IC1 P7
+ U11 10
  IC1 G8
+ IC1 H8
+ IC1 J8
+ IC1 K8
+ IC1 G9
+ C109 3
+ C109 4
+ IC1 G1
  IC1 H3
  IC1 C4
  IC1 G6
- IC1 G7
- IC1 H7
- IC1 P7
- R48 1
- C113 4
- C113 3
- IC1 K9
- IC1 J9
- IC1 H9
- IC1 G9
- C114 4
- C114 3
- L1 2
  IC2 9
  IC2 5
- R3 1
- IC6 17
- C112 4
- C112 3
- C17 2
+ Q1 2
+ R14 2
+ R9 1
+ R6 1
+ C10 2
  C51 2
  C50 2
  C54 2
  C55 2
  C115 2
+ U11 17
+ C26 2
+ C29 2
+ C107 2
+ C17 2
+ C13 2
+ C14 2
+ C34 2
+ C37 2
+ C36 2
+ IC1 J10
+ IC1 K9
+ IC1 J9
+ C113 3
+ C113 4
+ R48 1
+ IC1 G7
+ IC1 H7
+ U11 6
+ C24 2
+ C112 3
+ C27 2
+ C112 4
  IC1 P13
  IC1 M13
  IC1 D13
+ C120 2
  IC1 J11
- IC6 3
- IC6 1
- R17 1
- R14 2
- R19 1
- V335 1
- V336 1
- R9 1
- V339 1
- V340 1
- V334 1
- V333 1
- R6 1
- C10 2
- V346 1
- V345 1
- C11 2
+ IC1 K10
+ C118 2
+ C119 2
+ L1 2
  C9 2
- V338 1
- V341 1
- V344 1
- V347 1
- V337 1
-Net 15 "" ""
- IC6 13
- BT1 3
- R13 1
-Net 16 "" ""
- R14 1
- IC6 14
-Net 17 "VDD33" "VDD33"
- L5 1
- IC1 L7
- V229 1
- V228 1
- V230 1
- V231 1
- V235 1
- V234 1
- L2 2
- U9 B2
- V232 1
- V233 1
- V225 1
- V224 1
- V226 1
- V227 1
- V223 1
- C112 1
+ IC6 17
+ R19 1
+ R17 1
+ IC6 1
+ IC6 3
+ C114 3
+ C114 4
+ R3 1
+ R20 1
+ R10 1
+ C11 2
+Net 20 "" ""
+ C32 2
+ R18 1
+ R19 2
+ IC6 10
+Net 21 "VDD33" "VDD33"
  C112 2
- V222 1
+ V226 1
+ V236 1
+ C24 1
+ C30 1
+ U9 B2
+ V224 1
+ V225 1
+ V234 1
+ V233 1
+ V232 1
+ C17 1
+ V235 1
+ V231 1
+ L2 2
+ R16 2
+ L5 1
+ C109 1
+ C112 1
  IC1 L8
  IC1 F9
- C24 1
- IC1 F10
- C30 1
+ C50 1
  C109 2
- C109 1
+ V230 1
+ V228 1
+ V229 1
+ IC1 L7
  C54 1
  IC1 E8
- C50 1
- C17 1
- R16 2
- V236 1
-Net 18 "/Power Supply/VBAT" "VBAT"
- IC1 B10
- C115 1
- TP5 1
-Net 19 "VSSA" "VSSA"
- U2 7
- U2 4
- U2 1
- U2 3
- C6 2
- IC1 B2
- C64 2
- L1 1
-Net 20 "" ""
- IC6 10
- C32 2
- R19 2
- R18 1
-Net 21 "VDD1V8" "VDD1V8"
- IC5 4
- C32 1
- C55 1
- R18 2
- L6 1
-Net 22 "VDDIO_3V3" "VDDIO_3V3"
- V34 1
- V30 1
- V29 1
- V31 1
- V32 1
- V33 1
- V35 1
- V36 1
- D4 2
- IC4 5
- R47 2
- R55 2
- R54 2
- C8 1
- U4 1
- C108 1
- C106 1
- R57 2
- R56 2
- R43 2
- R45 2
- V208 1
- V207 1
- V209 1
- V210 1
- V206 1
- V205 1
- V212 1
- V211 1
- V213 1
- V214 1
- V218 1
- V217 1
- V215 1
- V216 1
- V220 1
- V221 1
- V38 1
- V37 1
- R41 2
- R36 1
- R39 2
- IC7 8
- R37 1
- V219 1
- IC1 G3
- IC1 J6
- IC1 D7
- IC1 F7
- IC1 J7
- IC1 K7
- IC1 N7
- C7 1
- C43 1
- IC5 1
- C51 1
- IC1 N13
- IC1 E12
- IC1 L10
- IC1 H10
- IC1 G10
- C107 1
- U9 B17
- C29 1
- C27 1
- C34 1
- C37 1
- C36 1
- C113 2
- C113 1
- IC1 L9
- IC1 F8
- IC1 F3
- IC3 16
- C44 1
- R7 2
- L2 1
- L3 2
- IC5 7
- C114 2
- C114 1
+ V222 1
+ V223 1
+ IC1 F10
+ V227 1
+Net 22 "/Power Supply/LTC3559_VCC" "LTC3559_VCC"
+ C14 1
+ C13 1
+ IC6 16
+ Q2 2
+ D5 1
 Net 24 "/Power Supply/USB0_RREF" "USB0_RREF"
- R48 2
  IC1 H1
-Net 25 "/Power Supply/IO0" "IO0"
- TP6 1
- IC2 1
-Net 26 "GPIO3_7" "GPIO3_7"
+ R48 2
+Net 25 "GPIO3_7" "GPIO3_7"
+ R9 2
  IC1 H12
  IC6 9
- R9 2
-Net 27 "" ""
+Net 26 "" ""
  C30 2
  IC6 4
  R16 1
  R17 2
-Net 30 "EMC_D06-MMC_CD" "EMC_D06-MMC_CD"
- U11 2
- U9 A27
- IC1 R10
-Net 32 "EMC_D04-MMC_DAT2" "EMC_D04-MMC_DAT2"
- U9 A23
- IC1 T9
- U11 15
-Net 33 "EMC_D05-MMC_DAT3" "EMC_D05-MMC_DAT3"
- U9 A24
- U11 14
- IC1 R9
-Net 37 "EMC_D03-MMC_DAT1" "EMC_D03-MMC_DAT1"
- U9 A20
- U11 3
- IC1 R8
-Net 39 "EMC_D02-MMC_DAT0" "EMC_D02-MMC_DAT0"
- IC1 T7
- U9 A19
- U11 4
-Net 40 "EMC_D01" "EMC_D01"
- IC3 11
- IC1 R7
-Net 42 "EMC_D07" "EMC_D07"
+Net 27 "6V0" "6V0"
+ J1 1
+ D5 2
+ Q2 1
+ R10 2
+ C103 1
+ Q1 1
+ C12 1
+ IC8 3
+ U9 A3
+ U9 A2
+ V332 1
+Net 28 "" ""
+ Q1 3
+ R11 2
+Net 29 "/Power Supply/IO0" "IO0"
+ TP6 1
+ IC2 1
+Net 30 "GPIO5_2" "GPIO5_2"
+ R20 2
+ IC1 M15
+ IC6 11
+Net 31 "/Power Supply/LTC3559_PROG" "LTC3559_PROG"
+ R11 1
+ R14 1
+ IC6 14
+Net 33 "GPIO5_1-EMC_A12" "GPIO5_1-EMC_A12"
+ IC1 N15
+ U9 A10
+Net 35 "EMC_A03" "EMC_A03"
+ IC1 E15
+ U9 B22
+Net 44 "EMC_A04" "EMC_A04"
+ IC1 C16
+ U9 B25
+Net 47 "EMC_A02" "EMC_A02"
+ IC1 F16
+ U9 B21
+Net 48 "EMC_A01" "EMC_A01"
+ IC3 5
+ IC1 G16
+Net 49 "EMC_A00" "EMC_A00"
+ IC3 2
+ IC1 H16
+ JP0 2
+Net 50 "EMC_A08" "EMC_A08"
+ IC1 J16
+ JP8 2
+Net 59 "EMC_D07" "EMC_D07"
  U9 A28
  IC1 R11
-Net 54 "CLKOUT-I2S1_RX_SCK" "CLKOUT-I2S1_RX_SCK"
- U9 A13
+Net 71 "CLKOUT-I2S1_RX_SCK" "CLKOUT-I2S1_RX_SCK"
+ V317 1
  IC1 D14
-Net 60 "EMC_A05" "EMC_A05"
- IC1 P2
- U9 B26
-Net 61 "EMC_A06" "EMC_A06"
- JP6 2
- U9 B29
- IC1 R2
-Net 65 "EMC_A07" "EMC_A07"
- JP7 2
- IC1 R3
- U9 B30
-Net 68 "~EMC_WE~-MMC_CMD" "~EMC_WE~-MMC_CMD"
+ U9 A13
+Net 77 "~EMC_WE~-MMC_CMD" "~EMC_WE~-MMC_CMD"
  U11 12
  IC1 T4
  U9 B19
-Net 69 "~EMC_OE~" "~EMC_OE~"
- U9 A31
- IC1 P5
-Net 70 "~EMC_CS0~-MMC_POW" "~EMC_CS0~-MMC_POW"
- U9 A30
- IC1 R5
-Net 71 "EMC_D00" "EMC_D00"
- IC1 T5
- IC3 14
-Net 74 "GPIO0_11" "GPIO0_11"
- U11 1
- IC1 T3
-Net 77 "MMC_CLK" "MMC_CLK"
- IC1 N5
- U11 8
-Net 90 "EMC_A03" "EMC_A03"
- U9 B22
- IC1 E15
-Net 93 "GPIO5_1-EMC_A12" "GPIO5_1-EMC_A12"
- IC1 N15
- U9 A10
-Net 96 "EMC_A04" "EMC_A04"
- IC1 C16
- U9 B25
-Net 99 "EMC_A02" "EMC_A02"
- U9 B21
- IC1 F16
-Net 100 "EMC_A01" "EMC_A01"
- IC1 G16
- IC3 5
-Net 101 "EMC_A00" "EMC_A00"
- IC1 H16
- JP0 2
- IC3 2
-Net 102 "EMC_A08" "EMC_A08"
- JP8 2
- IC1 J16
-Net 106 "GPIO3_4" "GPIO3_4"
- IC5 3
- IC1 P16
-Net 107 "GPIO3_3" "GPIO3_3"
- IC5 2
- IC1 R16
-Net 108 "GPIO5_0-EMC_A13-ENET_MDC" "GPIO5_0-EMC_A13-ENET_MDC"
- IC1 T16
- U9 A9
-Net 109 "" ""
- D3 2
- IC5 5
-Net 110 "" ""
+Net 79 "EMC_D05-MMC_DAT3" "EMC_D05-MMC_DAT3"
+ IC1 R9
+ U9 A24
+ U11 14
+Net 80 "EMC_D04-MMC_DAT2" "EMC_D04-MMC_DAT2"
+ U9 A23
+ IC1 T9
+ U11 15
+Net 81 "" ""
  IC5 8
  D2 2
-Net 111 "/External Memory Interface/MMC_VDD" "MMC_VDD"
- D2 1
+Net 82 "" ""
+ D3 2
+ IC5 5
+Net 83 "GPIO5_0-EMC_A13-ENET_MDC" "GPIO5_0-EMC_A13-ENET_MDC"
+ IC1 T16
+ U9 A9
+Net 84 "/External Memory Interface/MMC_VDD" "MMC_VDD"
  D3 1
+ U11 9
+ D2 1
  C120 1
  C118 1
  C119 1
- U11 9
-Net 115 "I2S0_TX_WS" "I2S0_TX_WS"
- IC1 G11
- IC3 6
-Net 116 "SPIFI_SIO2-I2S1_RX_WS" "SPIFI_SIO2-I2S1_RX_WS"
- IC3 10
+Net 85 "GPIO0_11" "GPIO0_11"
+ IC1 T3
+ U11 1
+Net 86 "EMC_D06-MMC_CD" "EMC_D06-MMC_CD"
+ U9 A27
+ IC1 R10
+ U11 2
+Net 87 "EMC_D03-MMC_DAT1" "EMC_D03-MMC_DAT1"
+ IC1 R8
+ U9 A20
+ U11 3
+Net 88 "EMC_D02-MMC_DAT0" "EMC_D02-MMC_DAT0"
+ IC1 T7
+ U9 A19
+ U11 4
+Net 91 "MMC_CLK" "MMC_CLK"
+ U11 8
+ IC1 N5
+Net 106 "GPIO3_3" "GPIO3_3"
+ IC1 R16
+ IC5 2
+Net 107 "GPIO3_4" "GPIO3_4"
+ IC1 P16
+ IC5 3
+Net 108 "EMC_A05" "EMC_A05"
+ U9 B26
+ IC1 P2
+Net 109 "EMC_A06" "EMC_A06"
+ U9 B29
+ IC1 R2
+ JP6 2
+Net 110 "EMC_A07" "EMC_A07"
+ U9 B30
+ IC1 R3
+ JP7 2
+Net 111 "~EMC_OE~" "~EMC_OE~"
+ IC1 P5
+ U9 A31
+Net 112 "~EMC_CS0~-MMC_POW" "~EMC_CS0~-MMC_POW"
+ IC1 R5
+ U9 A30
+Net 113 "EMC_D00" "EMC_D00"
+ IC1 T5
+ IC3 14
+Net 114 "EMC_D01" "EMC_D01"
+ IC1 R7
+ IC3 11
+Net 117 "SPIFI_SIO2-I2S1_RX_WS" "SPIFI_SIO2-I2S1_RX_WS"
  IC1 C12
  IC7 3
-Net 117 "SPIFI_SIO3-I2S1_RX_SDA" "SPIFI_SIO3-I2S1_RX_SDA"
- IC3 13
- IC1 A15
- IC7 7
-Net 118 "I2S0_TX_SDA" "I2S0_TX_SDA"
- IC3 3
+ V326 1
+ V327 1
+ IC3 10
+Net 118 "I2S0_TX_WS" "I2S0_TX_WS"
+ IC1 G11
+ IC3 6
+Net 119 "I2S0_TX_SDA" "I2S0_TX_SDA"
  IC1 F11
-Net 119 "GNDPWR" "GNDPWR"
- V266 1
+ IC3 3
+Net 122 "SPIFI_SIO3-I2S1_RX_SDA" "SPIFI_SIO3-I2S1_RX_SDA"
+ IC3 13
+ IC7 7
+ IC1 A15
+Net 123 "5V0" "5V0"
+ U9 B3
+ C104 1
+ V358 1
+ V357 1
+ V356 1
+ IC9 1
+ IC9 4
+ C15 1
+ IC8 2
+Net 127 "GPIO3_5" "GPIO3_5"
+ IC1 J15
+ IC3 1
+ R7 1
+ IC4 6
+Net 129 "/Opennect_Connector/74CBTLV3257_nOE" "74CBTLV3257_nOE"
+ IC3 15
+ R8 2
+Net 130 "U2_TXD-GPIO0_2-ENET_RXD0" "U2_TXD-GPIO0_2-ENET_RXD0"
+ IC1 T12
+ V322 1
+ U9 B10
+Net 131 "U2_RXD-GPIO0_3-ENET_RX_DV" "U2_RXD-GPIO0_3-ENET_RX_DV"
+ V323 1
+ U9 B9
+ IC1 M7
+Net 132 "RX1" "RX1"
+ IC3 9
+ U9 A17
+Net 133 "RX0" "RX0"
+ IC3 12
+ U9 A16
+Net 134 "TX1" "TX1"
+ IC3 7
+ U9 B15
+Net 135 "TX0" "TX0"
+ U9 B14
+ IC3 4
+Net 140 "ADC1_1" "ADC1_1"
+ U2 6
+ IC1 C3
+Net 141 "ADC0_0-DAC" "ADC0_0-DAC"
+ IC1 E3
+ U2 5
+Net 142 "GNDPWR" "GNDPWR"
+ V240 1
+ V241 1
+ V249 1
+ V248 1
+ V250 1
+ V251 1
+ V242 1
+ V247 1
+ V283 1
+ V246 1
+ V244 1
+ V245 1
  V281 1
  V282 1
- V264 1
- V265 1
- V257 1
- V256 1
- V280 1
- V258 1
- V259 1
- V255 1
- V254 1
- V252 1
- V253 1
- V260 1
- V245 1
- V244 1
- V261 1
- V263 1
- V267 1
- V286 1
- V285 1
- V287 1
- V288 1
  V284 1
- V283 1
- U2 8
- V276 1
- V278 1
- V279 1
- V237 1
- V269 1
- V268 1
- V270 1
- V271 1
- V275 1
- V274 1
  V272 1
  V273 1
+ V279 1
+ V278 1
+ V276 1
+ V252 1
+ V254 1
+ V255 1
+ V259 1
+ V258 1
+ V256 1
+ V257 1
+ V265 1
+ V264 1
+ V266 1
+ V267 1
+ V263 1
+ V262 1
+ V260 1
+ V261 1
  V277 1
- V246 1
- V247 1
- V251 1
- V250 1
- V248 1
- V249 1
- V241 1
- V240 1
- V242 1
- V243 1
- V239 1
- V238 1
  V290 1
  V289 1
  V291 1
@@ -2430,228 +2522,196 @@ Net 119 "GNDPWR" "GNDPWR"
  V295 1
  V293 1
  V294 1
- L10 1
+ V286 1
+ V285 1
+ V287 1
+ V253 1
+ V243 1
+ V239 1
+ V238 1
+ V237 1
+ V269 1
+ V268 1
+ V270 1
+ V271 1
+ V275 1
+ V274 1
+ U2 8
+ V280 1
+ V288 1
  CR5 1
- U1 5
+ L10 1
  CR2 1
  CR1 1
- V262 1
-Net 121 "/Opennect_Connector/74CBTLV3257_nOE" "74CBTLV3257_nOE"
- R8 2
- IC3 15
-Net 122 "5V0" "5V0"
- V358 1
- V357 1
- V356 1
- C15 1
- IC9 4
- IC9 1
- U9 B3
- C104 1
- IC8 2
-Net 127 "TX0" "TX0"
- IC3 4
- U9 B14
-Net 128 "RX1" "RX1"
- IC3 9
- U9 A17
-Net 129 "RX0" "RX0"
- U9 A16
- IC3 12
-Net 130 "TX1" "TX1"
- IC3 7
- U9 B15
-Net 139 "ADC1_1" "ADC1_1"
- U2 6
- IC1 C3
-Net 140 "ADC0_0-DAC" "ADC0_0-DAC"
- IC1 E3
- U2 5
-Net 141 "U2_TXD-GPIO0_2-ENET_RXD0" "U2_TXD-GPIO0_2-ENET_RXD0"
- U9 B10
- IC1 T12
-Net 142 "U2_RXD-GPIO0_3-ENET_RX_DV" "U2_RXD-GPIO0_3-ENET_RX_DV"
- U9 B9
- IC1 M7
+ U1 5
 Net 143 "GPIO0_12-ENET_MDIO" "GPIO0_12-ENET_MDIO"
+ V321 1
  U9 B8
  IC1 M8
 Net 144 "SSP1_SSEL-ENET_TXD1" "SSP1_SSEL-ENET_TXD1"
  U9 A8
+ V320 1
  IC1 M10
 Net 145 "GPIO0_13-ENET_TXD0" "GPIO0_13-ENET_TXD0"
- IC1 N12
  U9 B7
+ IC1 N12
 Net 146 "SSP1_MOSI-ENET_TX_EN" "SSP1_MOSI-ENET_TX_EN"
  IC1 M2
  U9 A7
 Net 147 "I2C0_SDA" "I2C0_SDA"
+ U9 B6
  R57 1
  IC1 L16
- U9 B6
 Net 148 "SSP1_MISO-ENET_RXD1" "SSP1_MISO-ENET_RXD1"
- IC1 L3
  U9 A6
+ IC1 L3
 Net 149 "I2C0_SCL" "I2C0_SCL"
+ U9 B5
  IC1 L15
  R56 1
- U9 B5
 Net 150 "SSP1_SCK-ENET_REF_CLK" "SSP1_SCK-ENET_REF_CLK"
+ V319 1
  IC1 M11
  U9 A5
-Net 153 "3V3" "3V3"
- C16 1
- IC9 5
- C105 1
+Net 157 "3V3" "3V3"
  D4 1
-Net 154 "DC_VIN" "DC_VIN"
- V332 1
- C12 1
- IC8 3
- C103 1
- J1 1
- U9 A3
- U9 A2
-Net 156 "CLK1" "CLK1"
- IC4 4
+ C16 1
+ C105 1
+ IC9 5
+Net 158 "CLK1" "CLK1"
  U9 A14
-Net 157 "SPIFI_SCK-CGU_OUT1" "SPIFI_SCK-CGU_OUT1"
- IC4 3
+ IC4 4
+Net 159 "SPIFI_SCK-CGU_OUT1" "SPIFI_SCK-CGU_OUT1"
  IC1 B14
+ IC4 3
  IC7 6
-Net 158 "I2S0_TX_SCK" "I2S0_TX_SCK"
- IC1 F13
+ V318 1
+Net 160 "I2S0_TX_SCK" "I2S0_TX_SCK"
  IC4 1
-Net 175 "GPIO3_5" "GPIO3_5"
- IC3 1
- R7 1
- IC4 6
- IC1 J15
-Net 215 "" ""
- F1 2
- U1 1
-Net 216 "/USB/USB-microAB_D+" "USB-microAB_D+"
- CR1 2
- R1 2
- U1 3
-Net 217 "USB0_DM" "USB0_DM"
- V331 1
+ IC1 F13
+Net 229 "USB0_DM" "USB0_DM"
  IC1 G2
+ V331 1
  R2 1
  V329 1
-Net 220 "USB0_DP" "USB0_DP"
- R1 1
+Net 230 "GND_microAB" "GND_microAB"
+ V69 1
+ V68 1
+ U1 4
+ L11 2
+Net 231 "USB0_DP" "USB0_DP"
  IC1 F2
  V328 1
  V330 1
-Net 221 "/USB/USB-microAB_D-" "USB-microAB_D-"
+ R1 1
+Net 234 "/USB/USB-microAB_D+" "USB-microAB_D+"
+ R1 2
+ U1 3
+ CR1 2
+Net 235 "/USB/USB-microAB_D-" "USB-microAB_D-"
  U1 2
  R2 2
  CR2 2
-Net 222 "GND_microAB" "GND_microAB"
- V69 1
- V68 1
- L11 2
- U1 4
-Net 225 "USB0_ID" "USB0_ID"
- V324 1
- CR5 2
+Net 236 "" ""
+ U1 1
+ F1 2
+Net 238 "USB0_ID" "USB0_ID"
  U1 6
+ CR5 2
+ V324 1
  V325 1
  IC1 H2
-Net 239 "" ""
- JP0 1
- R40 2
-Net 240 "/System/nTRST" "nTRST"
+Net 241 "/System/RTC_ALARM" "RTC_ALARM"
+ TP4 1
+ IC1 A11
+Net 242 "/System/DBGEN" "DBGEN"
+ IC1 L4
+ TP2 1
+ R36 2
+Net 243 "/System/nTRST" "nTRST"
  IC1 M4
  TP1 1
-Net 241 "WAKEUP0" "WAKEUP0"
- R37 2
- IC1 A9
-Net 242 "/System/RTC_ALARM" "RTC_ALARM"
- IC1 A11
- TP4 1
-Net 243 "/System/NMI" "NMI"
- IC1 D5
- R5 2
- TP3 1
-Net 244 "/System/DBGEN" "DBGEN"
- IC1 L4
- R36 2
- TP2 1
+Net 244 "" ""
+ R43 1
+ JP8 3
 Net 245 "" ""
  R42 2
  JP8 1
 Net 246 "" ""
- R43 1
- JP8 3
+ R46 2
+ JP6 1
 Net 247 "" ""
- R44 2
- JP7 1
-Net 248 "" ""
- JP7 3
- R45 1
-Net 249 "" ""
  R47 1
  JP6 3
-Net 250 "" ""
- JP6 1
- R46 2
-Net 251 "" ""
- JP0 3
+Net 248 "" ""
+ R45 1
+ JP7 3
+Net 249 "" ""
+ JP7 1
+ R44 2
+Net 250 "WAKEUP0" "WAKEUP0"
+ R37 2
+ IC1 A9
+ TP7 1
+Net 251 "/System/NMI" "NMI"
+ TP3 1
+ R5 2
+ IC1 D5
+Net 252 "" ""
+ R40 2
+ JP0 1
+Net 253 "" ""
  R41 1
-Net 253 "/System/RTCX1" "RTCX1"
- X2 1
- IC1 A8
+ JP0 3
+Net 254 "/System/RTCX1" "RTCX1"
  C3 1
-Net 254 "/System/RTCX2" "RTCX2"
- IC1 B8
+ IC1 A8
+ X2 1
+Net 255 "/System/RTCX2" "RTCX2"
  X2 2
  C4 1
-Net 255 "/System/XTAL2" "XTAL2"
- X1 1
+ IC1 B8
+Net 256 "/System/XTAL2" "XTAL2"
  IC1 E1
+ X1 1
  C2 1
-Net 256 "/System/XTAL1" "XTAL1"
+Net 257 "/System/XTAL1" "XTAL1"
  C1 1
- X1 3
  IC1 D1
-Net 257 "SPIFI_MOSI" "SPIFI_MOSI"
- IC1 C11
+ X1 3
+Net 258 "SPIFI_CS" "SPIFI_CS"
+ IC7 1
+ IC1 C10
+Net 259 "SPIFI_MOSI" "SPIFI_MOSI"
  IC7 5
-Net 258 "SPIFI_MISO" "SPIFI_MISO"
- IC7 2
+ IC1 C11
+Net 260 "SPIFI_MISO" "SPIFI_MISO"
  IC1 B13
-Net 260 "TDI" "TDI"
- IC1 J4
+ IC7 2
+Net 262 "TDI" "TDI"
  U4 8
-Net 261 "TCK" "TCK"
- U4 4
+ IC1 J4
+Net 263 "TCK" "TCK"
  IC1 J5
-Net 262 "TDO" "TDO"
+ U4 4
+Net 264 "TDO" "TDO"
  U4 6
  IC1 K5
-Net 263 "TMS" "TMS"
- U4 2
+Net 265 "TMS" "TMS"
  IC1 K6
-Net 266 "nRESET" "nRESET"
- R39 1
+ U4 2
+Net 268 "nRESET" "nRESET"
  U4 10
  SW1 2
  R50 1
-Net 267 "/System/~RESET~" "~RESET~"
- C5 1
+ R39 1
+Net 269 "/System/~RESET~" "~RESET~"
  R50 2
+ C5 1
  IC1 D9
-Net 268 "SPIFI_CS" "SPIFI_CS"
- IC1 C10
- IC7 1
-Net 367 "VSYS" "VSYS"
+Net 368 "VSYS" "VSYS"
  V355 1
- V353 1
  V354 1
-Net 375 "SPIFI_SIO2" "SPIFI_SIO2"
- V327 1
- V326 1
+ V353 1
 }
 #End

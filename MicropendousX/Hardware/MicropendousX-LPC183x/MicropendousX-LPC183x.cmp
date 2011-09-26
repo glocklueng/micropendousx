@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/18/2011 2:49:33 PM
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/18/2011 5:59:15 PM
 
 BeginCmp
 TimeStamp = /4E1DDB8A/4E50034F;
@@ -386,6 +386,13 @@ IdModule  = SOD123;
 EndCmp
 
 BeginCmp
+TimeStamp = /4E1DDB8A/4E7664EA;
+Reference = D5;
+ValeurCmp = RECTIFIER;
+IdModule  = SOD123;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E1DDD6A/4DE5FF44;
 Reference = F1;
 ValeurCmp = 750mA;
@@ -416,7 +423,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDD5A/4E763A09;
 Reference = IC4;
-ValeurCmp = SN74LVC1G3157;
+ValeurCmp = 3157;
 IdModule  = Opennect_SOT23-6_0.95mmPitch_3x3mm;
 EndCmp
 
@@ -540,10 +547,17 @@ IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E1DDD6A/4E74109B;
-Reference = P1;
-ValeurCmp = USB1;
-IdModule  = SIL-2POS-2mm;
+TimeStamp = /4E1DDB8A/4E766690;
+Reference = Q1;
+ValeurCmp = MOSFET_N_OPENDOUS;
+IdModule  = SOT23-3_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDB8A/4E7664CE;
+Reference = Q2;
+ValeurCmp = FDN304;
+IdModule  = SOT23-3_Opendous;
 EndCmp
 
 BeginCmp
@@ -610,6 +624,20 @@ IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /4E1DDB8A/4E7666DA;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDB8A/4E7666AB;
+Reference = R11;
+ValeurCmp = 1k65;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E1DDB8A/4E502D5A;
 Reference = R12;
 ValeurCmp = 1k;
@@ -662,6 +690,13 @@ BeginCmp
 TimeStamp = /4E1DDB8A/4E50299F;
 Reference = R19;
 ValeurCmp = 499k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDB8A/4E7667E9;
+Reference = R20;
+ValeurCmp = 10k;
 IdModule  = 0603_Opendous;
 EndCmp
 
@@ -834,9 +869,16 @@ IdModule  = 1Pin_25mil_VIA;
 EndCmp
 
 BeginCmp
+TimeStamp = /4E1DDD7A/4E7650C6;
+Reference = TP7;
+ValeurCmp = WAKEUP0;
+IdModule  = 1Pin_25mil_VIA;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E1DDD6A/4DE0B950;
 Reference = U1;
-ValeurCmp = USB-B;
+ValeurCmp = USB-microAB;
 IdModule  = CONN_USB_microAB_ZX62-AB-5PA-11;
 EndCmp
 

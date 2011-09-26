@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/18/2011 3:49:57 PM
+EESchema Schematic File Version 2  date 9/18/2011 8:03:49 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 7
 Title "MicropendousX-LPC183x"
-Date "18 sep 2011"
+Date "19 sep 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -46,6 +46,8 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
+Text Notes 5300 6800 0    30   ~ 0
+From Sheet 2 -\nOpennect Connector
 Text Notes 10050 1950 1    40   ~ 0
 Used in Sheet 2 -\nOpennect Connector
 Connection ~ 6800 7100
@@ -215,8 +217,8 @@ Text GLabel 3400 2050 1    40   BiDi ~ 0
 GPIO5_1-EMC_A12
 Text GLabel 3500 2050 1    40   BiDi ~ 0
 GPIO5_0-EMC_A13-ENET_MDC
-Text GLabel 3300 1950 1    40   BiDi ~ 0
-EMC_A11
+Text GLabel 3300 2050 1    40   BiDi ~ 0
+GPIO5_2
 Text GLabel 3200 1950 1    40   BiDi ~ 0
 EMC_A10
 Text GLabel 3100 1950 1    40   BiDi ~ 0

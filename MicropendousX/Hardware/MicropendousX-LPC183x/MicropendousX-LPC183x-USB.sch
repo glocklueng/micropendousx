@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/18/2011 3:49:57 PM
+EESchema Schematic File Version 2  date 9/18/2011 8:03:49 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 7
 Title "MicropendousX-LPC183x"
-Date "18 sep 2011"
+Date "19 sep 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -284,7 +284,7 @@ F 1 "LPC183X" V 1300 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8082 2100 0    60   ~ 0
-Notes:\n- FBX ferrite bead is high DCR 0805\n- FBY ferrite beads are high current 0805\n- all other FB are 1A 0603, moderate DCR
+Notes:\n- USB VBUS Fuse F1 limits inrush current\n- FBX ferrite bead is high DCR 0805\n- FBY ferrite beads are high current 0805\n- all other FB are 1A 0603, moderate DCR
 Text Notes 7433 1950 0    20   ~ 0
 High DCR
 $Comp
