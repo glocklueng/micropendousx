@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date 9/26/2011 2:15:41 AM
+PCBNEW-BOARD Version 1 date 9/26/2011 2:19:01 AM
 
 # Created by Pcbnew(2011-07-08 BZR 3044)-stable
 
@@ -39,7 +39,7 @@ Layer[2] Inner1 power
 Layer[15] Front mixed
 TrackWidth 120
 TrackClearence 70
-ZoneClearence 100
+ZoneClearence 110
 TrackMinWidth 70
 DrawSegmWidth 70
 EdgeSegmWidth 80
@@ -24085,5 +24085,57 @@ ZCorner 11000 10500 0
 ZCorner 11000 10250 0
 ZCorner 10250 10250 0
 ZCorner 10250 24750 1
+$endCZONE_OUTLINE
+$CZONE_OUTLINE
+ZInfo 4E8018D1 43 "GND"
+ZLayer 15
+ZAux 4 E
+ZClearance 80 I
+ZMinThickness 70
+ZOptions 0 16 F 120 120
+ZSmoothing 0 0
+ZCorner 37750 24250 0
+ZCorner 37750 10750 0
+ZCorner 10750 10750 0
+ZCorner 10750 24250 1
+$endCZONE_OUTLINE
+$CZONE_OUTLINE
+ZInfo 4E801903 43 "GND"
+ZLayer 2
+ZAux 4 E
+ZClearance 100 I
+ZMinThickness 70
+ZOptions 0 16 F 120 120
+ZSmoothing 0 0
+ZCorner 37750 24250 0
+ZCorner 37750 10750 0
+ZCorner 10750 10750 0
+ZCorner 10750 24250 1
+$endCZONE_OUTLINE
+$CZONE_OUTLINE
+ZInfo 4E80191C 43 "GND"
+ZLayer 1
+ZAux 4 E
+ZClearance 100 I
+ZMinThickness 70
+ZOptions 0 16 F 120 120
+ZSmoothing 0 0
+ZCorner 37750 24250 0
+ZCorner 37750 10750 0
+ZCorner 10750 10750 0
+ZCorner 10750 24250 1
+$endCZONE_OUTLINE
+$CZONE_OUTLINE
+ZInfo 4E801940 43 "GND"
+ZLayer 0
+ZAux 4 E
+ZClearance 110 I
+ZMinThickness 70
+ZOptions 0 16 F 120 120
+ZSmoothing 0 0
+ZCorner 37750 24250 0
+ZCorner 37750 10750 0
+ZCorner 10750 10750 0
+ZCorner 10750 24250 1
 $endCZONE_OUTLINE
 $EndBOARD
