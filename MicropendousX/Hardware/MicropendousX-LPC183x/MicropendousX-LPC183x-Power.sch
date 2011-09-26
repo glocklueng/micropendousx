@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/24/2011 9:18:58 PM
+EESchema Schematic File Version 2  date 9/25/2011 2:41:21 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -638,7 +638,7 @@ L CONN_1 TP6
 U 1 1 4E763371
 P 5450 1400
 F 0 "TP6" H 5500 1400 40  0000 L CNN
-F 1 "IO0" H 5450 1455 30  0001 C CNN
+F 1 "STC_IO0" H 5450 1455 30  0001 C CNN
 	1    5450 1400
 	-1   0    0    1   
 $EndComp
@@ -1596,7 +1596,7 @@ L C_MINI C107
 U 1 1 4DE1FE7D
 P 5450 5750
 F 0 "C107" V 5400 5825 30  0000 C CNN
-F 1 "0u1" V 5500 5800 25  0000 C CNN
+F 1 "u01" V 5500 5800 25  0000 C CNN
 	1    5450 5750
 	0    1    1    0   
 $EndComp

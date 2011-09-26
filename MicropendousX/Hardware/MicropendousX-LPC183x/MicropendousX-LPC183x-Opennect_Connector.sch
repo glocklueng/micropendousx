@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/24/2011 9:18:58 PM
+EESchema Schematic File Version 2  date 9/25/2011 2:41:21 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -651,9 +651,9 @@ F 1 "VDDIO_3V3" H 5800 3550 30  0000 C CNN
 $EndComp
 Text Notes 10650 3625 0    40   ~ 0
 RX_SCK
-Text GLabel 6150 4350 0    40   BiDi ~ 0
-SPIFI_SIO3-I2S1_RX_SDA
 Text GLabel 6150 4550 0    40   BiDi ~ 0
+SPIFI_SIO3-I2S1_RX_SDA
+Text GLabel 6150 4350 0    40   BiDi ~ 0
 SPIFI_SIO2-I2S1_RX_WS
 NoConn ~ 3700 3600
 NoConn ~ 3700 3700
@@ -844,13 +844,13 @@ F 1 "VDDIO_3V3" H 6650 5550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3700 6350
-Text Notes 7150 4625 0    40   ~ 0
-RX_WS
 Text Notes 7150 4425 0    40   ~ 0
+RX_WS
+Text Notes 7150 4625 0    40   ~ 0
 RX_SDA
-Text Notes 7150 4025 0    40   ~ 0
-TX_SDA
 Text Notes 7150 4225 0    40   ~ 0
+TX_SDA
+Text Notes 7150 4025 0    40   ~ 0
 TX_WS
 $Comp
 L VDDIO_3V3 #PWR029
@@ -861,17 +861,17 @@ F 1 "VDDIO_3V3" H 6550 3550 30  0000 C CNN
 	1    6550 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 6950 4600 2    40   BiDi ~ 0
-RX1
 Text GLabel 6950 4400 2    40   BiDi ~ 0
+RX1
+Text GLabel 6950 4600 2    40   BiDi ~ 0
 RX0
 Text GLabel 9900 3900 2    40   Output ~ 0
 RX0
 Text GLabel 9900 4000 2    40   Output ~ 0
 RX1
-Text GLabel 6950 4000 2    40   BiDi ~ 0
-TX0
 Text GLabel 6950 4200 2    40   BiDi ~ 0
+TX0
+Text GLabel 6950 4000 2    40   BiDi ~ 0
 TX1
 Text GLabel 8800 3800 0    40   Input ~ 0
 TX1
@@ -1127,9 +1127,9 @@ Text GLabel 4500 1250 2    40   Output ~ 0
 I2C0_SCL
 Text GLabel 4500 1350 2    40   BiDi ~ 0
 I2C0_SDA
-Text GLabel 6150 3950 0    40   Input ~ 0
-I2S0_TX_SDA
 Text GLabel 6150 4150 0    40   Input ~ 0
+I2S0_TX_SDA
+Text GLabel 6150 3950 0    40   Input ~ 0
 I2S0_TX_WS
 Text GLabel 3700 3300 2    40   Output ~ 0
 I2S0_TX_WS
@@ -1255,9 +1255,9 @@ Text GLabel 8800 4400 0    40   BiDi ~ 0
 EMC_A02
 Text GLabel 8800 4500 0    40   BiDi ~ 0
 EMC_A03
-Text GLabel 6150 4250 0    40   BiDi ~ 0
-EMC_A01
 Text GLabel 6150 4050 0    40   BiDi ~ 0
+EMC_A01
+Text GLabel 6150 4250 0    40   BiDi ~ 0
 EMC_A00
 Text GLabel 8800 4200 0    40   BiDi ~ 0
 ~EMC_WE~-MMC_CMD
@@ -1277,8 +1277,8 @@ Text GLabel 9900 4200 2    40   BiDi ~ 0
 EMC_D02-MMC_DAT0
 Text GLabel 9900 4300 2    40   BiDi ~ 0
 EMC_D03-MMC_DAT1
-Text GLabel 6150 4650 0    40   BiDi ~ 0
-EMC_D01
 Text GLabel 6150 4450 0    40   BiDi ~ 0
+EMC_D01
+Text GLabel 6150 4650 0    40   BiDi ~ 0
 EMC_D00
 $EndSCHEMATC
