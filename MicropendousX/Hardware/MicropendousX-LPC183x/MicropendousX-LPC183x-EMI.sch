@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/18/2011 8:03:49 PM
+EESchema Schematic File Version 2  date 9/19/2011 7:25:32 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,102 +46,59 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
+Wire Wire Line
+	5250 6900 5250 6050
+Connection ~ 4950 6050
+Wire Wire Line
+	5250 6050 4950 6050
+Connection ~ 5050 6300
+Wire Wire Line
+	5050 6750 5050 6300
+Wire Wire Line
+	5050 6750 4850 6750
+Wire Wire Line
+	4500 6550 4500 6500
+Wire Wire Line
+	4500 6750 4500 6800
+Wire Wire Line
+	4000 6450 4050 6450
+Wire Wire Line
+	4050 6450 4050 6300
+Wire Wire Line
+	3850 5950 3850 6000
+Wire Wire Line
+	3850 6200 3850 6250
+Wire Wire Line
+	3850 6000 4050 6000
+Connection ~ 3850 6000
+Wire Wire Line
+	5050 6300 4950 6300
+Wire Wire Line
+	4850 6500 4850 6550
+Wire Wire Line
+	4950 6000 4950 6100
+Wire Wire Line
+	5050 6100 5050 6050
+Connection ~ 5050 6050
+Connection ~ 6800 7050
+Connection ~ 5050 6900
+Wire Wire Line
+	4850 7100 5250 7100
+Connection ~ 5050 7100
+Connection ~ 5250 6900
+Wire Wire Line
+	5050 7150 5050 7100
+Wire Wire Line
+	4850 6900 6100 6900
+Wire Wire Line
+	6800 7000 6800 7350
+Connection ~ 6800 7100
 Text Notes 5300 6800 0    30   ~ 0
 From Sheet 2 -\nOpennect Connector
 Text Notes 10050 1950 1    40   ~ 0
 Used in Sheet 2 -\nOpennect Connector
-Connection ~ 6800 7100
-Wire Wire Line
-	6800 7350 6800 7000
-Wire Wire Line
-	4750 5950 4750 6100
-Wire Wire Line
-	4350 6100 4450 6100
-Wire Wire Line
-	3300 6100 3450 6100
-Wire Wire Line
-	6100 6900 4850 6900
-Wire Wire Line
-	5050 7150 5050 7100
-Connection ~ 5250 6900
-Connection ~ 5050 7100
-Wire Wire Line
-	5250 7100 4850 7100
-Connection ~ 5050 6900
-Wire Wire Line
-	3900 6600 3900 6650
-Wire Wire Line
-	3300 5950 3450 5950
-Wire Wire Line
-	4350 5950 4450 5950
-Wire Wire Line
-	4350 6350 4450 6350
-Wire Wire Line
-	4750 6025 5250 6025
-Wire Wire Line
-	5250 6025 5250 6900
-Connection ~ 4750 6025
-Connection ~ 6800 7050
-Text Notes 4250 6450 0    40   ~ 0
-Slew Rate set to 660uS
-$Comp
-L VDDIO_3V3 #PWR037
-U 1 1 4E753477
-P 4450 6350
-F 0 "#PWR037" H 4450 6450 30  0001 C CNN
-F 1 "VDDIO_3V3" V 4450 6550 30  0000 C CNN
-	1    4450 6350
-	0    1    1    0   
-$EndComp
-Text GLabel 3450 6350 0    40   BiDi ~ 0
-GPIO3_4
-Text GLabel 3450 6250 0    40   BiDi ~ 0
+Text GLabel 4000 6450 0    40   BiDi ~ 0
 GPIO3_3
-$Comp
-L VDD1V8 #PWR038
-U 1 1 4E753410
-P 3300 6100
-F 0 "#PWR038" H 3300 6200 30  0001 C CNN
-F 1 "VDD1V8" H 3300 6200 30  0000 C CNN
-	1    3300 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDDIO_3V3 #PWR039
-U 1 1 4E7533F9
-P 3300 5950
-F 0 "#PWR039" H 3300 6050 30  0001 C CNN
-F 1 "VDDIO_3V3" H 3300 6050 30  0000 C CNN
-	1    3300 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L D_SCHOTTKY D3
-U 1 1 4E7533C9
-P 4600 6100
-F 0 "D3" H 4700 6000 35  0000 C CNN
-F 1 "MBR120" H 4550 6000 30  0000 C CNN
-	1    4600 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L D_SCHOTTKY D2
-U 1 1 4E7533AE
-P 4600 5950
-F 0 "D2" H 4700 6050 35  0000 C CNN
-F 1 "MBR120" H 4550 6050 30  0000 C CNN
-	1    4600 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L TPS22960 IC5
-U 1 1 4E75339A
-P 3900 6150
-F 0 "IC5" H 3700 5800 60  0000 C CNN
-F 1 "TPS22960" H 3900 6500 60  0000 C CNN
-	1    3900 6150
-	1    0    0    -1  
-$EndComp
 Text GLabel 8950 2050 1    40   BiDi ~ 0
 GPIO3_3
 NoConn ~ 6100 5950
@@ -216,7 +173,7 @@ GPIO0_11
 Text GLabel 3400 2050 1    40   BiDi ~ 0
 GPIO5_1-EMC_A12
 Text GLabel 3500 2050 1    40   BiDi ~ 0
-GPIO5_0-EMC_A13-ENET_MDC
+GPIO5_0-EMC_A13
 Text GLabel 3300 2050 1    40   BiDi ~ 0
 GPIO5_2
 Text GLabel 3200 1950 1    40   BiDi ~ 0
@@ -243,14 +200,14 @@ Text GLabel 2200 2050 1    40   BiDi ~ 0
 EMC_A00
 Text GLabel 9900 2050 1    40   BiDi ~ 0
 CLKOUT-I2S1_RX_SCK
-Text GLabel 9050 2050 1    40   BiDi ~ 0
-GPIO3_4
+Text GLabel 9050 1950 1    40   BiDi ~ 0
+~EMC_RAS~
 Text GLabel 7900 2050 1    40   BiDi ~ 0
 ~EMC_WE~-MMC_CMD
 Text GLabel 8000 2050 1    40   BiDi ~ 0
 ~EMC_OE~
 Text GLabel 8100 2050 1    40   BiDi ~ 0
-~EMC_CS0~-MMC_POW
+~EMC_CS0~
 Text GLabel 5250 2050 1    40   BiDi ~ 0
 EMC_D06-MMC_CD
 Text GLabel 5350 2050 1    40   BiDi ~ 0
@@ -281,10 +238,10 @@ EMC_D00
 Text Label 6100 6900 2    30   ~ 0
 MMC_VDD
 $Comp
-L GND #PWR040
+L GND #PWR037
 U 1 1 4E23313A
 P 5050 7150
-F 0 "#PWR040" H 5050 7150 30  0001 C CNN
+F 0 "#PWR037" H 5050 7150 30  0001 C CNN
 F 1 "GND" H 5050 7080 30  0001 C CNN
 	1    5050 7150
 	1    0    0    -1  
@@ -308,15 +265,6 @@ F 1 "10u" V 4900 7050 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR041
-U 1 1 4E232F75
-P 3900 6650
-F 0 "#PWR041" H 3900 6650 30  0001 C CNN
-F 1 "GND" H 3900 6580 30  0001 C CNN
-	1    3900 6650
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_MINI C119
 U 1 1 4E232F74
 P 5050 7000
@@ -326,10 +274,10 @@ F 1 "0u1" V 5100 7050 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR042
+L GND #PWR038
 U 1 1 4E232CE9
 P 6800 7350
-F 0 "#PWR042" H 6800 7350 30  0001 C CNN
+F 0 "#PWR038" H 6800 7350 30  0001 C CNN
 F 1 "GND" H 6800 7280 30  0001 C CNN
 	1    6800 7350
 	1    0    0    -1  
@@ -341,6 +289,93 @@ P 6450 6550
 F 0 "U11" H 6450 5850 40  0000 C CNN
 F 1 "MMC" H 6450 7250 40  0000 C CNN
 	1    6450 6550
+	1    0    0    -1  
+$EndComp
+Text Label 4950 6300 1    25   ~ 0
+R1-C1
+Text Label 4500 6500 0    30   ~ 0
+R2
+$Comp
+L VDDIO_3V3 #PWR039
+U 1 1 4E23302F
+P 4850 6500
+F 0 "#PWR039" H 4850 6600 30  0001 C CNN
+F 1 "VDDIO_3V3" H 4850 6600 30  0000 C CNN
+	1    4850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C117
+U 1 1 4E233026
+P 5050 6200
+F 0 "C117" V 5000 6275 30  0000 C CNN
+F 1 "470p" V 5100 6250 25  0000 C CNN
+	1    5050 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 4E232F75
+P 4500 6800
+F 0 "#PWR040" H 4500 6800 30  0001 C CNN
+F 1 "GND" H 4500 6730 30  0001 C CNN
+	1    4500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 4E232F44
+P 3850 6250
+F 0 "#PWR041" H 3850 6250 30  0001 C CNN
+F 1 "GND" H 3850 6180 30  0001 C CNN
+	1    3850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C116
+U 1 1 4E232F43
+P 3850 6100
+F 0 "C116" V 3800 6175 30  0000 C CNN
+F 1 "0u1" V 3900 6150 25  0000 C CNN
+	1    3850 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L VDDIO_3V3 #PWR042
+U 1 1 4E232F42
+P 3850 5950
+F 0 "#PWR042" H 3850 6050 30  0001 C CNN
+F 1 "VDDIO_3V3" H 3850 6050 30  0000 C CNN
+	1    3850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_MINI R52
+U 1 1 4E232ED0
+P 4500 6650
+F 0 "R52" V 4475 6700 25  0000 C CNN
+F 1 "10k" V 4525 6700 20  0000 C CNN
+	1    4500 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L R_MINI R51
+U 1 1 4E232E52
+P 4850 6650
+F 0 "R51" V 4825 6700 25  0000 C CNN
+F 1 "199k" V 4875 6700 20  0000 C CNN
+	1    4850 6650
+	0    1    1    0   
+$EndComp
+Text Notes 4250 5850 0    60   ~ 0
+Si3865BDV
+$Comp
+L LOAD_SWITCH IC5
+U 1 1 4E232D75
+P 4500 6200
+F 0 "IC5" H 4300 6000 60  0000 C CNN
+F 1 "FDC6331" H 4500 6500 60  0000 C CNN
+	1    4500 6200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,8 +1,8 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/18/2011 5:59:15 PM
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 9/19/2011 4:52:56 AM
 
 BeginCmp
 TimeStamp = /4E1DDB8A/4E50034F;
-Reference = BT1;
+Reference = BAT1;
 ValeurCmp = Li-Ion;
 IdModule  = SIL-3POS-2mm;
 EndCmp
@@ -78,10 +78,10 @@ IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E1DDB8A/4E7391F2;
+TimeStamp = /4E1DDB8A/4E76C680;
 Reference = C11;
 ValeurCmp = 4u7;
-IdModule  = 1206_Opendous;
+IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
@@ -185,7 +185,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4DE1FFEE;
 Reference = C37;
-ValeurCmp = n1;
+ValeurCmp = 1n0;
 IdModule  = 0603_Opendous;
 EndCmp
 
@@ -221,7 +221,7 @@ BeginCmp
 TimeStamp = /4E1DDB8A/4DE9D5C9;
 Reference = C54;
 ValeurCmp = 10u;
-IdModule  = 0603_Opendous;
+IdModule  = 0805_Opendous;
 EndCmp
 
 BeginCmp
@@ -316,6 +316,20 @@ IdModule  = 0603_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /4E1DDD2A/4E232F43;
+Reference = C116;
+ValeurCmp = 0u1;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD2A/4E233026;
+Reference = C117;
+ValeurCmp = 470p;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E1DDD2A/4E232F7D;
 Reference = C118;
 ValeurCmp = 10u;
@@ -362,20 +376,6 @@ TimeStamp = /4E1DDB8A/4E502D6E;
 Reference = D1;
 ValeurCmp = CHRG;
 IdModule  = 0805_Opendous;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E1DDD2A/4E7533AE;
-Reference = D2;
-ValeurCmp = MBR120;
-IdModule  = SOD123;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E1DDD2A/4E7533C9;
-Reference = D3;
-ValeurCmp = MBR120;
-IdModule  = SOD123;
 EndCmp
 
 BeginCmp
@@ -428,10 +428,10 @@ IdModule  = Opennect_SOT23-6_0.95mmPitch_3x3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E1DDD2A/4E75339A;
+TimeStamp = /4E1DDD2A/4E232D75;
 Reference = IC5;
-ValeurCmp = TPS22960;
-IdModule  = SOT23-8_0.65mmPitch_3x3mm;
+ValeurCmp = FDC6331;
+IdModule  = Opennect_SOT23-6_0.95mmPitch_3x3mm;
 EndCmp
 
 BeginCmp
@@ -451,7 +451,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDD5A/4E76303B;
 Reference = IC8;
-ValeurCmp = 5V_REG;
+ValeurCmp = 1117-5;
 IdModule  = SOT223_Opendous;
 EndCmp
 
@@ -507,7 +507,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4E73E3A7;
 Reference = L2;
-ValeurCmp = FB;
+ValeurCmp = DNI;
 IdModule  = 0805_Opendous;
 EndCmp
 
@@ -549,7 +549,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4E766690;
 Reference = Q1;
-ValeurCmp = MOSFET_N_OPENDOUS;
+ValeurCmp = Si2312;
 IdModule  = SOT23-3_Opendous;
 EndCmp
 
@@ -626,7 +626,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4E7666DA;
 Reference = R10;
-ValeurCmp = 10k;
+ValeurCmp = 1k2;
 IdModule  = 0603_Opendous;
 EndCmp
 
@@ -689,7 +689,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E1DDB8A/4E50299F;
 Reference = R19;
-ValeurCmp = 499k;
+ValeurCmp = 259k;
 IdModule  = 0603_Opendous;
 EndCmp
 
@@ -697,6 +697,13 @@ BeginCmp
 TimeStamp = /4E1DDB8A/4E7667E9;
 Reference = R20;
 ValeurCmp = 10k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDB8A/4E76C694;
+Reference = R21;
+ValeurCmp = 0R5;
 IdModule  = 0603_Opendous;
 EndCmp
 
@@ -788,6 +795,20 @@ BeginCmp
 TimeStamp = /4E1DDD7A/4E22998B;
 Reference = R50;
 ValeurCmp = 100;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD2A/4E232E52;
+Reference = R51;
+ValeurCmp = 200k;
+IdModule  = 0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1DDD2A/4E232ED0;
+Reference = R52;
+ValeurCmp = 10k;
 IdModule  = 0603_Opendous;
 EndCmp
 
