@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/20/2011 8:34:09 PM
+EESchema Schematic File Version 2  date 9/18/2011 3:49:57 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:opendous
+LIBS:Opennect_Schematic_Symbols_Library
 LIBS:MicropendousX-LPC183x-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 9 9
+Sheet 7 7
 Title "MicropendousX-LPC183x"
-Date "21 aug 2011"
+Date "18 sep 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -44,22 +46,18 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
-Text GLabel 11000 3250 0    40   Input ~ 0
-USB0_ID
-Text GLabel 11000 3350 0    40   Input ~ 0
-USB0_ID
-Text GLabel 11000 3450 0    40   BiDi ~ 0
-SPIFI_SIO2
-Text GLabel 11000 3550 0    40   BiDi ~ 0
-SPIFI_SIO2
-Text GLabel 11000 3950 0    40   UnSpc ~ 0
-USB0_DM
-Text GLabel 11000 3850 0    40   UnSpc ~ 0
-USB0_DP
-Text GLabel 11000 3650 0    40   UnSpc ~ 0
-USB0_DP
-Text GLabel 11000 3750 0    40   UnSpc ~ 0
-USB0_DM
+Connection ~ 11000 5250
+Wire Wire Line
+	11000 5350 11000 4150
+Connection ~ 11000 5050
+Connection ~ 11000 4850
+Connection ~ 11000 4650
+Connection ~ 11000 4450
+Connection ~ 11000 4250
+Wire Wire Line
+	11000 4650 10850 4650
+Wire Wire Line
+	10850 4650 10850 4800
 Connection ~ 6900 3400
 Connection ~ 6900 3500
 Connection ~ 6900 3600
@@ -73,7 +71,7 @@ Connection ~ 6900 4300
 Connection ~ 6900 4400
 Connection ~ 6900 4500
 Wire Wire Line
-	6900 3300 6900 4900
+	6900 4900 6900 3300
 Connection ~ 6900 4600
 Connection ~ 6900 4700
 Connection ~ 6900 4800
@@ -91,13 +89,13 @@ Connection ~ 6900 6100
 Connection ~ 6900 6200
 Connection ~ 6900 6300
 Wire Wire Line
-	6900 5000 6900 6400
+	6900 6400 6900 5000
 Wire Wire Line
 	10900 4050 11000 4050
 Connection ~ 9000 2450
 Connection ~ 9000 2550
 Wire Wire Line
-	9000 6450 9000 550 
+	9000 550  9000 6450
 Connection ~ 9000 2350
 Connection ~ 9000 2250
 Connection ~ 9000 2150
@@ -158,7 +156,7 @@ Connection ~ 9000 4750
 Connection ~ 9000 4650
 Connection ~ 11000 6050
 Wire Wire Line
-	11000 5950 11000 6150
+	11000 6150 11000 5950
 Wire Wire Line
 	10850 6050 11000 6050
 Wire Wire Line
@@ -178,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 5100 2450 5100
 Wire Wire Line
-	2450 6200 2450 4300
+	2450 4300 2450 6200
 Connection ~ 2450 6100
 Connection ~ 2450 6000
 Connection ~ 2450 5900
@@ -232,167 +230,140 @@ Wire Wire Line
 	2450 6500 2450 6300
 Connection ~ 2450 6400
 Wire Wire Line
-	2450 4200 2450 3300
+	2450 3300 2450 4200
 Wire Wire Line
-	11000 6250 11000 6450
+	11000 6450 11000 6250
 Connection ~ 11000 6350
 Connection ~ 9000 4550
 Connection ~ 9000 4450
 Wire Wire Line
-	11000 4150 10900 4150
-Wire Wire Line
-	2450 3200 2450 500 
+	2450 500  2450 3200
 Connection ~ 2450 2500
 Connection ~ 2450 2400
 Wire Wire Line
-	6750 5700 6900 5700
+	6900 5700 6750 5700
 Wire Wire Line
-	6650 4100 6900 4100
+	6900 4100 6650 4100
+Connection ~ 11000 4350
+Connection ~ 11000 4550
+Connection ~ 11000 4750
+Connection ~ 11000 4950
+Connection ~ 11000 5150
 $Comp
-L VDDIO_3V3 #PWR0141
+L GND #PWR0131
+U 1 1 4E74194B
+P 10850 4800
+F 0 "#PWR0131" H 10850 4800 30  0001 C CNN
+F 1 "GND" H 10850 4730 30  0001 C CNN
+	1    10850 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 11000 3250 0    40   Input ~ 0
+USB0_ID
+Text GLabel 11000 3350 0    40   Input ~ 0
+USB0_ID
+Text GLabel 11000 3450 0    40   BiDi ~ 0
+SPIFI_SIO2
+Text GLabel 11000 3550 0    40   BiDi ~ 0
+SPIFI_SIO2
+Text GLabel 11000 3950 0    40   UnSpc ~ 0
+USB0_DM
+Text GLabel 11000 3850 0    40   UnSpc ~ 0
+USB0_DP
+Text GLabel 11000 3650 0    40   UnSpc ~ 0
+USB0_DP
+Text GLabel 11000 3750 0    40   UnSpc ~ 0
+USB0_DM
+$Comp
+L VDDIO_3V3 #PWR0132
 U 1 1 4E49585F
 P 6650 4100
-F 0 "#PWR0141" H 6650 4200 30  0001 C CNN
+F 0 "#PWR0132" H 6650 4200 30  0001 C CNN
 F 1 "VDDIO_3V3" H 6650 4200 30  0000 C CNN
 	1    6650 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD3V3 #PWR0142
+L VDD3V3 #PWR0133
 U 1 1 4E49554D
 P 6750 5700
-F 0 "#PWR0142" H 6750 5800 30  0001 C CNN
+F 0 "#PWR0133" H 6750 5800 30  0001 C CNN
 F 1 "VDD3V3" H 6750 5800 30  0000 C CNN
 	1    6750 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L DC_VIN #PWR0143
+L DC_VIN #PWR0134
 U 1 1 4E266D31
 P 10900 4050
-F 0 "#PWR0143" H 10900 4150 30  0001 C CNN
+F 0 "#PWR0134" H 10900 4150 30  0001 C CNN
 F 1 "DC_VIN" V 10900 4200 30  0000 C CNN
 	1    10900 4050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 3V3_ETH_ANALOG #PWR0144
-U 1 1 4E2662BA
-P 10900 4150
-F 0 "#PWR0144" H 10900 4250 30  0001 C CNN
-F 1 "3V3_ETH_ANALOG" V 10900 4450 30  0000 C CNN
-	1    10900 4150
-	0    -1   -1   0   
-$EndComp
-Text GLabel 11000 4250 0    40   Input ~ 0
-LEDL_A
-Text GLabel 11000 4350 0    40   Input ~ 0
-LEDR_A
-Text GLabel 11000 4550 0    40   Input ~ 0
-MAX8677_VL
-Text GLabel 11000 4450 0    40   Input ~ 0
-MAX8677_VL
-$Comp
-L GNDPWR #PWR0145
+L GNDPWR #PWR0135
 U 1 1 4E24500E
 P 8850 5500
-F 0 "#PWR0145" H 8850 5550 40  0001 C CNN
+F 0 "#PWR0135" H 8850 5550 40  0001 C CNN
 F 1 "GNDPWR" H 8850 5420 40  0000 C CNN
 	1    8850 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 11000 4650 0    40   Input ~ 0
-MAX8677_THM
-Text GLabel 11000 4950 0    40   Input ~ 0
-MAX8677_nDONE
-Text GLabel 11000 4850 0    40   Input ~ 0
-MAX8677_nCHG
-Text GLabel 11000 5150 0    40   Input ~ 0
-MAX8677_nFLT
-Text GLabel 11000 5350 0    40   Input ~ 0
-MAX8677_nDOK
-Text GLabel 11000 5750 0    40   Input ~ 0
-MAX8677_nCEN
-Text GLabel 11000 5550 0    40   Input ~ 0
-MAX8677_nUOK
-Text GLabel 11000 5650 0    40   Input ~ 0
-MAX8677_nUOK
-Text GLabel 11000 5850 0    40   Input ~ 0
-MAX8677_nCEN
-Text GLabel 11000 5450 0    40   Input ~ 0
-MAX8677_nDOK
-Text GLabel 11000 5250 0    40   Input ~ 0
-MAX8677_nFLT
-Text GLabel 11000 4750 0    40   Input ~ 0
-MAX8677_nCHG
-Text GLabel 11000 5050 0    40   Input ~ 0
-MAX8677_nDONE
 $Comp
-L VSYS #PWR0146
+L VSYS #PWR0136
 U 1 1 4E24421B
 P 10850 6050
-F 0 "#PWR0146" H 10850 6150 30  0001 C CNN
+F 0 "#PWR0136" H 10850 6150 30  0001 C CNN
 F 1 "VSYS" H 10850 6150 30  0000 C CNN
 	1    10850 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L 5V0 #PWR0147
+L 5V0 #PWR0137
 U 1 1 4E244116
 P 10850 6350
-F 0 "#PWR0147" H 10850 6450 30  0001 C CNN
+F 0 "#PWR0137" H 10850 6450 30  0001 C CNN
 F 1 "5V0" H 10850 6450 30  0000 C CNN
 	1    10850 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDDIO_3V3 #PWR0148
+L VDDIO_3V3 #PWR0138
 U 1 1 4E2437D2
 P 2200 3900
-F 0 "#PWR0148" H 2200 4000 30  0001 C CNN
+F 0 "#PWR0138" H 2200 4000 30  0001 C CNN
 F 1 "VDDIO_3V3" H 2200 4000 30  0000 C CNN
 	1    2200 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0149
+L GND #PWR0139
 U 1 1 4E24344B
 P 2300 5250
-F 0 "#PWR0149" H 2300 5250 30  0001 C CNN
+F 0 "#PWR0139" H 2300 5250 30  0001 C CNN
 F 1 "GND" H 2300 5180 30  0001 C CNN
 	1    2300 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR0150
+L VBUS #PWR0140
 U 1 1 4E2423A0
 P 2200 6500
-F 0 "#PWR0150" H 2200 6600 30  0001 C CNN
+F 0 "#PWR0140" H 2200 6600 30  0001 C CNN
 F 1 "VBUS" H 2200 6600 30  0000 C CNN
 	1    2200 6500
 	1    0    0    -1  
 $EndComp
-Text GLabel 2450 6700 0    40   Input ~ 0
-MAX8677_USUS
-Text GLabel 2450 6600 0    40   Input ~ 0
-MAX8677_USUS
-Text GLabel 2450 6800 0    40   Input ~ 0
-MAX8677_PEN2
-Text GLabel 2450 6900 0    40   Input ~ 0
-MAX8677_PEN2
-Text GLabel 2450 7100 0    40   Input ~ 0
-MAX8677_PEN1
-Text GLabel 2450 7000 0    40   Input ~ 0
-MAX8677_PEN1
 Text GLabel 2450 7200 0    40   Input ~ 0
 GND_microAB
 Text GLabel 2450 7300 0    40   Input ~ 0
 GND_microAB
 $Comp
-L GND #PWR0151
+L GND #PWR0141
 U 1 1 4E241B4C
 P 2300 1450
-F 0 "#PWR0151" H 2300 1450 30  0001 C CNN
+F 0 "#PWR0141" H 2300 1450 30  0001 C CNN
 F 1 "GND" H 2300 1380 30  0001 C CNN
 	1    2300 1450
 	1    0    0    -1  
