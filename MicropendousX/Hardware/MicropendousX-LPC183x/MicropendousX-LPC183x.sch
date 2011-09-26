@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2011 4:24:57 AM
+EESchema Schematic File Version 2  date 9/25/2011 6:49:29 PM
 LIBS:power
 LIBS:device
 LIBS:transistors

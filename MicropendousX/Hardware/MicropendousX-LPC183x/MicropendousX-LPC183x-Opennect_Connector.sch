@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2011 4:24:57 AM
+EESchema Schematic File Version 2  date 9/25/2011 6:49:29 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,6 +46,8 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
+Text Notes 7400 650  0    60   ~ 0
+Full compatibility with the Opennect Specification\nrequires running the system from DC Power.\nD4 enables system 3V3 rail to partially power Opennect\nConnector when running off Li-Ion or USB to allow use\nof Opennect Modules that only require 3.3V rail.
 Connection ~ 10600 1400
 Wire Wire Line
 	10600 1350 10600 1400
@@ -587,8 +589,6 @@ Text Notes 6075 5575 0    40   ~ 0
 SN74LVC1G
 Text Notes 5650 6150 0    40   ~ 0
 SN74LVC1G3157 is a bidirectional analog switch
-Text Notes 7400 650  0    60   ~ 0
-Full compatibility with the Opennect Specification\nrequires running the system from DC Power.\nD4 enables system 3V3 rail to partially power Opennect\nConnector when running off Li-Ion or USB to allow use\nof Opennect Modules that only require 3V3 rail.
 $Comp
 L D_SCHOTTKY D4
 U 1 1 4E763CBB
@@ -625,8 +625,8 @@ F 1 "3V3" H 9900 6275 30  0000 C CNN
 	1    9900 6150
 	1    0    0    -1  
 $EndComp
-Text Notes 4800 2900 0    60   ~ 0
-Notes:\n - When GPIO3_5 is set to High (default), pins are routed\n   for compatibility with Opennect-Controller-I2S.  When\n   it is set to Low pins are routed for compatibility with\n   Opennect-Controller-SingleEnded-x4 Specification.
+Text Notes 4800 2750 0    60   ~ 0
+Notes:\n - When GPIO3_5 is set to High (default), pins are routed\n   for compatibility with Opennect-Controller-I2S.  When\n   it is set to Low pins are routed for compatibility with\n   Opennect-Controller-SingleEnded-x4 Specification.\n - I2S0 used for TX and I2S1 used for RX
 Text GLabel 6150 5650 0    40   BiDi ~ 0
 GPIO3_5
 $Comp

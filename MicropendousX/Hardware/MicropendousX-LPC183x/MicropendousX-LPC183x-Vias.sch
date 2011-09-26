@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2011 4:24:57 AM
+EESchema Schematic File Version 2  date 9/25/2011 6:49:29 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,141 +46,761 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
-Text GLabel 5950 4350 0    40   Output ~ 0
+Connection ~ 7550 5950
+Wire Wire Line
+	7550 5850 7550 6450
+Connection ~ 7550 6150
+Connection ~ 7550 6350
+Connection ~ 4650 3150
+Connection ~ 4650 3350
+Connection ~ 4650 1850
+Connection ~ 4650 1650
+Connection ~ 4650 650 
+Connection ~ 4650 750 
+Connection ~ 4650 850 
+Connection ~ 4650 950 
+Connection ~ 4650 1050
+Connection ~ 4650 1150
+Connection ~ 4650 1250
+Connection ~ 4650 1350
+Connection ~ 4650 1450
+Connection ~ 4650 1550
+Wire Wire Line
+	4650 650  4500 650 
+Wire Wire Line
+	4500 650  4500 800 
+Connection ~ 11000 6250
+Wire Wire Line
+	11000 5950 11000 6350
+Wire Wire Line
+	10900 6450 11000 6450
+Connection ~ 11000 5450
+Connection ~ 11000 5350
+Wire Wire Line
+	11000 5850 10900 5850
+Connection ~ 4650 3550
+Connection ~ 4650 3750
+Connection ~ 4650 3950
+Connection ~ 4650 4150
+Wire Wire Line
+	4650 3850 4500 3850
+Wire Wire Line
+	4500 3850 4500 4000
+Connection ~ 4650 4050
+Connection ~ 4650 3850
+Connection ~ 4650 3650
+Connection ~ 4650 3450
+Wire Wire Line
+	10950 1350 11000 1350
+Connection ~ 9000 950 
+Wire Wire Line
+	2300 5250 2300 5100
+Wire Wire Line
+	2300 5100 2450 5100
+Wire Wire Line
+	2450 6700 2300 6700
+Wire Wire Line
+	2300 6700 2300 6850
+Connection ~ 4650 4450
+Wire Wire Line
+	4650 4350 4650 5250
+Connection ~ 4650 4650
+Connection ~ 4650 4850
+Connection ~ 4650 5050
+Connection ~ 2450 6900
+Connection ~ 2450 6700
+Wire Wire Line
+	9000 750  8800 750 
+Connection ~ 9000 650 
+Connection ~ 11000 5250
+Connection ~ 11000 5050
+Connection ~ 11000 4850
+Connection ~ 11000 4650
+Connection ~ 11000 4450
+Connection ~ 11000 4250
+Wire Wire Line
+	11000 4650 10850 4650
+Wire Wire Line
+	10850 4650 10850 4800
+Connection ~ 9000 3550
+Connection ~ 9000 3650
+Connection ~ 9000 3750
+Connection ~ 9000 3850
+Connection ~ 9000 3950
+Connection ~ 9000 4050
+Connection ~ 9000 4150
+Connection ~ 9000 4250
+Connection ~ 9000 4350
+Connection ~ 9000 4450
+Connection ~ 9000 4550
+Wire Wire Line
+	9000 4950 9000 3450
+Connection ~ 9000 4650
+Connection ~ 9000 4750
+Connection ~ 9000 4850
+Connection ~ 9000 5150
+Connection ~ 9000 5250
+Connection ~ 9000 5350
+Connection ~ 9000 5450
+Connection ~ 9000 5550
+Connection ~ 9000 5650
+Connection ~ 9000 5750
+Connection ~ 9000 5850
+Connection ~ 9000 5950
+Connection ~ 9000 6050
+Connection ~ 9000 6150
+Connection ~ 9000 6250
+Connection ~ 9000 6350
+Wire Wire Line
+	9000 6450 9000 5050
+Connection ~ 9850 2450
+Connection ~ 9850 2550
+Wire Wire Line
+	9850 550  9850 6450
+Connection ~ 9850 2350
+Connection ~ 9850 2250
+Connection ~ 9850 2150
+Connection ~ 9850 2050
+Connection ~ 9850 1950
+Connection ~ 9850 1850
+Connection ~ 9850 1750
+Connection ~ 9850 1650
+Connection ~ 9850 1550
+Connection ~ 9850 1450
+Connection ~ 9850 1350
+Connection ~ 9850 1250
+Connection ~ 9850 1150
+Connection ~ 9850 1050
+Connection ~ 9850 950 
+Connection ~ 9850 850 
+Connection ~ 9850 750 
+Connection ~ 9850 650 
+Connection ~ 9850 2650
+Connection ~ 9850 2750
+Connection ~ 9850 2850
+Connection ~ 9850 2950
+Connection ~ 9850 3050
+Connection ~ 9850 3150
+Connection ~ 9850 3250
+Connection ~ 9850 3350
+Connection ~ 9850 3450
+Connection ~ 9850 3550
+Connection ~ 9850 3650
+Connection ~ 9850 3750
+Connection ~ 9850 3850
+Connection ~ 9850 3950
+Connection ~ 9850 4050
+Connection ~ 9850 4150
+Connection ~ 9850 4250
+Connection ~ 9850 4350
+Wire Wire Line
+	9700 5500 9700 5350
+Wire Wire Line
+	9700 5350 9850 5350
+Connection ~ 9850 6350
+Connection ~ 9850 6250
+Connection ~ 9850 6150
+Connection ~ 9850 6050
+Connection ~ 9850 5950
+Connection ~ 9850 5850
+Connection ~ 9850 5750
+Connection ~ 9850 5650
+Connection ~ 9850 5550
+Connection ~ 9850 5450
+Connection ~ 9850 5350
+Connection ~ 9850 5250
+Connection ~ 9850 5150
+Connection ~ 9850 5050
+Connection ~ 9850 4950
+Connection ~ 9850 4850
+Connection ~ 9850 4750
+Connection ~ 9850 4650
+Connection ~ 11000 6050
+Connection ~ 2450 3400
+Connection ~ 2450 3500
+Connection ~ 2450 3600
+Connection ~ 2450 3700
+Connection ~ 2450 3800
+Connection ~ 2450 4000
+Connection ~ 2450 4100
+Connection ~ 2450 3900
+Wire Wire Line
+	2450 3900 2200 3900
+Wire Wire Line
+	4500 5000 4500 4850
+Wire Wire Line
+	4500 4850 4650 4850
+Wire Wire Line
+	2450 4300 2450 6200
+Connection ~ 2450 6100
+Connection ~ 2450 6000
+Connection ~ 2450 5900
+Connection ~ 2450 5800
+Connection ~ 2450 5700
+Connection ~ 2450 5600
+Connection ~ 2450 5500
+Connection ~ 2450 5400
+Connection ~ 2450 5300
+Connection ~ 2450 5200
+Connection ~ 2450 5100
+Connection ~ 2450 5000
+Connection ~ 2450 4900
+Connection ~ 2450 4800
+Connection ~ 2450 4700
+Connection ~ 2450 4600
+Connection ~ 2450 4500
+Connection ~ 2450 4400
+Connection ~ 2450 6500
+Wire Wire Line
+	2200 6500 2450 6500
+Connection ~ 2450 3000
+Connection ~ 2450 2800
+Connection ~ 2450 2600
+Connection ~ 2450 600 
+Connection ~ 2450 700 
+Connection ~ 2450 800 
+Connection ~ 2450 900 
+Connection ~ 2450 1000
+Connection ~ 2450 1100
+Connection ~ 2450 1200
+Connection ~ 2450 1300
+Connection ~ 2450 1400
+Connection ~ 2450 1500
+Connection ~ 2450 1600
+Connection ~ 2450 1700
+Connection ~ 2450 1800
+Connection ~ 2450 1900
+Connection ~ 2450 2000
+Connection ~ 2450 2100
+Connection ~ 2450 2200
+Connection ~ 2450 2300
+Wire Wire Line
+	2450 1300 2300 1300
+Wire Wire Line
+	2300 1300 2300 1450
+Connection ~ 2450 2700
+Connection ~ 2450 2900
+Connection ~ 2450 3100
+Wire Wire Line
+	2450 6500 2450 6300
+Connection ~ 2450 6400
+Wire Wire Line
+	2450 3300 2450 4200
+Connection ~ 9850 4550
+Connection ~ 9850 4450
+Wire Wire Line
+	2450 500  2450 3200
+Connection ~ 2450 2500
+Connection ~ 2450 2400
+Wire Wire Line
+	9000 5750 8850 5750
+Wire Wire Line
+	9000 4150 8750 4150
+Connection ~ 11000 4350
+Connection ~ 11000 4550
+Connection ~ 11000 4750
+Connection ~ 11000 4950
+Connection ~ 11000 5150
+Connection ~ 9000 750 
+Connection ~ 2450 6800
+Wire Wire Line
+	2450 7100 2450 6600
+Connection ~ 2450 7000
+Connection ~ 4650 5150
+Connection ~ 4650 4950
+Connection ~ 4650 4750
+Connection ~ 4650 4550
+Connection ~ 9000 850 
+Wire Wire Line
+	9000 1150 9000 550 
+Connection ~ 9000 1050
+Wire Wire Line
+	10850 6150 10850 6050
+Wire Wire Line
+	10850 6050 11000 6050
+Connection ~ 11000 5950
+Connection ~ 11000 5550
+Connection ~ 11000 5650
+Connection ~ 11000 6150
+Wire Wire Line
+	8900 3350 9000 3350
+Connection ~ 4650 1750
+Wire Wire Line
+	4650 550  4650 2050
+Connection ~ 4650 1950
+Connection ~ 4650 3250
+Wire Wire Line
+	4650 4250 4650 2950
+Connection ~ 4650 3050
+Wire Wire Line
+	7550 6250 7400 6250
+Wire Wire Line
+	7400 6250 7400 6400
+Connection ~ 7550 6250
+Wire Wire Line
+	11000 4050 11000 5750
+Connection ~ 11000 4150
+Connection ~ 7550 6050
+Text GLabel 7550 4150 0    40   BiDi ~ 0
+EMC_D06-MMC_CD
+Text GLabel 7550 4050 0    40   BiDi ~ 0
+EMC_A00
+Text GLabel 7550 3950 0    40   BiDi ~ 0
+EMC_A08
+Text GLabel 7550 3850 0    40   BiDi ~ 0
+EMC_A08
+Text GLabel 7550 3750 0    40   BiDi ~ 0
+GPIO3_5
+Text GLabel 7550 3650 0    40   BiDi ~ 0
+GPIO3_5
+Text GLabel 7550 3550 0    40   BiDi ~ 0
+EMC_D00
+Text GLabel 7550 3450 0    40   BiDi ~ 0
+EMC_D00
+Text GLabel 7550 3350 0    40   BiDi ~ 0
+SPIFI_SIO3-I2S1_RX_SDA
+Text GLabel 7550 3250 0    40   BiDi ~ 0
+SPIFI_SIO3-I2S1_RX_SDA
+Text GLabel 7550 3150 0    40   BiDi ~ 0
+SPIFI_SIO2-I2S1_RX_WS
+Text GLabel 7550 3050 0    40   BiDi ~ 0
+EMC_D01
+Text GLabel 7550 2950 0    40   Output ~ 0
+~EMC_CS0~
+Text GLabel 7550 2850 0    40   BiDi ~ 0
+CLKOUT-I2S1_RX_SCK
+Text GLabel 7550 2750 0    40   Input ~ 0
+GPIO3_5
+$Comp
+L GND #PWR0139
+U 1 1 4E7F9AA7
+P 7400 6400
+F 0 "#PWR0139" H 7400 6400 30  0001 C CNN
+F 1 "GND" H 7400 6330 30  0001 C CNN
+	1    7400 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7550 2650 0    40   Input ~ 0
+I2S0_TX_SCK
+Text GLabel 7550 2550 0    40   Input ~ 0
+I2S0_TX_SCK
+Text GLabel 7550 2450 0    40   BiDi ~ 0
+EMC_A02
+Text GLabel 7550 2350 0    40   BiDi ~ 0
+EMC_A02
+Text GLabel 9000 2250 0    40   BiDi ~ 0
+EMC_A03
+Text GLabel 7550 1950 0    40   BiDi ~ 0
+EMC_A04
+Text GLabel 7550 2250 0    40   Input ~ 0
+~EMC_OE~
+Text GLabel 7550 2150 0    40   BiDi ~ 0
+EMC_A00
+$Comp
+L VIA V368
+U 1 1 4E7EE7D7
+P 7550 5550
+F 0 "V368" V 7575 5650 20  0000 C CNN
+F 1 "VIA" H 7550 5750 60  0001 C CNN
+	1    7550 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V362
+U 1 1 4E7EE7D6
+P 7550 4950
+F 0 "V362" V 7575 5050 20  0000 C CNN
+F 1 "VIA" H 7550 5150 60  0001 C CNN
+	1    7550 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V363
+U 1 1 4E7EE7D5
+P 7550 5050
+F 0 "V363" V 7575 5150 20  0000 C CNN
+F 1 "VIA" H 7550 5250 60  0001 C CNN
+	1    7550 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V367
+U 1 1 4E7EE7D4
+P 7550 5450
+F 0 "V367" V 7575 5550 20  0000 C CNN
+F 1 "VIA" H 7550 5650 60  0001 C CNN
+	1    7550 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V366
+U 1 1 4E7EE7D3
+P 7550 5350
+F 0 "V366" V 7575 5450 20  0000 C CNN
+F 1 "VIA" H 7550 5550 60  0001 C CNN
+	1    7550 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V364
+U 1 1 4E7EE7D2
+P 7550 5150
+F 0 "V364" V 7575 5250 20  0000 C CNN
+F 1 "VIA" H 7550 5350 60  0001 C CNN
+	1    7550 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V365
+U 1 1 4E7EE7D1
+P 7550 5250
+F 0 "V365" V 7575 5350 20  0000 C CNN
+F 1 "VIA" H 7550 5450 60  0001 C CNN
+	1    7550 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V369
+U 1 1 4E7EE7D0
+P 7550 5650
+F 0 "V369" V 7575 5750 20  0000 C CNN
+F 1 "VIA" H 7550 5850 60  0001 C CNN
+	1    7550 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V373
+U 1 1 4E7EE7CF
+P 7550 6050
+F 0 "V373" V 7575 6150 20  0000 C CNN
+F 1 "VIA" H 7550 6250 60  0001 C CNN
+	1    7550 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V372
+U 1 1 4E7EE7CE
+P 7550 5950
+F 0 "V372" V 7575 6050 20  0000 C CNN
+F 1 "VIA" H 7550 6150 60  0001 C CNN
+	1    7550 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V370
+U 1 1 4E7EE7CD
+P 7550 5750
+F 0 "V370" V 7575 5850 20  0000 C CNN
+F 1 "VIA" H 7550 5950 60  0001 C CNN
+	1    7550 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V371
+U 1 1 4E7EE7CC
+P 7550 5850
+F 0 "V371" V 7575 5950 20  0000 C CNN
+F 1 "VIA" H 7550 6050 60  0001 C CNN
+	1    7550 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V377
+U 1 1 4E7EE7C7
+P 7550 6450
+F 0 "V377" V 7575 6550 20  0000 C CNN
+F 1 "VIA" H 7550 6650 60  0001 C CNN
+	1    7550 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V376
+U 1 1 4E7EE7C6
+P 7550 6350
+F 0 "V376" V 7575 6450 20  0000 C CNN
+F 1 "VIA" H 7550 6550 60  0001 C CNN
+	1    7550 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V374
+U 1 1 4E7EE7C5
+P 7550 6150
+F 0 "V374" V 7575 6250 20  0000 C CNN
+F 1 "VIA" H 7550 6350 60  0001 C CNN
+	1    7550 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V375
+U 1 1 4E7EE7C4
+P 7550 6250
+F 0 "V375" V 7575 6350 20  0000 C CNN
+F 1 "VIA" H 7550 6450 60  0001 C CNN
+	1    7550 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V361
+U 1 1 4E7EE7C2
+P 7550 4850
+F 0 "V361" V 7575 4950 20  0000 C CNN
+F 1 "VIA" H 7550 5050 60  0001 C CNN
+	1    7550 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V126
+U 1 1 4E7EE7C1
+P 7550 4150
+F 0 "V126" V 7575 4250 20  0000 C CNN
+F 1 "VIA" H 7550 4350 60  0001 C CNN
+	1    7550 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V125
+U 1 1 4E7EE7C0
+P 7550 4050
+F 0 "V125" V 7575 4150 20  0000 C CNN
+F 1 "VIA" H 7550 4250 60  0001 C CNN
+	1    7550 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V127
+U 1 1 4E7EE7BF
+P 7550 4250
+F 0 "V127" V 7575 4350 20  0000 C CNN
+F 1 "VIA" H 7550 4450 60  0001 C CNN
+	1    7550 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V128
+U 1 1 4E7EE7BE
+P 7550 4350
+F 0 "V128" V 7575 4450 20  0000 C CNN
+F 1 "VIA" H 7550 4550 60  0001 C CNN
+	1    7550 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V360
+U 1 1 4E7EE7BD
+P 7550 4750
+F 0 "V360" V 7575 4850 20  0000 C CNN
+F 1 "VIA" H 7550 4950 60  0001 C CNN
+	1    7550 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V359
+U 1 1 4E7EE7BC
+P 7550 4650
+F 0 "V359" V 7575 4750 20  0000 C CNN
+F 1 "VIA" H 7550 4850 60  0001 C CNN
+	1    7550 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V342
+U 1 1 4E7EE7BB
+P 7550 4450
+F 0 "V342" V 7575 4550 20  0000 C CNN
+F 1 "VIA" H 7550 4650 60  0001 C CNN
+	1    7550 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V343
+U 1 1 4E7EE7BA
+P 7550 4550
+F 0 "V343" V 7575 4650 20  0000 C CNN
+F 1 "VIA" H 7550 4750 60  0001 C CNN
+	1    7550 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V122
+U 1 1 4E7EE7B9
+P 7550 3750
+F 0 "V122" V 7575 3850 20  0000 C CNN
+F 1 "VIA" H 7550 3950 60  0001 C CNN
+	1    7550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V121
+U 1 1 4E7EE7B8
+P 7550 3650
+F 0 "V121" V 7575 3750 20  0000 C CNN
+F 1 "VIA" H 7550 3850 60  0001 C CNN
+	1    7550 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V123
+U 1 1 4E7EE7B7
+P 7550 3850
+F 0 "V123" V 7575 3950 20  0000 C CNN
+F 1 "VIA" H 7550 4050 60  0001 C CNN
+	1    7550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V124
+U 1 1 4E7EE7B6
+P 7550 3950
+F 0 "V124" V 7575 4050 20  0000 C CNN
+F 1 "VIA" H 7550 4150 60  0001 C CNN
+	1    7550 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L VIA V120
+U 1 1 4E7EE7B5
+P 7550 3550
+F 0 "V120" V 7575 3650 20  0000 C CNN
+F 1 "VIA" H 7550 3750 60  0001 C CNN
+	1    7550 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 7550 2050 0    40   Output ~ 0
 ~EMC_CS0~
 $Comp
 L VIA V105
 U 1 1 4E7EE0B0
-P 5950 4350
-F 0 "V105" V 5975 4450 20  0000 C CNN
-F 1 "VIA" H 5950 4550 60  0001 C CNN
-	1    5950 4350
+P 7550 2050
+F 0 "V105" V 7575 2150 20  0000 C CNN
+F 1 "VIA" H 7550 2250 60  0001 C CNN
+	1    7550 2050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V106
 U 1 1 4E7EE0AF
-P 5950 4450
-F 0 "V106" V 5975 4550 20  0000 C CNN
-F 1 "VIA" H 5950 4650 60  0001 C CNN
-	1    5950 4450
+P 7550 2150
+F 0 "V106" V 7575 2250 20  0000 C CNN
+F 1 "VIA" H 7550 2350 60  0001 C CNN
+	1    7550 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V110
 U 1 1 4E7EE0AE
-P 5950 4850
-F 0 "V110" V 5975 4950 20  0000 C CNN
-F 1 "VIA" H 5950 5050 60  0001 C CNN
-	1    5950 4850
+P 7550 2550
+F 0 "V110" V 7575 2650 20  0000 C CNN
+F 1 "VIA" H 7550 2750 60  0001 C CNN
+	1    7550 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V109
 U 1 1 4E7EE0AD
-P 5950 4750
-F 0 "V109" V 5975 4850 20  0000 C CNN
-F 1 "VIA" H 5950 4950 60  0001 C CNN
-	1    5950 4750
+P 7550 2450
+F 0 "V109" V 7575 2550 20  0000 C CNN
+F 1 "VIA" H 7550 2650 60  0001 C CNN
+	1    7550 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V107
 U 1 1 4E7EE0AC
-P 5950 4550
-F 0 "V107" V 5975 4650 20  0000 C CNN
-F 1 "VIA" H 5950 4750 60  0001 C CNN
-	1    5950 4550
+P 7550 2250
+F 0 "V107" V 7575 2350 20  0000 C CNN
+F 1 "VIA" H 7550 2450 60  0001 C CNN
+	1    7550 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V108
 U 1 1 4E7EE0AB
-P 5950 4650
-F 0 "V108" V 5975 4750 20  0000 C CNN
-F 1 "VIA" H 5950 4850 60  0001 C CNN
-	1    5950 4650
+P 7550 2350
+F 0 "V108" V 7575 2450 20  0000 C CNN
+F 1 "VIA" H 7550 2550 60  0001 C CNN
+	1    7550 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V116
 U 1 1 4E7EE0AA
-P 5950 5450
-F 0 "V116" V 5975 5550 20  0000 C CNN
-F 1 "VIA" H 5950 5650 60  0001 C CNN
-	1    5950 5450
+P 7550 3150
+F 0 "V116" V 7575 3250 20  0000 C CNN
+F 1 "VIA" H 7550 3350 60  0001 C CNN
+	1    7550 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V115
 U 1 1 4E7EE0A9
-P 5950 5350
-F 0 "V115" V 5975 5450 20  0000 C CNN
-F 1 "VIA" H 5950 5550 60  0001 C CNN
-	1    5950 5350
+P 7550 3050
+F 0 "V115" V 7575 3150 20  0000 C CNN
+F 1 "VIA" H 7550 3250 60  0001 C CNN
+	1    7550 3050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V117
 U 1 1 4E7EE0A8
-P 5950 5550
-F 0 "V117" V 5975 5650 20  0000 C CNN
-F 1 "VIA" H 5950 5750 60  0001 C CNN
-	1    5950 5550
+P 7550 3250
+F 0 "V117" V 7575 3350 20  0000 C CNN
+F 1 "VIA" H 7550 3450 60  0001 C CNN
+	1    7550 3250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V118
 U 1 1 4E7EE0A7
-P 5950 5650
-F 0 "V118" V 5975 5750 20  0000 C CNN
-F 1 "VIA" H 5950 5850 60  0001 C CNN
-	1    5950 5650
+P 7550 3350
+F 0 "V118" V 7575 3450 20  0000 C CNN
+F 1 "VIA" H 7550 3550 60  0001 C CNN
+	1    7550 3350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V114
 U 1 1 4E7EE0A6
-P 5950 5250
-F 0 "V114" V 5975 5350 20  0000 C CNN
-F 1 "VIA" H 5950 5450 60  0001 C CNN
-	1    5950 5250
+P 7550 2950
+F 0 "V114" V 7575 3050 20  0000 C CNN
+F 1 "VIA" H 7550 3150 60  0001 C CNN
+	1    7550 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V113
 U 1 1 4E7EE0A5
-P 5950 5150
-F 0 "V113" V 5975 5250 20  0000 C CNN
-F 1 "VIA" H 5950 5350 60  0001 C CNN
-	1    5950 5150
+P 7550 2850
+F 0 "V113" V 7575 2950 20  0000 C CNN
+F 1 "VIA" H 7550 3050 60  0001 C CNN
+	1    7550 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V111
 U 1 1 4E7EE0A4
-P 5950 4950
-F 0 "V111" V 5975 5050 20  0000 C CNN
-F 1 "VIA" H 5950 5150 60  0001 C CNN
-	1    5950 4950
+P 7550 2650
+F 0 "V111" V 7575 2750 20  0000 C CNN
+F 1 "VIA" H 7550 2850 60  0001 C CNN
+	1    7550 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V112
 U 1 1 4E7EE0A3
-P 5950 5050
-F 0 "V112" V 5975 5150 20  0000 C CNN
-F 1 "VIA" H 5950 5250 60  0001 C CNN
-	1    5950 5050
+P 7550 2750
+F 0 "V112" V 7575 2850 20  0000 C CNN
+F 1 "VIA" H 7550 2950 60  0001 C CNN
+	1    7550 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V119
 U 1 1 4E7EE0A2
-P 5950 5750
-F 0 "V119" V 5975 5850 20  0000 C CNN
-F 1 "VIA" H 5950 5950 60  0001 C CNN
-	1    5950 5750
+P 7550 3450
+F 0 "V119" V 7575 3550 20  0000 C CNN
+F 1 "VIA" H 7550 3650 60  0001 C CNN
+	1    7550 3450
 	0    1    1    0   
 $EndComp
 Text GLabel 4650 7250 0    40   Input ~ 0
@@ -197,424 +817,139 @@ Text GLabel 11000 550  0    40   Input ~ 0
 ~EMC_WE~-MMC_CMD
 Text GLabel 4650 6750 0    40   Input ~ 0
 EMC_D01
-Connection ~ 4650 3050
-Wire Wire Line
-	4650 2950 4650 4250
-Connection ~ 4650 3250
-Connection ~ 4650 1950
-Wire Wire Line
-	4650 2050 4650 550 
-Connection ~ 4650 1750
-Wire Wire Line
-	6800 3300 6900 3300
-Connection ~ 11000 6150
-Connection ~ 11000 5650
-Wire Wire Line
-	11000 4150 11000 5750
-Connection ~ 11000 5550
-Connection ~ 11000 5950
-Wire Wire Line
-	11000 6050 10850 6050
-Wire Wire Line
-	10850 6050 10850 6150
-Connection ~ 6900 1000
-Wire Wire Line
-	6900 500  6900 1100
-Connection ~ 6900 800 
-Connection ~ 4650 4550
-Connection ~ 4650 4750
-Connection ~ 4650 4950
-Connection ~ 4650 5150
-Connection ~ 2450 7000
-Wire Wire Line
-	2450 6600 2450 7100
-Connection ~ 2450 6800
-Connection ~ 6900 700 
-Connection ~ 11000 5150
-Connection ~ 11000 4950
-Connection ~ 11000 4750
-Connection ~ 11000 4550
-Connection ~ 11000 4350
-Wire Wire Line
-	6900 4100 6650 4100
-Wire Wire Line
-	6900 5700 6750 5700
-Connection ~ 2450 2400
-Connection ~ 2450 2500
-Wire Wire Line
-	2450 3200 2450 500 
-Connection ~ 9000 4450
-Connection ~ 9000 4550
-Wire Wire Line
-	2450 4200 2450 3300
-Connection ~ 2450 6400
-Wire Wire Line
-	2450 6300 2450 6500
-Connection ~ 2450 3100
-Connection ~ 2450 2900
-Connection ~ 2450 2700
-Wire Wire Line
-	2300 1450 2300 1300
-Wire Wire Line
-	2300 1300 2450 1300
-Connection ~ 2450 2300
-Connection ~ 2450 2200
-Connection ~ 2450 2100
-Connection ~ 2450 2000
-Connection ~ 2450 1900
-Connection ~ 2450 1800
-Connection ~ 2450 1700
-Connection ~ 2450 1600
-Connection ~ 2450 1500
-Connection ~ 2450 1400
-Connection ~ 2450 1300
-Connection ~ 2450 1200
-Connection ~ 2450 1100
-Connection ~ 2450 1000
-Connection ~ 2450 900 
-Connection ~ 2450 800 
-Connection ~ 2450 700 
-Connection ~ 2450 600 
-Connection ~ 2450 2600
-Connection ~ 2450 2800
-Connection ~ 2450 3000
-Wire Wire Line
-	2450 6500 2200 6500
-Connection ~ 2450 6500
-Connection ~ 2450 4400
-Connection ~ 2450 4500
-Connection ~ 2450 4600
-Connection ~ 2450 4700
-Connection ~ 2450 4800
-Connection ~ 2450 4900
-Connection ~ 2450 5000
-Connection ~ 2450 5100
-Connection ~ 2450 5200
-Connection ~ 2450 5300
-Connection ~ 2450 5400
-Connection ~ 2450 5500
-Connection ~ 2450 5600
-Connection ~ 2450 5700
-Connection ~ 2450 5800
-Connection ~ 2450 5900
-Connection ~ 2450 6000
-Connection ~ 2450 6100
-Wire Wire Line
-	2450 6200 2450 4300
-Wire Wire Line
-	4650 4850 4500 4850
-Wire Wire Line
-	4500 4850 4500 5000
-Wire Wire Line
-	2450 3900 2200 3900
-Connection ~ 2450 3900
-Connection ~ 2450 4100
-Connection ~ 2450 4000
-Connection ~ 2450 3800
-Connection ~ 2450 3700
-Connection ~ 2450 3600
-Connection ~ 2450 3500
-Connection ~ 2450 3400
-Connection ~ 11000 6050
-Connection ~ 9000 4650
-Connection ~ 9000 4750
-Connection ~ 9000 4850
-Connection ~ 9000 4950
-Connection ~ 9000 5050
-Connection ~ 9000 5150
-Connection ~ 9000 5250
-Connection ~ 9000 5350
-Connection ~ 9000 5450
-Connection ~ 9000 5550
-Connection ~ 9000 5650
-Connection ~ 9000 5750
-Connection ~ 9000 5850
-Connection ~ 9000 5950
-Connection ~ 9000 6050
-Connection ~ 9000 6150
-Connection ~ 9000 6250
-Connection ~ 9000 6350
-Wire Wire Line
-	9000 5350 8850 5350
-Wire Wire Line
-	8850 5350 8850 5500
-Connection ~ 9000 4350
-Connection ~ 9000 4250
-Connection ~ 9000 4150
-Connection ~ 9000 4050
-Connection ~ 9000 3950
-Connection ~ 9000 3850
-Connection ~ 9000 3750
-Connection ~ 9000 3650
-Connection ~ 9000 3550
-Connection ~ 9000 3450
-Connection ~ 9000 3350
-Connection ~ 9000 3250
-Connection ~ 9000 3150
-Connection ~ 9000 3050
-Connection ~ 9000 2950
-Connection ~ 9000 2850
-Connection ~ 9000 2750
-Connection ~ 9000 2650
-Connection ~ 9000 650 
-Connection ~ 9000 750 
-Connection ~ 9000 850 
-Connection ~ 9000 950 
-Connection ~ 9000 1050
-Connection ~ 9000 1150
-Connection ~ 9000 1250
-Connection ~ 9000 1350
-Connection ~ 9000 1450
-Connection ~ 9000 1550
-Connection ~ 9000 1650
-Connection ~ 9000 1750
-Connection ~ 9000 1850
-Connection ~ 9000 1950
-Connection ~ 9000 2050
-Connection ~ 9000 2150
-Connection ~ 9000 2250
-Connection ~ 9000 2350
-Wire Wire Line
-	9000 6450 9000 550 
-Connection ~ 9000 2550
-Connection ~ 9000 2450
-Wire Wire Line
-	10900 4050 11000 4050
-Wire Wire Line
-	6900 5000 6900 6400
-Connection ~ 6900 6300
-Connection ~ 6900 6200
-Connection ~ 6900 6100
-Connection ~ 6900 6000
-Connection ~ 6900 5900
-Connection ~ 6900 5800
-Connection ~ 6900 5700
-Connection ~ 6900 5600
-Connection ~ 6900 5500
-Connection ~ 6900 5400
-Connection ~ 6900 5300
-Connection ~ 6900 5200
-Connection ~ 6900 5100
-Connection ~ 6900 4800
-Connection ~ 6900 4700
-Connection ~ 6900 4600
-Wire Wire Line
-	6900 3400 6900 4900
-Connection ~ 6900 4500
-Connection ~ 6900 4400
-Connection ~ 6900 4300
-Connection ~ 6900 4200
-Connection ~ 6900 4100
-Connection ~ 6900 4000
-Connection ~ 6900 3900
-Connection ~ 6900 3800
-Connection ~ 6900 3700
-Connection ~ 6900 3600
-Connection ~ 6900 3500
-Wire Wire Line
-	10850 4800 10850 4650
-Wire Wire Line
-	10850 4650 11000 4650
-Connection ~ 11000 4250
-Connection ~ 11000 4450
-Connection ~ 11000 4650
-Connection ~ 11000 4850
-Connection ~ 11000 5050
-Connection ~ 11000 5250
-Connection ~ 6900 600 
-Wire Wire Line
-	6900 700  6700 700 
-Connection ~ 2450 6700
-Connection ~ 2450 6900
-Connection ~ 4650 5050
-Connection ~ 4650 4850
-Connection ~ 4650 4650
-Wire Wire Line
-	4650 5250 4650 4350
-Connection ~ 4650 4450
-Wire Wire Line
-	2300 6850 2300 6700
-Wire Wire Line
-	2300 6700 2450 6700
-Wire Wire Line
-	2450 5100 2300 5100
-Wire Wire Line
-	2300 5100 2300 5250
-Connection ~ 6900 900 
-Wire Wire Line
-	10950 1350 11000 1350
-Connection ~ 4650 3450
-Connection ~ 4650 3650
-Connection ~ 4650 3850
-Connection ~ 4650 4050
-Wire Wire Line
-	4500 4000 4500 3850
-Wire Wire Line
-	4500 3850 4650 3850
-Connection ~ 4650 4150
-Connection ~ 4650 3950
-Connection ~ 4650 3750
-Connection ~ 4650 3550
-Wire Wire Line
-	11000 5850 10900 5850
-Connection ~ 11000 5350
-Connection ~ 11000 5450
-Wire Wire Line
-	10900 6450 11000 6450
-Wire Wire Line
-	11000 6350 11000 5950
-Connection ~ 11000 6250
-Wire Wire Line
-	4500 800  4500 650 
-Wire Wire Line
-	4500 650  4650 650 
-Connection ~ 4650 1550
-Connection ~ 4650 1450
-Connection ~ 4650 1350
-Connection ~ 4650 1250
-Connection ~ 4650 1150
-Connection ~ 4650 1050
-Connection ~ 4650 950 
-Connection ~ 4650 850 
-Connection ~ 4650 750 
-Connection ~ 4650 650 
-Connection ~ 4650 1650
-Connection ~ 4650 1850
-Connection ~ 4650 3350
-Connection ~ 4650 3150
 $Comp
 L VIA V104
 U 1 1 4E7ED102
-P 5950 7500
-F 0 "V104" V 5975 7600 20  0000 C CNN
-F 1 "VIA" H 5950 7700 60  0001 C CNN
-	1    5950 7500
+P 7550 1950
+F 0 "V104" V 7575 2050 20  0000 C CNN
+F 1 "VIA" H 7550 2150 60  0001 C CNN
+	1    7550 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V97
 U 1 1 4E7ED101
-P 5950 6800
-F 0 "V97" V 5975 6900 20  0000 C CNN
-F 1 "VIA" H 5950 7000 60  0001 C CNN
-	1    5950 6800
+P 7550 1250
+F 0 "V97" V 7575 1350 20  0000 C CNN
+F 1 "VIA" H 7550 1450 60  0001 C CNN
+	1    7550 1250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V96
 U 1 1 4E7ED100
-P 5950 6700
-F 0 "V96" V 5975 6800 20  0000 C CNN
-F 1 "VIA" H 5950 6900 60  0001 C CNN
-	1    5950 6700
+P 7550 1150
+F 0 "V96" V 7575 1250 20  0000 C CNN
+F 1 "VIA" H 7550 1350 60  0001 C CNN
+	1    7550 1150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V98
 U 1 1 4E7ED0FF
-P 5950 6900
-F 0 "V98" V 5975 7000 20  0000 C CNN
-F 1 "VIA" H 5950 7100 60  0001 C CNN
-	1    5950 6900
+P 7550 1350
+F 0 "V98" V 7575 1450 20  0000 C CNN
+F 1 "VIA" H 7550 1550 60  0001 C CNN
+	1    7550 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V99
 U 1 1 4E7ED0FE
-P 5950 7000
-F 0 "V99" V 5975 7100 20  0000 C CNN
-F 1 "VIA" H 5950 7200 60  0001 C CNN
-	1    5950 7000
+P 7550 1450
+F 0 "V99" V 7575 1550 20  0000 C CNN
+F 1 "VIA" H 7550 1650 60  0001 C CNN
+	1    7550 1450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V103
 U 1 1 4E7ED0FD
-P 5950 7400
-F 0 "V103" V 5975 7500 20  0000 C CNN
-F 1 "VIA" H 5950 7600 60  0001 C CNN
-	1    5950 7400
+P 7550 1850
+F 0 "V103" V 7575 1950 20  0000 C CNN
+F 1 "VIA" H 7550 2050 60  0001 C CNN
+	1    7550 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V102
 U 1 1 4E7ED0FC
-P 5950 7300
-F 0 "V102" V 5975 7400 20  0000 C CNN
-F 1 "VIA" H 5950 7500 60  0001 C CNN
-	1    5950 7300
+P 7550 1750
+F 0 "V102" V 7575 1850 20  0000 C CNN
+F 1 "VIA" H 7550 1950 60  0001 C CNN
+	1    7550 1750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V100
 U 1 1 4E7ED0FB
-P 5950 7100
-F 0 "V100" V 5975 7200 20  0000 C CNN
-F 1 "VIA" H 5950 7300 60  0001 C CNN
-	1    5950 7100
+P 7550 1550
+F 0 "V100" V 7575 1650 20  0000 C CNN
+F 1 "VIA" H 7550 1750 60  0001 C CNN
+	1    7550 1550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V101
 U 1 1 4E7ED0FA
-P 5950 7200
-F 0 "V101" V 5975 7300 20  0000 C CNN
-F 1 "VIA" H 5950 7400 60  0001 C CNN
-	1    5950 7200
+P 7550 1650
+F 0 "V101" V 7575 1750 20  0000 C CNN
+F 1 "VIA" H 7550 1850 60  0001 C CNN
+	1    7550 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V93
 U 1 1 4E7ED0F9
-P 5950 6400
-F 0 "V93" V 5975 6500 20  0000 C CNN
-F 1 "VIA" H 5950 6600 60  0001 C CNN
-	1    5950 6400
+P 7550 850
+F 0 "V93" V 7575 950 20  0000 C CNN
+F 1 "VIA" H 7550 1050 60  0001 C CNN
+	1    7550 850 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V92
 U 1 1 4E7ED0F8
-P 5950 6300
-F 0 "V92" V 5975 6400 20  0000 C CNN
-F 1 "VIA" H 5950 6500 60  0001 C CNN
-	1    5950 6300
+P 7550 750
+F 0 "V92" V 7575 850 20  0000 C CNN
+F 1 "VIA" H 7550 950 60  0001 C CNN
+	1    7550 750 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V94
 U 1 1 4E7ED0F7
-P 5950 6500
-F 0 "V94" V 5975 6600 20  0000 C CNN
-F 1 "VIA" H 5950 6700 60  0001 C CNN
-	1    5950 6500
+P 7550 950
+F 0 "V94" V 7575 1050 20  0000 C CNN
+F 1 "VIA" H 7550 1150 60  0001 C CNN
+	1    7550 950 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V95
 U 1 1 4E7ED0F6
-P 5950 6600
-F 0 "V95" V 5975 6700 20  0000 C CNN
-F 1 "VIA" H 5950 6800 60  0001 C CNN
-	1    5950 6600
+P 7550 1050
+F 0 "V95" V 7575 1150 20  0000 C CNN
+F 1 "VIA" H 7550 1250 60  0001 C CNN
+	1    7550 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V91
 U 1 1 4E7ED0F5
-P 5950 6200
-F 0 "V91" V 5975 6300 20  0000 C CNN
-F 1 "VIA" H 5950 6400 60  0001 C CNN
-	1    5950 6200
+P 7550 650
+F 0 "V91" V 7575 750 20  0000 C CNN
+F 1 "VIA" H 7550 850 60  0001 C CNN
+	1    7550 650 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V90
 U 1 1 4E7ED0F4
-P 5950 6100
-F 0 "V90" V 5975 6200 20  0000 C CNN
-F 1 "VIA" H 5950 6300 60  0001 C CNN
-	1    5950 6100
+P 7550 550
+F 0 "V90" V 7575 650 20  0000 C CNN
+F 1 "VIA" H 7550 750 60  0001 C CNN
+	1    7550 550 
 	0    1    1    0   
 $EndComp
 Text GLabel 4650 2850 0    40   Input ~ 0
@@ -841,89 +1176,87 @@ Text GLabel 4650 2250 0    40   Input ~ 0
 MMC_CLK
 Text GLabel 4650 2150 0    40   Input ~ 0
 MMC_CLK
-Text GLabel 6900 2300 0    40   Input ~ 0
+Text GLabel 9000 2350 0    40   Input ~ 0
 EMC_A07
-Text GLabel 6900 2200 0    40   Input ~ 0
-EMC_A07
-Text GLabel 6900 2000 0    40   Input ~ 0
+Text GLabel 9000 2050 0    40   Input ~ 0
 EMC_A06
-Text GLabel 6900 2100 0    40   Input ~ 0
+Text GLabel 9000 2150 0    40   Input ~ 0
 EMC_A06
-Text GLabel 6900 1900 0    40   Input ~ 0
+Text GLabel 9000 1950 0    40   Input ~ 0
 EMC_A05
-Text GLabel 6900 1800 0    40   Input ~ 0
+Text GLabel 9000 1850 0    40   Input ~ 0
 EMC_A05
-Text GLabel 6900 1700 0    40   Input ~ 0
+Text GLabel 9000 1750 0    40   Input ~ 0
 ~RESET~
 $Comp
-L GNDPWR #PWR0139
+L GNDPWR #PWR0140
 U 1 1 4E7EB475
 P 4500 800
-F 0 "#PWR0139" H 4500 850 40  0001 C CNN
+F 0 "#PWR0140" H 4500 850 40  0001 C CNN
 F 1 "GNDPWR" H 4500 720 40  0000 C CNN
 	1    4500 800 
 	1    0    0    -1  
 $EndComp
-Text GLabel 6900 1600 0    40   Input ~ 0
+Text GLabel 9000 1650 0    40   Input ~ 0
 nRESET
-Text GLabel 6900 1500 0    40   Input ~ 0
+Text GLabel 9000 1550 0    40   Input ~ 0
 ~RESET~
-Text GLabel 6900 1400 0    40   Input ~ 0
+Text GLabel 9000 1450 0    40   Input ~ 0
 ~RESET~
 $Comp
-L VDD3V3 #PWR0140
+L VDD3V3 #PWR0141
 U 1 1 4E7EA628
-P 6800 3300
-F 0 "#PWR0140" H 6800 3400 30  0001 C CNN
-F 1 "VDD3V3" V 6800 3500 30  0000 C CNN
-	1    6800 3300
+P 8900 3350
+F 0 "#PWR0141" H 8900 3450 30  0001 C CNN
+F 1 "VDD3V3" V 8900 3550 30  0000 C CNN
+	1    8900 3350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6900 1300 0    40   Input ~ 0
+Text GLabel 9000 1350 0    40   Input ~ 0
 ADC0_0-DAC
-Text GLabel 6900 1200 0    40   Input ~ 0
+Text GLabel 9000 1250 0    40   Input ~ 0
 ADC0_0-DAC
 $Comp
-L GND #PWR0141
+L GND #PWR0142
 U 1 1 4E7E9B93
 P 10850 6150
-F 0 "#PWR0141" H 10850 6150 30  0001 C CNN
+F 0 "#PWR0142" H 10850 6150 30  0001 C CNN
 F 1 "GND" H 10850 6080 30  0001 C CNN
 	1    10850 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR0142
+L 3V3 #PWR0143
 U 1 1 4E7E9B5C
 P 10900 5850
-F 0 "#PWR0142" H 10900 5950 40  0001 C CNN
+F 0 "#PWR0143" H 10900 5950 40  0001 C CNN
 F 1 "3V3" V 10900 6000 40  0000 C CNN
 	1    10900 5850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6900 2500 0    40   Input ~ 0
+Text GLabel 9000 2550 0    40   Input ~ 0
 TX1
-Text GLabel 6900 2400 0    40   Input ~ 0
+Text GLabel 9000 2450 0    40   Input ~ 0
 TX0
-Text GLabel 6900 2600 0    40   Input ~ 0
+Text GLabel 9000 2650 0    40   Input ~ 0
 GPIO5_0-EMC_A13
-Text GLabel 6900 2700 0    40   Input ~ 0
+Text GLabel 9000 2750 0    40   Input ~ 0
 GPIO5_0-EMC_A13
-Text GLabel 6900 2800 0    40   Input ~ 0
+Text GLabel 9000 2850 0    40   Input ~ 0
 MMC_VDD
-Text GLabel 6900 2900 0    40   Input ~ 0
+Text GLabel 9000 2950 0    40   Input ~ 0
 MMC_VDD
-Text GLabel 6900 3000 0    40   Input ~ 0
+Text GLabel 9000 3050 0    40   Input ~ 0
 MMC_VDD
-Text GLabel 6900 3100 0    40   Input ~ 0
+Text GLabel 9000 3150 0    40   Input ~ 0
 LTC3559_VCC
-Text GLabel 6900 3200 0    40   Input ~ 0
+Text GLabel 9000 3250 0    40   Input ~ 0
 LTC3559_VCC
 $Comp
-L GND #PWR0143
+L GND #PWR0144
 U 1 1 4E7E51E9
 P 4500 4000
-F 0 "#PWR0143" H 4500 4000 30  0001 C CNN
+F 0 "#PWR0144" H 4500 4000 30  0001 C CNN
 F 1 "GND" H 4500 3930 30  0001 C CNN
 	1    4500 4000
 	1    0    0    -1  
@@ -935,7 +1268,7 @@ ADC1_1
 Text GLabel 11000 950  0    40   Input ~ 0
 GPIO3_7
 Text GLabel 11000 850  0    40   Input ~ 0
-GPIO5_2
+GPIO3_7
 Text GLabel 11000 1050 0    40   Input ~ 0
 nTRST
 Text GLabel 11000 1150 0    40   Input ~ 0
@@ -943,10 +1276,10 @@ TDO
 Text GLabel 11000 1250 0    40   Input ~ 0
 TMS
 $Comp
-L VBUS #PWR0144
+L VBUS #PWR0145
 U 1 1 4E771EB8
 P 10950 1350
-F 0 "#PWR0144" H 10950 1450 30  0001 C CNN
+F 0 "#PWR0145" H 10950 1450 30  0001 C CNN
 F 1 "VBUS" V 10950 1500 30  0000 C CNN
 	1    10950 1350
 	0    -1   -1   0   
@@ -964,40 +1297,40 @@ I2C1_SDA-U3_TXD
 Text GLabel 11000 2050 0    40   Input ~ 0
 GPIO5_2
 Text GLabel 11000 1950 0    40   Input ~ 0
-GPIO5_2
+GPIO3_7
 Text GLabel 11000 2150 0    40   Input ~ 0
 GPIO3_7
 Text GLabel 11000 2250 0    40   Input ~ 0
-GPIO3_7
+GPIO5_2
 Text GLabel 11000 2450 0    40   Input ~ 0
 I2C1_SDA-U3_TXD
 Text GLabel 11000 2350 0    40   Input ~ 0
 I2C1_SCL-U3_RXD
 $Comp
-L GND #PWR0145
+L GND #PWR0146
 U 1 1 4E76CD8A
 P 2300 5250
-F 0 "#PWR0145" H 2300 5250 30  0001 C CNN
+F 0 "#PWR0146" H 2300 5250 30  0001 C CNN
 F 1 "GND" H 2300 5180 30  0001 C CNN
 	1    2300 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0146
+L GND #PWR0147
 U 1 1 4E76CCD0
 P 2300 6850
-F 0 "#PWR0146" H 2300 6850 30  0001 C CNN
+F 0 "#PWR0147" H 2300 6850 30  0001 C CNN
 F 1 "GND" H 2300 6780 30  0001 C CNN
 	1    2300 6850
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR0147
+L +BATT #PWR0148
 U 1 1 4E76C805
-P 6700 700
-F 0 "#PWR0147" H 6700 650 20  0001 C CNN
-F 1 "+BATT" H 6700 800 30  0000 C CNN
-	1    6700 700 
+P 8800 750
+F 0 "#PWR0148" H 8800 700 20  0001 C CNN
+F 1 "+BATT" H 8800 850 30  0000 C CNN
+	1    8800 750 
 	1    0    0    -1  
 $EndComp
 Text GLabel 11000 2550 0    40   Input ~ 0
@@ -1014,15 +1347,6 @@ Text GLabel 11000 2950 0    40   Input ~ 0
 GPIO0_12
 Text GLabel 11000 2850 0    40   Input ~ 0
 SSP1_SSEL
-$Comp
-L 6V0 #PWR0148
-U 1 1 4E766648
-P 10900 4050
-F 0 "#PWR0148" H 10900 4190 20  0001 C CNN
-F 1 "6V0" V 10900 4200 30  0000 C CNN
-	1    10900 4050
-	0    -1   -1   0   
-$EndComp
 $Comp
 L GND #PWR0149
 U 1 1 4E74194B
@@ -1051,28 +1375,28 @@ USB0_DM
 $Comp
 L VDDIO_3V3 #PWR0150
 U 1 1 4E49585F
-P 6650 4100
-F 0 "#PWR0150" H 6650 4200 30  0001 C CNN
-F 1 "VDDIO_3V3" H 6650 4200 30  0000 C CNN
-	1    6650 4100
+P 8750 4150
+F 0 "#PWR0150" H 8750 4250 30  0001 C CNN
+F 1 "VDDIO_3V3" H 8750 4250 30  0000 C CNN
+	1    8750 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L VDD3V3 #PWR0151
 U 1 1 4E49554D
-P 6750 5700
-F 0 "#PWR0151" H 6750 5800 30  0001 C CNN
-F 1 "VDD3V3" H 6750 5800 30  0000 C CNN
-	1    6750 5700
+P 8850 5750
+F 0 "#PWR0151" H 8850 5850 30  0001 C CNN
+F 1 "VDD3V3" H 8850 5850 30  0000 C CNN
+	1    8850 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDPWR #PWR0152
 U 1 1 4E24500E
-P 8850 5500
-F 0 "#PWR0152" H 8850 5550 40  0001 C CNN
-F 1 "GNDPWR" H 8850 5420 40  0000 C CNN
-	1    8850 5500
+P 9700 5500
+F 0 "#PWR0152" H 9700 5550 40  0001 C CNN
+F 1 "GNDPWR" H 9700 5420 40  0000 C CNN
+	1    9700 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1271,10 +1595,10 @@ $EndComp
 $Comp
 L VIA V280
 U 1 1 4D45B678
-P 9000 4850
-F 0 "V280" V 9025 4950 20  0000 C CNN
-F 1 "VIA" H 9000 5050 60  0001 C CNN
-	1    9000 4850
+P 9850 4850
+F 0 "V280" V 9875 4950 20  0000 C CNN
+F 1 "VIA" H 9850 5050 60  0001 C CNN
+	1    9850 4850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1676,1054 +2000,1054 @@ $EndComp
 $Comp
 L VIA V290
 U 1 1 4D45B64B
-P 9000 5850
-F 0 "V290" V 9025 5950 20  0000 C CNN
-F 1 "VIA" H 9000 6050 60  0001 C CNN
-	1    9000 5850
+P 9850 5850
+F 0 "V290" V 9875 5950 20  0000 C CNN
+F 1 "VIA" H 9850 6050 60  0001 C CNN
+	1    9850 5850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V289
 U 1 1 4D45B64A
-P 9000 5750
-F 0 "V289" V 9025 5850 20  0000 C CNN
-F 1 "VIA" H 9000 5950 60  0001 C CNN
-	1    9000 5750
+P 9850 5750
+F 0 "V289" V 9875 5850 20  0000 C CNN
+F 1 "VIA" H 9850 5950 60  0001 C CNN
+	1    9850 5750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V291
 U 1 1 4D45B649
-P 9000 5950
-F 0 "V291" V 9025 6050 20  0000 C CNN
-F 1 "VIA" H 9000 6150 60  0001 C CNN
-	1    9000 5950
+P 9850 5950
+F 0 "V291" V 9875 6050 20  0000 C CNN
+F 1 "VIA" H 9850 6150 60  0001 C CNN
+	1    9850 5950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V292
 U 1 1 4D45B648
-P 9000 6050
-F 0 "V292" V 9025 6150 20  0000 C CNN
-F 1 "VIA" H 9000 6250 60  0001 C CNN
-	1    9000 6050
+P 9850 6050
+F 0 "V292" V 9875 6150 20  0000 C CNN
+F 1 "VIA" H 9850 6250 60  0001 C CNN
+	1    9850 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V296
 U 1 1 4D45B647
-P 9000 6450
-F 0 "V296" V 9025 6550 20  0000 C CNN
-F 1 "VIA" H 9000 6650 60  0001 C CNN
-	1    9000 6450
+P 9850 6450
+F 0 "V296" V 9875 6550 20  0000 C CNN
+F 1 "VIA" H 9850 6650 60  0001 C CNN
+	1    9850 6450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V295
 U 1 1 4D45B646
-P 9000 6350
-F 0 "V295" V 9025 6450 20  0000 C CNN
-F 1 "VIA" H 9000 6550 60  0001 C CNN
-	1    9000 6350
+P 9850 6350
+F 0 "V295" V 9875 6450 20  0000 C CNN
+F 1 "VIA" H 9850 6550 60  0001 C CNN
+	1    9850 6350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V293
 U 1 1 4D45B645
-P 9000 6150
-F 0 "V293" V 9025 6250 20  0000 C CNN
-F 1 "VIA" H 9000 6350 60  0001 C CNN
-	1    9000 6150
+P 9850 6150
+F 0 "V293" V 9875 6250 20  0000 C CNN
+F 1 "VIA" H 9850 6350 60  0001 C CNN
+	1    9850 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V294
 U 1 1 4D45B644
-P 9000 6250
-F 0 "V294" V 9025 6350 20  0000 C CNN
-F 1 "VIA" H 9000 6450 60  0001 C CNN
-	1    9000 6250
+P 9850 6250
+F 0 "V294" V 9875 6350 20  0000 C CNN
+F 1 "VIA" H 9850 6450 60  0001 C CNN
+	1    9850 6250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V286
 U 1 1 4D45B643
-P 9000 5450
-F 0 "V286" V 9025 5550 20  0000 C CNN
-F 1 "VIA" H 9000 5650 60  0001 C CNN
-	1    9000 5450
+P 9850 5450
+F 0 "V286" V 9875 5550 20  0000 C CNN
+F 1 "VIA" H 9850 5650 60  0001 C CNN
+	1    9850 5450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V285
 U 1 1 4D45B642
-P 9000 5350
-F 0 "V285" V 9025 5450 20  0000 C CNN
-F 1 "VIA" H 9000 5550 60  0001 C CNN
-	1    9000 5350
+P 9850 5350
+F 0 "V285" V 9875 5450 20  0000 C CNN
+F 1 "VIA" H 9850 5550 60  0001 C CNN
+	1    9850 5350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V287
 U 1 1 4D45B641
-P 9000 5550
-F 0 "V287" V 9025 5650 20  0000 C CNN
-F 1 "VIA" H 9000 5750 60  0001 C CNN
-	1    9000 5550
+P 9850 5550
+F 0 "V287" V 9875 5650 20  0000 C CNN
+F 1 "VIA" H 9850 5750 60  0001 C CNN
+	1    9850 5550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V288
 U 1 1 4D45B640
-P 9000 5650
-F 0 "V288" V 9025 5750 20  0000 C CNN
-F 1 "VIA" H 9000 5850 60  0001 C CNN
-	1    9000 5650
+P 9850 5650
+F 0 "V288" V 9875 5750 20  0000 C CNN
+F 1 "VIA" H 9850 5850 60  0001 C CNN
+	1    9850 5650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V284
 U 1 1 4D45B63F
-P 9000 5250
-F 0 "V284" V 9025 5350 20  0000 C CNN
-F 1 "VIA" H 9000 5450 60  0001 C CNN
-	1    9000 5250
+P 9850 5250
+F 0 "V284" V 9875 5350 20  0000 C CNN
+F 1 "VIA" H 9850 5450 60  0001 C CNN
+	1    9850 5250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V283
 U 1 1 4D45B63E
-P 9000 5150
-F 0 "V283" V 9025 5250 20  0000 C CNN
-F 1 "VIA" H 9000 5350 60  0001 C CNN
-	1    9000 5150
+P 9850 5150
+F 0 "V283" V 9875 5250 20  0000 C CNN
+F 1 "VIA" H 9850 5350 60  0001 C CNN
+	1    9850 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V281
 U 1 1 4D45B63D
-P 9000 4950
-F 0 "V281" V 9025 5050 20  0000 C CNN
-F 1 "VIA" H 9000 5150 60  0001 C CNN
-	1    9000 4950
+P 9850 4950
+F 0 "V281" V 9875 5050 20  0000 C CNN
+F 1 "VIA" H 9850 5150 60  0001 C CNN
+	1    9850 4950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V282
 U 1 1 4D45B63C
-P 9000 5050
-F 0 "V282" V 9025 5150 20  0000 C CNN
-F 1 "VIA" H 9000 5250 60  0001 C CNN
-	1    9000 5050
+P 9850 5050
+F 0 "V282" V 9875 5150 20  0000 C CNN
+F 1 "VIA" H 9850 5250 60  0001 C CNN
+	1    9850 5050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V221
 U 1 1 4D45B63B
-P 6900 4900
-F 0 "V221" V 6925 5000 20  0000 C CNN
-F 1 "VIA" H 6900 5100 60  0001 C CNN
-	1    6900 4900
+P 9000 4950
+F 0 "V221" V 9025 5050 20  0000 C CNN
+F 1 "VIA" H 9000 5150 60  0001 C CNN
+	1    9000 4950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V220
 U 1 1 4D45B63A
-P 6900 4800
-F 0 "V220" V 6925 4900 20  0000 C CNN
-F 1 "VIA" H 6900 5000 60  0001 C CNN
-	1    6900 4800
+P 9000 4850
+F 0 "V220" V 9025 4950 20  0000 C CNN
+F 1 "VIA" H 9000 5050 60  0001 C CNN
+	1    9000 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V222
 U 1 1 4D45B639
-P 6900 5000
-F 0 "V222" V 6925 5100 20  0000 C CNN
-F 1 "VIA" H 6900 5200 60  0001 C CNN
-	1    6900 5000
+P 9000 5050
+F 0 "V222" V 9025 5150 20  0000 C CNN
+F 1 "VIA" H 9000 5250 60  0001 C CNN
+	1    9000 5050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V223
 U 1 1 4D45B638
-P 6900 5100
-F 0 "V223" V 6925 5200 20  0000 C CNN
-F 1 "VIA" H 6900 5300 60  0001 C CNN
-	1    6900 5100
+P 9000 5150
+F 0 "V223" V 9025 5250 20  0000 C CNN
+F 1 "VIA" H 9000 5350 60  0001 C CNN
+	1    9000 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V227
 U 1 1 4D45B637
-P 6900 5500
-F 0 "V227" V 6925 5600 20  0000 C CNN
-F 1 "VIA" H 6900 5700 60  0001 C CNN
-	1    6900 5500
+P 9000 5550
+F 0 "V227" V 9025 5650 20  0000 C CNN
+F 1 "VIA" H 9000 5750 60  0001 C CNN
+	1    9000 5550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V226
 U 1 1 4D45B636
-P 6900 5400
-F 0 "V226" V 6925 5500 20  0000 C CNN
-F 1 "VIA" H 6900 5600 60  0001 C CNN
-	1    6900 5400
+P 9000 5450
+F 0 "V226" V 9025 5550 20  0000 C CNN
+F 1 "VIA" H 9000 5650 60  0001 C CNN
+	1    9000 5450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V224
 U 1 1 4D45B635
-P 6900 5200
-F 0 "V224" V 6925 5300 20  0000 C CNN
-F 1 "VIA" H 6900 5400 60  0001 C CNN
-	1    6900 5200
+P 9000 5250
+F 0 "V224" V 9025 5350 20  0000 C CNN
+F 1 "VIA" H 9000 5450 60  0001 C CNN
+	1    9000 5250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V225
 U 1 1 4D45B634
-P 6900 5300
-F 0 "V225" V 6925 5400 20  0000 C CNN
-F 1 "VIA" H 6900 5500 60  0001 C CNN
-	1    6900 5300
+P 9000 5350
+F 0 "V225" V 9025 5450 20  0000 C CNN
+F 1 "VIA" H 9000 5550 60  0001 C CNN
+	1    9000 5350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V233
 U 1 1 4D45B633
-P 6900 6100
-F 0 "V233" V 6925 6200 20  0000 C CNN
-F 1 "VIA" H 6900 6300 60  0001 C CNN
-	1    6900 6100
+P 9000 6150
+F 0 "V233" V 9025 6250 20  0000 C CNN
+F 1 "VIA" H 9000 6350 60  0001 C CNN
+	1    9000 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V232
 U 1 1 4D45B632
-P 6900 6000
-F 0 "V232" V 6925 6100 20  0000 C CNN
-F 1 "VIA" H 6900 6200 60  0001 C CNN
-	1    6900 6000
+P 9000 6050
+F 0 "V232" V 9025 6150 20  0000 C CNN
+F 1 "VIA" H 9000 6250 60  0001 C CNN
+	1    9000 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V234
 U 1 1 4D45B631
-P 6900 6200
-F 0 "V234" V 6925 6300 20  0000 C CNN
-F 1 "VIA" H 6900 6400 60  0001 C CNN
-	1    6900 6200
+P 9000 6250
+F 0 "V234" V 9025 6350 20  0000 C CNN
+F 1 "VIA" H 9000 6450 60  0001 C CNN
+	1    9000 6250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V235
 U 1 1 4D45B630
-P 6900 6300
-F 0 "V235" V 6925 6400 20  0000 C CNN
-F 1 "VIA" H 6900 6500 60  0001 C CNN
-	1    6900 6300
+P 9000 6350
+F 0 "V235" V 9025 6450 20  0000 C CNN
+F 1 "VIA" H 9000 6550 60  0001 C CNN
+	1    9000 6350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V231
 U 1 1 4D45B62F
-P 6900 5900
-F 0 "V231" V 6925 6000 20  0000 C CNN
-F 1 "VIA" H 6900 6100 60  0001 C CNN
-	1    6900 5900
+P 9000 5950
+F 0 "V231" V 9025 6050 20  0000 C CNN
+F 1 "VIA" H 9000 6150 60  0001 C CNN
+	1    9000 5950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V230
 U 1 1 4D45B62E
-P 6900 5800
-F 0 "V230" V 6925 5900 20  0000 C CNN
-F 1 "VIA" H 6900 6000 60  0001 C CNN
-	1    6900 5800
+P 9000 5850
+F 0 "V230" V 9025 5950 20  0000 C CNN
+F 1 "VIA" H 9000 6050 60  0001 C CNN
+	1    9000 5850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V228
 U 1 1 4D45B62D
-P 6900 5600
-F 0 "V228" V 6925 5700 20  0000 C CNN
-F 1 "VIA" H 6900 5800 60  0001 C CNN
-	1    6900 5600
+P 9000 5650
+F 0 "V228" V 9025 5750 20  0000 C CNN
+F 1 "VIA" H 9000 5850 60  0001 C CNN
+	1    9000 5650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V229
 U 1 1 4D45B62C
-P 6900 5700
-F 0 "V229" V 6925 5800 20  0000 C CNN
-F 1 "VIA" H 6900 5900 60  0001 C CNN
-	1    6900 5700
+P 9000 5750
+F 0 "V229" V 9025 5850 20  0000 C CNN
+F 1 "VIA" H 9000 5950 60  0001 C CNN
+	1    9000 5750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V245
 U 1 1 4D45B62B
-P 9000 1350
-F 0 "V245" V 9025 1450 20  0000 C CNN
-F 1 "VIA" H 9000 1550 60  0001 C CNN
-	1    9000 1350
+P 9850 1350
+F 0 "V245" V 9875 1450 20  0000 C CNN
+F 1 "VIA" H 9850 1550 60  0001 C CNN
+	1    9850 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V244
 U 1 1 4D45B62A
-P 9000 1250
-F 0 "V244" V 9025 1350 20  0000 C CNN
-F 1 "VIA" H 9000 1450 60  0001 C CNN
-	1    9000 1250
+P 9850 1250
+F 0 "V244" V 9875 1350 20  0000 C CNN
+F 1 "VIA" H 9850 1450 60  0001 C CNN
+	1    9850 1250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V246
 U 1 1 4D45B629
-P 9000 1450
-F 0 "V246" V 9025 1550 20  0000 C CNN
-F 1 "VIA" H 9000 1650 60  0001 C CNN
-	1    9000 1450
+P 9850 1450
+F 0 "V246" V 9875 1550 20  0000 C CNN
+F 1 "VIA" H 9850 1650 60  0001 C CNN
+	1    9850 1450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V247
 U 1 1 4D45B628
-P 9000 1550
-F 0 "V247" V 9025 1650 20  0000 C CNN
-F 1 "VIA" H 9000 1750 60  0001 C CNN
-	1    9000 1550
+P 9850 1550
+F 0 "V247" V 9875 1650 20  0000 C CNN
+F 1 "VIA" H 9850 1750 60  0001 C CNN
+	1    9850 1550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V251
 U 1 1 4D45B627
-P 9000 1950
-F 0 "V251" V 9025 2050 20  0000 C CNN
-F 1 "VIA" H 9000 2150 60  0001 C CNN
-	1    9000 1950
+P 9850 1950
+F 0 "V251" V 9875 2050 20  0000 C CNN
+F 1 "VIA" H 9850 2150 60  0001 C CNN
+	1    9850 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V250
 U 1 1 4D45B626
-P 9000 1850
-F 0 "V250" V 9025 1950 20  0000 C CNN
-F 1 "VIA" H 9000 2050 60  0001 C CNN
-	1    9000 1850
+P 9850 1850
+F 0 "V250" V 9875 1950 20  0000 C CNN
+F 1 "VIA" H 9850 2050 60  0001 C CNN
+	1    9850 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V248
 U 1 1 4D45B625
-P 9000 1650
-F 0 "V248" V 9025 1750 20  0000 C CNN
-F 1 "VIA" H 9000 1850 60  0001 C CNN
-	1    9000 1650
+P 9850 1650
+F 0 "V248" V 9875 1750 20  0000 C CNN
+F 1 "VIA" H 9850 1850 60  0001 C CNN
+	1    9850 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V249
 U 1 1 4D45B624
-P 9000 1750
-F 0 "V249" V 9025 1850 20  0000 C CNN
-F 1 "VIA" H 9000 1950 60  0001 C CNN
-	1    9000 1750
+P 9850 1750
+F 0 "V249" V 9875 1850 20  0000 C CNN
+F 1 "VIA" H 9850 1950 60  0001 C CNN
+	1    9850 1750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V241
 U 1 1 4D45B623
-P 9000 950
-F 0 "V241" V 9025 1050 20  0000 C CNN
-F 1 "VIA" H 9000 1150 60  0001 C CNN
-	1    9000 950 
+P 9850 950
+F 0 "V241" V 9875 1050 20  0000 C CNN
+F 1 "VIA" H 9850 1150 60  0001 C CNN
+	1    9850 950 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V240
 U 1 1 4D45B622
-P 9000 850
-F 0 "V240" V 9025 950 20  0000 C CNN
-F 1 "VIA" H 9000 1050 60  0001 C CNN
-	1    9000 850 
+P 9850 850
+F 0 "V240" V 9875 950 20  0000 C CNN
+F 1 "VIA" H 9850 1050 60  0001 C CNN
+	1    9850 850 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V242
 U 1 1 4D45B621
-P 9000 1050
-F 0 "V242" V 9025 1150 20  0000 C CNN
-F 1 "VIA" H 9000 1250 60  0001 C CNN
-	1    9000 1050
+P 9850 1050
+F 0 "V242" V 9875 1150 20  0000 C CNN
+F 1 "VIA" H 9850 1250 60  0001 C CNN
+	1    9850 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V243
 U 1 1 4D45B620
-P 9000 1150
-F 0 "V243" V 9025 1250 20  0000 C CNN
-F 1 "VIA" H 9000 1350 60  0001 C CNN
-	1    9000 1150
+P 9850 1150
+F 0 "V243" V 9875 1250 20  0000 C CNN
+F 1 "VIA" H 9850 1350 60  0001 C CNN
+	1    9850 1150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V239
 U 1 1 4D45B61F
-P 9000 750
-F 0 "V239" V 9025 850 20  0000 C CNN
-F 1 "VIA" H 9000 950 60  0001 C CNN
-	1    9000 750 
+P 9850 750
+F 0 "V239" V 9875 850 20  0000 C CNN
+F 1 "VIA" H 9850 950 60  0001 C CNN
+	1    9850 750 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V238
 U 1 1 4D45B61E
-P 9000 650
-F 0 "V238" V 9025 750 20  0000 C CNN
-F 1 "VIA" H 9000 850 60  0001 C CNN
-	1    9000 650 
+P 9850 650
+F 0 "V238" V 9875 750 20  0000 C CNN
+F 1 "VIA" H 9850 850 60  0001 C CNN
+	1    9850 650 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V236
 U 1 1 4D45B61D
-P 6900 6400
-F 0 "V236" V 6925 6500 20  0000 C CNN
-F 1 "VIA" H 6900 6600 60  0001 C CNN
-	1    6900 6400
+P 9000 6450
+F 0 "V236" V 9025 6550 20  0000 C CNN
+F 1 "VIA" H 9000 6650 60  0001 C CNN
+	1    9000 6450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V237
 U 1 1 4D45B61C
-P 9000 550
-F 0 "V237" V 9025 650 20  0000 C CNN
-F 1 "VIA" H 9000 750 60  0001 C CNN
-	1    9000 550 
+P 9850 550
+F 0 "V237" V 9875 650 20  0000 C CNN
+F 1 "VIA" H 9850 750 60  0001 C CNN
+	1    9850 550 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V269
 U 1 1 4D45B61B
-P 9000 3750
-F 0 "V269" V 9025 3850 20  0000 C CNN
-F 1 "VIA" H 9000 3950 60  0001 C CNN
-	1    9000 3750
+P 9850 3750
+F 0 "V269" V 9875 3850 20  0000 C CNN
+F 1 "VIA" H 9850 3950 60  0001 C CNN
+	1    9850 3750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V268
 U 1 1 4D45B61A
-P 9000 3650
-F 0 "V268" V 9025 3750 20  0000 C CNN
-F 1 "VIA" H 9000 3850 60  0001 C CNN
-	1    9000 3650
+P 9850 3650
+F 0 "V268" V 9875 3750 20  0000 C CNN
+F 1 "VIA" H 9850 3850 60  0001 C CNN
+	1    9850 3650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V270
 U 1 1 4D45B619
-P 9000 3850
-F 0 "V270" V 9025 3950 20  0000 C CNN
-F 1 "VIA" H 9000 4050 60  0001 C CNN
-	1    9000 3850
+P 9850 3850
+F 0 "V270" V 9875 3950 20  0000 C CNN
+F 1 "VIA" H 9850 4050 60  0001 C CNN
+	1    9850 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V271
 U 1 1 4D45B618
-P 9000 3950
-F 0 "V271" V 9025 4050 20  0000 C CNN
-F 1 "VIA" H 9000 4150 60  0001 C CNN
-	1    9000 3950
+P 9850 3950
+F 0 "V271" V 9875 4050 20  0000 C CNN
+F 1 "VIA" H 9850 4150 60  0001 C CNN
+	1    9850 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V275
 U 1 1 4D45B617
-P 9000 4350
-F 0 "V275" V 9025 4450 20  0000 C CNN
-F 1 "VIA" H 9000 4550 60  0001 C CNN
-	1    9000 4350
+P 9850 4350
+F 0 "V275" V 9875 4450 20  0000 C CNN
+F 1 "VIA" H 9850 4550 60  0001 C CNN
+	1    9850 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V274
 U 1 1 4D45B616
-P 9000 4250
-F 0 "V274" V 9025 4350 20  0000 C CNN
-F 1 "VIA" H 9000 4450 60  0001 C CNN
-	1    9000 4250
+P 9850 4250
+F 0 "V274" V 9875 4350 20  0000 C CNN
+F 1 "VIA" H 9850 4450 60  0001 C CNN
+	1    9850 4250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V272
 U 1 1 4D45B615
-P 9000 4050
-F 0 "V272" V 9025 4150 20  0000 C CNN
-F 1 "VIA" H 9000 4250 60  0001 C CNN
-	1    9000 4050
+P 9850 4050
+F 0 "V272" V 9875 4150 20  0000 C CNN
+F 1 "VIA" H 9850 4250 60  0001 C CNN
+	1    9850 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V273
 U 1 1 4D45B614
-P 9000 4150
-F 0 "V273" V 9025 4250 20  0000 C CNN
-F 1 "VIA" H 9000 4350 60  0001 C CNN
-	1    9000 4150
+P 9850 4150
+F 0 "V273" V 9875 4250 20  0000 C CNN
+F 1 "VIA" H 9850 4350 60  0001 C CNN
+	1    9850 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V279
 U 1 1 4D45B60F
-P 9000 4750
-F 0 "V279" V 9025 4850 20  0000 C CNN
-F 1 "VIA" H 9000 4950 60  0001 C CNN
-	1    9000 4750
+P 9850 4750
+F 0 "V279" V 9875 4850 20  0000 C CNN
+F 1 "VIA" H 9850 4950 60  0001 C CNN
+	1    9850 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V278
 U 1 1 4D45B60E
-P 9000 4650
-F 0 "V278" V 9025 4750 20  0000 C CNN
-F 1 "VIA" H 9000 4850 60  0001 C CNN
-	1    9000 4650
+P 9850 4650
+F 0 "V278" V 9875 4750 20  0000 C CNN
+F 1 "VIA" H 9850 4850 60  0001 C CNN
+	1    9850 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V276
 U 1 1 4D45B60D
-P 9000 4450
-F 0 "V276" V 9025 4550 20  0000 C CNN
-F 1 "VIA" H 9000 4650 60  0001 C CNN
-	1    9000 4450
+P 9850 4450
+F 0 "V276" V 9875 4550 20  0000 C CNN
+F 1 "VIA" H 9850 4650 60  0001 C CNN
+	1    9850 4450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V277
 U 1 1 4D45B60C
-P 9000 4550
-F 0 "V277" V 9025 4650 20  0000 C CNN
-F 1 "VIA" H 9000 4750 60  0001 C CNN
-	1    9000 4550
+P 9850 4550
+F 0 "V277" V 9875 4650 20  0000 C CNN
+F 1 "VIA" H 9850 4750 60  0001 C CNN
+	1    9850 4550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V261
 U 1 1 4D45B60B
-P 9000 2950
-F 0 "V261" V 9025 3050 20  0000 C CNN
-F 1 "VIA" H 9000 3150 60  0001 C CNN
-	1    9000 2950
+P 9850 2950
+F 0 "V261" V 9875 3050 20  0000 C CNN
+F 1 "VIA" H 9850 3150 60  0001 C CNN
+	1    9850 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V260
 U 1 1 4D45B60A
-P 9000 2850
-F 0 "V260" V 9025 2950 20  0000 C CNN
-F 1 "VIA" H 9000 3050 60  0001 C CNN
-	1    9000 2850
+P 9850 2850
+F 0 "V260" V 9875 2950 20  0000 C CNN
+F 1 "VIA" H 9850 3050 60  0001 C CNN
+	1    9850 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V262
 U 1 1 4D45B609
-P 9000 3050
-F 0 "V262" V 9025 3150 20  0000 C CNN
-F 1 "VIA" H 9000 3250 60  0001 C CNN
-	1    9000 3050
+P 9850 3050
+F 0 "V262" V 9875 3150 20  0000 C CNN
+F 1 "VIA" H 9850 3250 60  0001 C CNN
+	1    9850 3050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V263
 U 1 1 4D45B608
-P 9000 3150
-F 0 "V263" V 9025 3250 20  0000 C CNN
-F 1 "VIA" H 9000 3350 60  0001 C CNN
-	1    9000 3150
+P 9850 3150
+F 0 "V263" V 9875 3250 20  0000 C CNN
+F 1 "VIA" H 9850 3350 60  0001 C CNN
+	1    9850 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V267
 U 1 1 4D45B607
-P 9000 3550
-F 0 "V267" V 9025 3650 20  0000 C CNN
-F 1 "VIA" H 9000 3750 60  0001 C CNN
-	1    9000 3550
+P 9850 3550
+F 0 "V267" V 9875 3650 20  0000 C CNN
+F 1 "VIA" H 9850 3750 60  0001 C CNN
+	1    9850 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V266
 U 1 1 4D45B606
-P 9000 3450
-F 0 "V266" V 9025 3550 20  0000 C CNN
-F 1 "VIA" H 9000 3650 60  0001 C CNN
-	1    9000 3450
+P 9850 3450
+F 0 "V266" V 9875 3550 20  0000 C CNN
+F 1 "VIA" H 9850 3650 60  0001 C CNN
+	1    9850 3450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V264
 U 1 1 4D45B605
-P 9000 3250
-F 0 "V264" V 9025 3350 20  0000 C CNN
-F 1 "VIA" H 9000 3450 60  0001 C CNN
-	1    9000 3250
+P 9850 3250
+F 0 "V264" V 9875 3350 20  0000 C CNN
+F 1 "VIA" H 9850 3450 60  0001 C CNN
+	1    9850 3250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V265
 U 1 1 4D45B604
-P 9000 3350
-F 0 "V265" V 9025 3450 20  0000 C CNN
-F 1 "VIA" H 9000 3550 60  0001 C CNN
-	1    9000 3350
+P 9850 3350
+F 0 "V265" V 9875 3450 20  0000 C CNN
+F 1 "VIA" H 9850 3550 60  0001 C CNN
+	1    9850 3350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V257
 U 1 1 4D45B603
-P 9000 2550
-F 0 "V257" V 9025 2650 20  0000 C CNN
-F 1 "VIA" H 9000 2750 60  0001 C CNN
-	1    9000 2550
+P 9850 2550
+F 0 "V257" V 9875 2650 20  0000 C CNN
+F 1 "VIA" H 9850 2750 60  0001 C CNN
+	1    9850 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V256
 U 1 1 4D45B602
-P 9000 2450
-F 0 "V256" V 9025 2550 20  0000 C CNN
-F 1 "VIA" H 9000 2650 60  0001 C CNN
-	1    9000 2450
+P 9850 2450
+F 0 "V256" V 9875 2550 20  0000 C CNN
+F 1 "VIA" H 9850 2650 60  0001 C CNN
+	1    9850 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V258
 U 1 1 4D45B601
-P 9000 2650
-F 0 "V258" V 9025 2750 20  0000 C CNN
-F 1 "VIA" H 9000 2850 60  0001 C CNN
-	1    9000 2650
+P 9850 2650
+F 0 "V258" V 9875 2750 20  0000 C CNN
+F 1 "VIA" H 9850 2850 60  0001 C CNN
+	1    9850 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V259
 U 1 1 4D45B600
-P 9000 2750
-F 0 "V259" V 9025 2850 20  0000 C CNN
-F 1 "VIA" H 9000 2950 60  0001 C CNN
-	1    9000 2750
+P 9850 2750
+F 0 "V259" V 9875 2850 20  0000 C CNN
+F 1 "VIA" H 9850 2950 60  0001 C CNN
+	1    9850 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V255
 U 1 1 4D45B5FF
-P 9000 2350
-F 0 "V255" V 9025 2450 20  0000 C CNN
-F 1 "VIA" H 9000 2550 60  0001 C CNN
-	1    9000 2350
+P 9850 2350
+F 0 "V255" V 9875 2450 20  0000 C CNN
+F 1 "VIA" H 9850 2550 60  0001 C CNN
+	1    9850 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V254
 U 1 1 4D45B5FE
-P 9000 2250
-F 0 "V254" V 9025 2350 20  0000 C CNN
-F 1 "VIA" H 9000 2450 60  0001 C CNN
-	1    9000 2250
+P 9850 2250
+F 0 "V254" V 9875 2350 20  0000 C CNN
+F 1 "VIA" H 9850 2450 60  0001 C CNN
+	1    9850 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V252
 U 1 1 4D45B5FD
-P 9000 2050
-F 0 "V252" V 9025 2150 20  0000 C CNN
-F 1 "VIA" H 9000 2250 60  0001 C CNN
-	1    9000 2050
+P 9850 2050
+F 0 "V252" V 9875 2150 20  0000 C CNN
+F 1 "VIA" H 9850 2250 60  0001 C CNN
+	1    9850 2050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V253
 U 1 1 4D45B5FC
-P 9000 2150
-F 0 "V253" V 9025 2250 20  0000 C CNN
-F 1 "VIA" H 9000 2350 60  0001 C CNN
-	1    9000 2150
+P 9850 2150
+F 0 "V253" V 9875 2250 20  0000 C CNN
+F 1 "VIA" H 9850 2350 60  0001 C CNN
+	1    9850 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V219
 U 1 1 4D45B5FB
-P 6900 4700
-F 0 "V219" V 6925 4800 20  0000 C CNN
-F 1 "VIA" H 6900 4900 60  0001 C CNN
-	1    6900 4700
+P 9000 4750
+F 0 "V219" V 9025 4850 20  0000 C CNN
+F 1 "VIA" H 9000 4950 60  0001 C CNN
+	1    9000 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V216
 U 1 1 4D45B5FA
-P 6900 4400
-F 0 "V216" V 6925 4500 20  0000 C CNN
-F 1 "VIA" H 6900 4600 60  0001 C CNN
-	1    6900 4400
+P 9000 4450
+F 0 "V216" V 9025 4550 20  0000 C CNN
+F 1 "VIA" H 9000 4650 60  0001 C CNN
+	1    9000 4450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V215
 U 1 1 4D45B5F9
-P 6900 4300
-F 0 "V215" V 6925 4400 20  0000 C CNN
-F 1 "VIA" H 6900 4500 60  0001 C CNN
-	1    6900 4300
+P 9000 4350
+F 0 "V215" V 9025 4450 20  0000 C CNN
+F 1 "VIA" H 9000 4550 60  0001 C CNN
+	1    9000 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V217
 U 1 1 4D45B5F8
-P 6900 4500
-F 0 "V217" V 6925 4600 20  0000 C CNN
-F 1 "VIA" H 6900 4700 60  0001 C CNN
-	1    6900 4500
+P 9000 4550
+F 0 "V217" V 9025 4650 20  0000 C CNN
+F 1 "VIA" H 9000 4750 60  0001 C CNN
+	1    9000 4550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V218
 U 1 1 4D45B5F7
-P 6900 4600
-F 0 "V218" V 6925 4700 20  0000 C CNN
-F 1 "VIA" H 6900 4800 60  0001 C CNN
-	1    6900 4600
+P 9000 4650
+F 0 "V218" V 9025 4750 20  0000 C CNN
+F 1 "VIA" H 9000 4850 60  0001 C CNN
+	1    9000 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V214
 U 1 1 4D45B5F6
-P 6900 4200
-F 0 "V214" V 6925 4300 20  0000 C CNN
-F 1 "VIA" H 6900 4400 60  0001 C CNN
-	1    6900 4200
+P 9000 4250
+F 0 "V214" V 9025 4350 20  0000 C CNN
+F 1 "VIA" H 9000 4450 60  0001 C CNN
+	1    9000 4250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V213
 U 1 1 4D45B5F5
-P 6900 4100
-F 0 "V213" V 6925 4200 20  0000 C CNN
-F 1 "VIA" H 6900 4300 60  0001 C CNN
-	1    6900 4100
+P 9000 4150
+F 0 "V213" V 9025 4250 20  0000 C CNN
+F 1 "VIA" H 9000 4350 60  0001 C CNN
+	1    9000 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V211
 U 1 1 4D45B5F4
-P 6900 3900
-F 0 "V211" V 6925 4000 20  0000 C CNN
-F 1 "VIA" H 6900 4100 60  0001 C CNN
-	1    6900 3900
+P 9000 3950
+F 0 "V211" V 9025 4050 20  0000 C CNN
+F 1 "VIA" H 9000 4150 60  0001 C CNN
+	1    9000 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V212
 U 1 1 4D45B5F3
-P 6900 4000
-F 0 "V212" V 6925 4100 20  0000 C CNN
-F 1 "VIA" H 6900 4200 60  0001 C CNN
-	1    6900 4000
+P 9000 4050
+F 0 "V212" V 9025 4150 20  0000 C CNN
+F 1 "VIA" H 9000 4250 60  0001 C CNN
+	1    9000 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V180
 U 1 1 4D45B5F2
-P 6900 800
-F 0 "V180" V 6925 900 20  0000 C CNN
-F 1 "VIA" H 6900 1000 60  0001 C CNN
-	1    6900 800 
+P 9000 850
+F 0 "V180" V 9025 950 20  0000 C CNN
+F 1 "VIA" H 9000 1050 60  0001 C CNN
+	1    9000 850 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V179
 U 1 1 4D45B5F1
-P 6900 700
-F 0 "V179" V 6925 800 20  0000 C CNN
-F 1 "VIA" H 6900 900 60  0001 C CNN
-	1    6900 700 
+P 9000 750
+F 0 "V179" V 9025 850 20  0000 C CNN
+F 1 "VIA" H 9000 950 60  0001 C CNN
+	1    9000 750 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V181
 U 1 1 4D45B5F0
-P 6900 900
-F 0 "V181" V 6925 1000 20  0000 C CNN
-F 1 "VIA" H 6900 1100 60  0001 C CNN
-	1    6900 900 
+P 9000 950
+F 0 "V181" V 9025 1050 20  0000 C CNN
+F 1 "VIA" H 9000 1150 60  0001 C CNN
+	1    9000 950 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V182
 U 1 1 4D45B5EF
-P 6900 1000
-F 0 "V182" V 6925 1100 20  0000 C CNN
-F 1 "VIA" H 6900 1200 60  0001 C CNN
-	1    6900 1000
+P 9000 1050
+F 0 "V182" V 9025 1150 20  0000 C CNN
+F 1 "VIA" H 9000 1250 60  0001 C CNN
+	1    9000 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V186
 U 1 1 4D45B5EE
-P 6900 1400
-F 0 "V186" V 6925 1500 20  0000 C CNN
-F 1 "VIA" H 6900 1600 60  0001 C CNN
-	1    6900 1400
+P 9000 1450
+F 0 "V186" V 9025 1550 20  0000 C CNN
+F 1 "VIA" H 9000 1650 60  0001 C CNN
+	1    9000 1450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V185
 U 1 1 4D45B5ED
-P 6900 1300
-F 0 "V185" V 6925 1400 20  0000 C CNN
-F 1 "VIA" H 6900 1500 60  0001 C CNN
-	1    6900 1300
+P 9000 1350
+F 0 "V185" V 9025 1450 20  0000 C CNN
+F 1 "VIA" H 9000 1550 60  0001 C CNN
+	1    9000 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V183
 U 1 1 4D45B5EC
-P 6900 1100
-F 0 "V183" V 6925 1200 20  0000 C CNN
-F 1 "VIA" H 6900 1300 60  0001 C CNN
-	1    6900 1100
+P 9000 1150
+F 0 "V183" V 9025 1250 20  0000 C CNN
+F 1 "VIA" H 9000 1350 60  0001 C CNN
+	1    9000 1150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V184
 U 1 1 4D45B5EB
-P 6900 1200
-F 0 "V184" V 6925 1300 20  0000 C CNN
-F 1 "VIA" H 6900 1400 60  0001 C CNN
-	1    6900 1200
+P 9000 1250
+F 0 "V184" V 9025 1350 20  0000 C CNN
+F 1 "VIA" H 9000 1450 60  0001 C CNN
+	1    9000 1250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V192
 U 1 1 4D45B5EA
-P 6900 2000
-F 0 "V192" V 6925 2100 20  0000 C CNN
-F 1 "VIA" H 6900 2200 60  0001 C CNN
-	1    6900 2000
+P 9000 2050
+F 0 "V192" V 9025 2150 20  0000 C CNN
+F 1 "VIA" H 9000 2250 60  0001 C CNN
+	1    9000 2050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V191
 U 1 1 4D45B5E9
-P 6900 1900
-F 0 "V191" V 6925 2000 20  0000 C CNN
-F 1 "VIA" H 6900 2100 60  0001 C CNN
-	1    6900 1900
+P 9000 1950
+F 0 "V191" V 9025 2050 20  0000 C CNN
+F 1 "VIA" H 9000 2150 60  0001 C CNN
+	1    9000 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V193
 U 1 1 4D45B5E8
-P 6900 2100
-F 0 "V193" V 6925 2200 20  0000 C CNN
-F 1 "VIA" H 6900 2300 60  0001 C CNN
-	1    6900 2100
+P 9000 2150
+F 0 "V193" V 9025 2250 20  0000 C CNN
+F 1 "VIA" H 9000 2350 60  0001 C CNN
+	1    9000 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V194
 U 1 1 4D45B5E7
-P 6900 2200
-F 0 "V194" V 6925 2300 20  0000 C CNN
-F 1 "VIA" H 6900 2400 60  0001 C CNN
-	1    6900 2200
+P 9000 2250
+F 0 "V194" V 9025 2350 20  0000 C CNN
+F 1 "VIA" H 9000 2450 60  0001 C CNN
+	1    9000 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V190
 U 1 1 4D45B5E6
-P 6900 1800
-F 0 "V190" V 6925 1900 20  0000 C CNN
-F 1 "VIA" H 6900 2000 60  0001 C CNN
-	1    6900 1800
+P 9000 1850
+F 0 "V190" V 9025 1950 20  0000 C CNN
+F 1 "VIA" H 9000 2050 60  0001 C CNN
+	1    9000 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V189
 U 1 1 4D45B5E5
-P 6900 1700
-F 0 "V189" V 6925 1800 20  0000 C CNN
-F 1 "VIA" H 6900 1900 60  0001 C CNN
-	1    6900 1700
+P 9000 1750
+F 0 "V189" V 9025 1850 20  0000 C CNN
+F 1 "VIA" H 9000 1950 60  0001 C CNN
+	1    9000 1750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V187
 U 1 1 4D45B5E4
-P 6900 1500
-F 0 "V187" V 6925 1600 20  0000 C CNN
-F 1 "VIA" H 6900 1700 60  0001 C CNN
-	1    6900 1500
+P 9000 1550
+F 0 "V187" V 9025 1650 20  0000 C CNN
+F 1 "VIA" H 9000 1750 60  0001 C CNN
+	1    9000 1550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V188
 U 1 1 4D45B5E3
-P 6900 1600
-F 0 "V188" V 6925 1700 20  0000 C CNN
-F 1 "VIA" H 6900 1800 60  0001 C CNN
-	1    6900 1600
+P 9000 1650
+F 0 "V188" V 9025 1750 20  0000 C CNN
+F 1 "VIA" H 9000 1850 60  0001 C CNN
+	1    9000 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V204
 U 1 1 4D45B5E2
-P 6900 3200
-F 0 "V204" V 6925 3300 20  0000 C CNN
-F 1 "VIA" H 6900 3400 60  0001 C CNN
-	1    6900 3200
+P 9000 3250
+F 0 "V204" V 9025 3350 20  0000 C CNN
+F 1 "VIA" H 9000 3450 60  0001 C CNN
+	1    9000 3250
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V203
 U 1 1 4D45B5E1
-P 6900 3100
-F 0 "V203" V 6925 3200 20  0000 C CNN
-F 1 "VIA" H 6900 3300 60  0001 C CNN
-	1    6900 3100
+P 9000 3150
+F 0 "V203" V 9025 3250 20  0000 C CNN
+F 1 "VIA" H 9000 3350 60  0001 C CNN
+	1    9000 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V205
 U 1 1 4D45B5E0
-P 6900 3300
-F 0 "V205" V 6925 3400 20  0000 C CNN
-F 1 "VIA" H 6900 3500 60  0001 C CNN
-	1    6900 3300
+P 9000 3350
+F 0 "V205" V 9025 3450 20  0000 C CNN
+F 1 "VIA" H 9000 3550 60  0001 C CNN
+	1    9000 3350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V206
 U 1 1 4D45B5DF
-P 6900 3400
-F 0 "V206" V 6925 3500 20  0000 C CNN
-F 1 "VIA" H 6900 3600 60  0001 C CNN
-	1    6900 3400
+P 9000 3450
+F 0 "V206" V 9025 3550 20  0000 C CNN
+F 1 "VIA" H 9000 3650 60  0001 C CNN
+	1    9000 3450
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V210
 U 1 1 4D45B5DE
-P 6900 3800
-F 0 "V210" V 6925 3900 20  0000 C CNN
-F 1 "VIA" H 6900 4000 60  0001 C CNN
-	1    6900 3800
+P 9000 3850
+F 0 "V210" V 9025 3950 20  0000 C CNN
+F 1 "VIA" H 9000 4050 60  0001 C CNN
+	1    9000 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V209
 U 1 1 4D45B5DD
-P 6900 3700
-F 0 "V209" V 6925 3800 20  0000 C CNN
-F 1 "VIA" H 6900 3900 60  0001 C CNN
-	1    6900 3700
+P 9000 3750
+F 0 "V209" V 9025 3850 20  0000 C CNN
+F 1 "VIA" H 9000 3950 60  0001 C CNN
+	1    9000 3750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V207
 U 1 1 4D45B5DC
-P 6900 3500
-F 0 "V207" V 6925 3600 20  0000 C CNN
-F 1 "VIA" H 6900 3700 60  0001 C CNN
-	1    6900 3500
+P 9000 3550
+F 0 "V207" V 9025 3650 20  0000 C CNN
+F 1 "VIA" H 9000 3750 60  0001 C CNN
+	1    9000 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V208
 U 1 1 4D45B5DB
-P 6900 3600
-F 0 "V208" V 6925 3700 20  0000 C CNN
-F 1 "VIA" H 6900 3800 60  0001 C CNN
-	1    6900 3600
+P 9000 3650
+F 0 "V208" V 9025 3750 20  0000 C CNN
+F 1 "VIA" H 9000 3850 60  0001 C CNN
+	1    9000 3650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V200
 U 1 1 4D45B5DA
-P 6900 2800
-F 0 "V200" V 6925 2900 20  0000 C CNN
-F 1 "VIA" H 6900 3000 60  0001 C CNN
-	1    6900 2800
+P 9000 2850
+F 0 "V200" V 9025 2950 20  0000 C CNN
+F 1 "VIA" H 9000 3050 60  0001 C CNN
+	1    9000 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V199
 U 1 1 4D45B5D9
-P 6900 2700
-F 0 "V199" V 6925 2800 20  0000 C CNN
-F 1 "VIA" H 6900 2900 60  0001 C CNN
-	1    6900 2700
+P 9000 2750
+F 0 "V199" V 9025 2850 20  0000 C CNN
+F 1 "VIA" H 9000 2950 60  0001 C CNN
+	1    9000 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V201
 U 1 1 4D45B5D8
-P 6900 2900
-F 0 "V201" V 6925 3000 20  0000 C CNN
-F 1 "VIA" H 6900 3100 60  0001 C CNN
-	1    6900 2900
+P 9000 2950
+F 0 "V201" V 9025 3050 20  0000 C CNN
+F 1 "VIA" H 9000 3150 60  0001 C CNN
+	1    9000 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V202
 U 1 1 4D45B5D7
-P 6900 3000
-F 0 "V202" V 6925 3100 20  0000 C CNN
-F 1 "VIA" H 6900 3200 60  0001 C CNN
-	1    6900 3000
+P 9000 3050
+F 0 "V202" V 9025 3150 20  0000 C CNN
+F 1 "VIA" H 9000 3250 60  0001 C CNN
+	1    9000 3050
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V198
 U 1 1 4D45B5D6
-P 6900 2600
-F 0 "V198" V 6925 2700 20  0000 C CNN
-F 1 "VIA" H 6900 2800 60  0001 C CNN
-	1    6900 2600
+P 9000 2650
+F 0 "V198" V 9025 2750 20  0000 C CNN
+F 1 "VIA" H 9000 2850 60  0001 C CNN
+	1    9000 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V197
 U 1 1 4D45B5D5
-P 6900 2500
-F 0 "V197" V 6925 2600 20  0000 C CNN
-F 1 "VIA" H 6900 2700 60  0001 C CNN
-	1    6900 2500
+P 9000 2550
+F 0 "V197" V 9025 2650 20  0000 C CNN
+F 1 "VIA" H 9000 2750 60  0001 C CNN
+	1    9000 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V195
 U 1 1 4D45B5D4
-P 6900 2300
-F 0 "V195" V 6925 2400 20  0000 C CNN
-F 1 "VIA" H 6900 2500 60  0001 C CNN
-	1    6900 2300
+P 9000 2350
+F 0 "V195" V 9025 2450 20  0000 C CNN
+F 1 "VIA" H 9000 2550 60  0001 C CNN
+	1    9000 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V196
 U 1 1 4D45B5D3
-P 6900 2400
-F 0 "V196" V 6925 2500 20  0000 C CNN
-F 1 "VIA" H 6900 2600 60  0001 C CNN
-	1    6900 2400
+P 9000 2450
+F 0 "V196" V 9025 2550 20  0000 C CNN
+F 1 "VIA" H 9000 2650 60  0001 C CNN
+	1    9000 2450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2819,19 +3143,19 @@ $EndComp
 $Comp
 L VIA V177
 U 1 1 4D45B5C8
-P 6900 500
-F 0 "V177" V 6925 600 20  0000 C CNN
-F 1 "VIA" H 6900 700 60  0001 C CNN
-	1    6900 500 
+P 9000 550
+F 0 "V177" V 9025 650 20  0000 C CNN
+F 1 "VIA" H 9000 750 60  0001 C CNN
+	1    9000 550 
 	0    1    1    0   
 $EndComp
 $Comp
 L VIA V178
 U 1 1 4D45B5C7
-P 6900 600
-F 0 "V178" V 6925 700 20  0000 C CNN
-F 1 "VIA" H 6900 800 60  0001 C CNN
-	1    6900 600 
+P 9000 650
+F 0 "V178" V 9025 750 20  0000 C CNN
+F 1 "VIA" H 9000 850 60  0001 C CNN
+	1    9000 650 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3797,34 +4121,122 @@ F 1 "VIA" H 2450 800 60  0001 C CNN
 	1    2450 600 
 	0    1    1    0   
 $EndComp
-Text GLabel 5950 6500 0    40   BiDi ~ 0
+Text GLabel 7550 950  0    40   BiDi ~ 0
 U2_RXD-GPIO0_3
-Text GLabel 5950 6600 0    40   BiDi ~ 0
+Text GLabel 7550 1050 0    40   BiDi ~ 0
 U2_TXD-GPIO0_2
-Text GLabel 5950 6400 0    40   BiDi ~ 0
+Text GLabel 7550 850  0    40   BiDi ~ 0
 GPIO0_12
-Text GLabel 5950 6300 0    40   BiDi ~ 0
+Text GLabel 7550 750  0    40   BiDi ~ 0
 GPIO0_13
-Text GLabel 5950 6800 0    40   Input ~ 0
+Text GLabel 7550 1250 0    40   Input ~ 0
 TX1
-Text GLabel 5950 6700 0    40   Input ~ 0
+Text GLabel 7550 1150 0    40   Input ~ 0
 TX0
-Text GLabel 5950 6200 0    40   BiDi ~ 0
+Text GLabel 7550 650  0    40   BiDi ~ 0
 I2C0_SDA
-Text GLabel 5950 6100 0    40   Output ~ 0
+Text GLabel 7550 550  0    40   Output ~ 0
 I2C0_SCL
-Text GLabel 5950 7200 0    40   BiDi ~ 0
+Text GLabel 7550 1650 0    40   BiDi ~ 0
 EMC_A04
-Text GLabel 5950 7300 0    40   BiDi ~ 0
+Text GLabel 7550 1750 0    40   BiDi ~ 0
 EMC_A05
-Text GLabel 5950 7500 0    40   BiDi ~ 0
-EMC_A07
-Text GLabel 5950 7400 0    40   BiDi ~ 0
+Text GLabel 7550 1850 0    40   BiDi ~ 0
 EMC_A06
-Text GLabel 5950 7000 0    40   BiDi ~ 0
+Text GLabel 7550 1450 0    40   BiDi ~ 0
 EMC_A02
-Text GLabel 5950 7100 0    40   BiDi ~ 0
+Text GLabel 7550 1550 0    40   BiDi ~ 0
 EMC_A03
-Text GLabel 5950 6900 0    40   BiDi ~ 0
+Text GLabel 7550 1350 0    40   BiDi ~ 0
 ~EMC_WE~-MMC_CMD
+Text GLabel 6200 2100 0    40   BiDi ~ 0
+GPIO3_5
+Text GLabel 6150 1700 0    40   BiDi ~ 0
+SPIFI_SIO3-I2S1_RX_SDA
+Text GLabel 6150 1500 0    40   BiDi ~ 0
+SPIFI_SIO2-I2S1_RX_WS
+Text GLabel 6100 3000 0    40   BiDi ~ 0
+U2_RXD-GPIO0_3
+Text GLabel 6100 3100 0    40   BiDi ~ 0
+U2_TXD-GPIO0_2
+Text GLabel 6100 2900 0    40   BiDi ~ 0
+GPIO0_12
+Text GLabel 6100 2800 0    40   BiDi ~ 0
+GPIO0_13
+Text GLabel 6200 2300 0    40   Input ~ 0
+SPIFI_SCK-CGU_OUT1
+Text GLabel 6200 2200 0    40   Input ~ 0
+I2S0_TX_SCK
+Text GLabel 5850 6000 0    40   BiDi ~ 0
+CLK1
+Text GLabel 5850 5900 0    40   BiDi ~ 0
+CLKOUT-I2S1_RX_SCK
+Text GLabel 5850 6150 0    40   Output ~ 0
+RX0
+Text GLabel 5850 6250 0    40   Output ~ 0
+RX1
+Text GLabel 6000 3450 0    40   Input ~ 0
+TX1
+Text GLabel 6000 3350 0    40   Input ~ 0
+TX0
+Text GLabel 5850 5200 0    40   BiDi ~ 0
+SSP1_MISO
+Text GLabel 5850 5400 0    40   BiDi ~ 0
+SSP1_SSEL
+Text GLabel 5850 5300 0    40   BiDi ~ 0
+SSP1_MOSI
+Text GLabel 5850 5100 0    40   BiDi ~ 0
+SSP1_SCK
+Text GLabel 6150 650  0    40   BiDi ~ 0
+GPIO3_5
+Text GLabel 6100 2700 0    40   BiDi ~ 0
+I2C0_SDA
+Text GLabel 6100 2600 0    40   Output ~ 0
+I2C0_SCL
+Text GLabel 6150 1300 0    40   Input ~ 0
+I2S0_TX_SDA
+Text GLabel 6150 1100 0    40   Input ~ 0
+I2S0_TX_WS
+Text GLabel 5850 5600 0    40   BiDi ~ 0
+GPIO5_1-EMC_A12
+Text GLabel 5850 5500 0    40   BiDi ~ 0
+GPIO5_0-EMC_A13
+Text GLabel 5950 4200 0    40   BiDi ~ 0
+EMC_A04
+Text GLabel 5950 4300 0    40   BiDi ~ 0
+EMC_A05
+Text GLabel 6000 4650 0    40   BiDi ~ 0
+EMC_A07
+Text GLabel 6000 4550 0    40   BiDi ~ 0
+EMC_A06
+Text GLabel 5950 3900 0    40   BiDi ~ 0
+EMC_A02
+Text GLabel 5950 4000 0    40   BiDi ~ 0
+EMC_A03
+Text GLabel 6150 1200 0    40   BiDi ~ 0
+EMC_A01
+Text GLabel 6150 1400 0    40   BiDi ~ 0
+EMC_A00
+Text GLabel 5950 3700 0    40   BiDi ~ 0
+~EMC_WE~-MMC_CMD
+Text GLabel 5900 7450 0    40   BiDi ~ 0
+~EMC_OE~
+Text GLabel 5900 7350 0    40   BiDi ~ 0
+~EMC_CS0~
+Text GLabel 5850 7100 0    40   BiDi ~ 0
+EMC_D06-MMC_CD
+Text GLabel 5850 7200 0    40   BiDi ~ 0
+EMC_D07
+Text GLabel 7550 4350 0    40   BiDi ~ 0
+EMC_D04-MMC_DAT2
+Text GLabel 7550 4450 0    40   BiDi ~ 0
+EMC_D05-MMC_DAT3
+Text GLabel 5850 6450 0    40   BiDi ~ 0
+EMC_D02-MMC_DAT0
+Text GLabel 7550 4250 0    40   BiDi ~ 0
+EMC_D03-MMC_DAT1
+Text GLabel 6150 1600 0    40   BiDi ~ 0
+EMC_D01
+Text GLabel 6150 1800 0    40   BiDi ~ 0
+EMC_D00
 $EndSCHEMATC
