@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/26/2011 2:10:54 AM
+EESchema Schematic File Version 2  date 11/3/2011 5:56:20 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 7
 Title "MicropendousX-LPC183x"
-Date "26 sep 2011"
+Date "3 nov 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -44,6 +44,8 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
+Text Notes 4800 5850 0    40   ~ 0
+SPIFI_SCK pin from\nSheet 5 - System
 Text Notes 7400 650  0    60   ~ 0
 Full compatibility with the Opennect Specification\nrequires running the system from DC Power.\nD4 enables system 3V3 rail to partially power Opennect\nConnector when running off Li-Ion or USB to allow use\nof Opennect Modules that only require 3.3V rail.
 Connection ~ 10600 1400
@@ -333,7 +335,7 @@ L R_MINI R25
 U 1 1 4E7E4F1F
 P 10400 1500
 F 0 "R25" V 10375 1550 25  0000 C CNN
-F 1 "147k" V 10425 1550 20  0000 C CNN
+F 1 "249k" V 10425 1550 20  0000 C CNN
 	1    10400 1500
 	0    1    1    0   
 $EndComp
@@ -478,7 +480,7 @@ L R_MINI R23
 U 1 1 4E7C6EE5
 P 8450 1500
 F 0 "R23" V 8425 1550 25  0000 C CNN
-F 1 "247k" V 8475 1550 20  0000 C CNN
+F 1 "249k" V 8475 1550 20  0000 C CNN
 	1    8450 1500
 	0    1    1    0   
 $EndComp
@@ -721,7 +723,7 @@ L C_MINI C43
 U 1 1 4E74153D
 P 6100 5200
 F 0 "C43" V 6050 5250 30  0000 C CNN
-F 1 "0u1" V 6150 5250 25  0000 C CNN
+F 1 "4u7" V 6150 5250 25  0000 C CNN
 	1    6100 5200
 	0    1    1    0   
 $EndComp
@@ -1057,7 +1059,7 @@ L C_MINI C106
 U 1 1 4E22B689
 P 8900 6250
 F 0 "C106" V 8850 6325 30  0000 C CNN
-F 1 "1u0" V 8950 6300 25  0000 C CNN
+F 1 "0u1" V 8950 6300 25  0000 C CNN
 	1    8900 6250
 	0    1    1    0   
 $EndComp

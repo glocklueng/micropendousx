@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/26/2011 2:10:54 AM
+EESchema Schematic File Version 2  date 11/3/2011 5:56:20 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 7
 Title "MicropendousX-LPC183x"
-Date "26 sep 2011"
+Date "3 nov 2011"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -458,8 +458,8 @@ $Comp
 L C_MINI C22
 U 1 1 4E7FE693
 P 5650 5750
-F 0 "C22" V 5600 5825 30  0000 C CNN
-F 1 "u01" V 5700 5800 25  0000 C CNN
+F 0 "C22" V 5600 5800 30  0000 C CNN
+F 1 "1u0" V 5700 5800 25  0000 C CNN
 	1    5650 5750
 	0    1    1    0   
 $EndComp
@@ -985,7 +985,7 @@ L R_MINI R19
 U 1 1 4E50299F
 P 4650 3200
 F 0 "R19" V 4625 3250 25  0000 C CNN
-F 1 "259k" V 4675 3250 20  0000 C CNN
+F 1 "261k" V 4675 3250 20  0000 C CNN
 	1    4650 3200
 	0    1    1    0   
 $EndComp
@@ -994,7 +994,7 @@ L R_MINI R17
 U 1 1 4E50299A
 P 4650 2600
 F 0 "R17" V 4625 2650 25  0000 C CNN
-F 1 "259k" V 4675 2650 20  0000 C CNN
+F 1 "261k" V 4675 2650 20  0000 C CNN
 	1    4650 2600
 	0    1    1    0   
 $EndComp
