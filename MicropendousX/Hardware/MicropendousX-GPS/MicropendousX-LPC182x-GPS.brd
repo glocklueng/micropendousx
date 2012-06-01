@@ -1,0 +1,113 @@
+PCBNEW-BOARD Version 1 date 5/27/2012 10:18:51 PM
+
+# Created by Pcbnew(2011-12-28 BZR 3254)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 4
+Ly 1FFF8007
+EnabledLayers 11F88007
+Links 0
+NoConn 0
+Di 4938 86150 43062 110750
+Ndraw 3
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 0
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A3 16535 11700
+Title "MicropendousX-LPC182x-GPS"
+Date "28 may 2012"
+Rev "1.0"
+Comp "Opendous Inc."
+Comment1 ""
+Comment2 "http://creativecommons.org/licenses/by/3.0/"
+Comment3 "Copyright Under the Creative Commons Attribution License"
+Comment4 "www.MicropendousX.org"
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 4
+Layer[0] Back mixed
+Layer[1] Inner2 mixed
+Layer[2] Inner1 power
+Layer[15] Front mixed
+TrackWidth 80
+TrackClearence 80
+ZoneClearence 80
+TrackMinWidth 70
+DrawSegmWidth 70
+EdgeSegmWidth 80
+ViaSize 250
+ViaDrill 150
+ViaMinSize 250
+ViaMinDrill 150
+MicroViaSize 250
+MicroViaDrill 150
+MicroViasAllowed 0
+MicroViaMinSize 250
+MicroViaMinDrill 150
+TextPcbWidth 70
+TextPcbSize 280 280
+EdgeModWidth 80
+TextModSize 280 280
+TextModWidth 70
+PadSize 120 787
+PadDrill 0
+Pad2MaskClearance 10
+Pad2PasteClearance -10
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 283672583) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 80
+TrackWidth 80
+ViaDia 250
+ViaDrill 150
+uViaDia 250
+uViaDrill 150
+AddNet ""
+$EndNCLASS
+$TEXTPCB
+Te "Design is 6mil-6mil-12mil (Trace-Clearance-Minimum_Drill)"
+Po 24000 87000 800 1000 100 0
+De 24 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "Assuming Er=4.5, Loss Tangent=0.01 FR4:"
+nl "11.5mil-11mil (trace-clearance) provides"
+nl "Coupled Microstrip Differential Impedance"
+nl "of 90.2-Ohm and 51-Ohm Single-Ended"
+nl "between nearest outer and inner layers"
+Po 20000 104000 800 1000 100 0
+De 24 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "4-Layer Stack-up:"
+nl "Front - 1oz (35um=1.4mil)"
+nl "Pre-Preg 7628 (0.17mm = 6.7mil)"
+nl "Inner1 - 1oz (35um=1.4mil)"
+nl "Core (PP 7628 x 7) (1.2mm)"
+nl "Inner2 - 1oz (35um=1.4mil)"
+nl "Pre-Preg 7628 (0.17mm = 6.7mil)"
+nl "Back - 1oz (35um=1.4mil)"
+Po 20000 90000 800 1000 100 0
+De 24 1 0 Normal C
+$EndTEXTPCB
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
