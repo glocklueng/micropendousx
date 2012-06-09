@@ -1,4 +1,9 @@
-Bill of Materials for the MicropendousX-LPC183x Project - www.MicropendousX.org
+Bill of Materials for the MicropendousX-LPC182x-GPS Project - www.MicropendousX.org
+
+NOT YET UPDATED!!!!!!!!!!!!!
+
+
+
 
 QTY, Manufacturer Part#     , Cost($USD each) - References - Description
 

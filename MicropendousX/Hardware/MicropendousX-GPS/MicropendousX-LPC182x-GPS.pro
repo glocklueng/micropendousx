@@ -1,13 +1,8 @@
-update=5/30/2012 11:36:12 PM
+update=6/1/2012 7:30:27 AM
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=400
@@ -26,7 +21,6 @@ TxtLar=70
 MSegLar=70
 LastNetListRead=MicropendousX-LPC182x-GPS.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -37,7 +31,7 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=opendous
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -100,5 +94,8 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=opendous
-LibName32=C:/__BACKUP/_Opennect/Opennect_Schematic_Symbols_Library
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
