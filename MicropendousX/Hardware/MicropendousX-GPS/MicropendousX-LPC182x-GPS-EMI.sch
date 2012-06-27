@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/8/2012 3:21:19 PM
+EESchema Schematic File Version 2  date 6/27/2012 5:02:37 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 10
 Title "MicropendousX-LPC182x-GPS"
-Date "8 jun 2012"
+Date "27 jun 2012"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -44,15 +44,25 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
-Text Label 3850 2100 0    20   ~ 0
-P2_7-ISP
-Wire Wire Line
-	3850 2100 4050 2100
+Text GLabel 6400 2100 0    40   BiDi ~ 0
+P2_7-GPIO0_7-ISP
+Text Notes 4525 2125 0    40   ~ 0
+Used in Power Supply Sheet
+Text GLabel 3850 2100 2    40   BiDi ~ 0
+P2_7-GPIO0_7-ISP
+Text Notes 4400 3375 0    40   ~ 0
+Used in LCD Sheet
+Text GLabel 3850 3350 2    40   Input ~ 0
+P1_14-GPIO1_7
+Text Notes 4350 5375 0    40   ~ 0
+Used in LCD Sheet
+Text GLabel 3850 5350 2    40   Input ~ 0
+P6_2-GPIO3_1
 Wire Wire Line
 	9800 3500 9200 3500
 Connection ~ 7750 2650
 Wire Wire Line
-	7750 2650 7750 2700
+	7750 2700 7750 2650
 Wire Wire Line
 	7550 2900 7750 2900
 Wire Wire Line
@@ -88,7 +98,7 @@ Wire Wire Line
 Connection ~ 8800 3450
 Connection ~ 8800 3650
 Wire Wire Line
-	8800 3650 8800 3700
+	8800 3700 8800 3650
 Wire Wire Line
 	8600 3650 9200 3650
 Wire Wire Line
@@ -108,22 +118,14 @@ Wire Wire Line
 	9200 3600 9800 3600
 Text Notes 7065 2539 0    60   ~ 0
 6342L
-Text GLabel 3850 2300 2    40   Input ~ 0
-P2_2-GPIO5_2
-Text Notes 4350 2325 0    40   ~ 0
-Used in Position Sensors Sheet
 Text GLabel 3850 1400 2    40   Input ~ 0
 P2_11-GPIO1_11
 Text Notes 4450 1425 0    40   ~ 0
 Used in Power Supply Sheet
 Text Notes 4350 4025 0    40   ~ 0
 Used in Power Supply Sheet
-Text Notes 4350 3925 0    40   ~ 0
-Used in Power Supply Sheet
 Text GLabel 3850 4000 2    40   Input ~ 0
 P6_5-GPIO3_4
-Text GLabel 3850 3900 2    40   Input ~ 0
-P6_4-GPIO3_3
 Text Notes 4350 4975 0    40   ~ 0
 Used in Position Sensors Sheet
 Text GLabel 3850 4950 2    40   Input ~ 0
@@ -156,8 +158,8 @@ Text GLabel 10450 3350 2    40   Input ~ 0
 P1_13-MMC_CD
 Text GLabel 6600 3050 0    40   Output ~ 0
 P1_8-MMC_ENABLE
-Text Notes 4075 2025 0    40   ~ 0
-Used in System Sheet
+Text Notes 4575 2025 0    40   ~ 0
+Used in System and Position Sensors Sheets
 Text Notes 4075 1225 0    40   ~ 0
 Used in System Sheet
 Text Notes 4475 1525 0    40   ~ 0
@@ -169,30 +171,30 @@ P2_10-GPIO0_14
 Text GLabel 3850 1500 2    40   BiDi ~ 0
 P2_12-GPIO1_12
 Text Notes 8625 3425 0    40   ~ 0
-Co = 10.11uF
+Co = 4.81uF
 $Comp
-L VDD_MMC #PWR0116
+L VDD_MMC #PWR0128
 U 1 1 4FC6B70B
 P 8600 2600
-F 0 "#PWR0116" H 8600 2700 30  0001 C CNN
+F 0 "#PWR0128" H 8600 2700 30  0001 C CNN
 F 1 "VDD_MMC" H 8600 2700 30  0000 C CNN
 	1    8600 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDDIO_3V3 #PWR0117
+L VDDIO_3V3 #PWR0129
 U 1 1 4FC6B4E7
 P 8050 2950
-F 0 "#PWR0117" H 8050 3050 30  0001 C CNN
+F 0 "#PWR0129" H 8050 3050 30  0001 C CNN
 F 1 "VDDIO_3V3" H 8050 3050 30  0000 C CNN
 	1    8050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDDIO_3V3 #PWR0118
+L VDDIO_3V3 #PWR0130
 U 1 1 4FC698FB
 P 6450 2550
-F 0 "#PWR0118" H 6450 2650 30  0001 C CNN
+F 0 "#PWR0130" H 6450 2650 30  0001 C CNN
 F 1 "VDDIO_3V3" H 6450 2650 30  0000 C CNN
 	1    6450 2550
 	1    0    0    -1  
@@ -226,8 +228,8 @@ P1_2-SSP0_MOSI
 Text GLabel 3850 1200 2    40   BiDi ~ 0
 P2_9
 Text GLabel 3850 2000 2    40   BiDi ~ 0
-P2_8
-Text Notes 4425 2125 0    40   ~ 0
+P2_8-GPIO5_7-BOOT
+Text Notes 6775 2125 0    40   ~ 0
 P2_7 has weak internal pull-up to disable ISP
 Text GLabel 3850 2500 2    40   Output ~ 0
 P2_0-U0_TXD
@@ -236,10 +238,10 @@ P2_1-U0_RXD
 $Comp
 L CONN_1 TP3
 U 1 1 4FBDF820
-P 4200 2100
-F 0 "TP3" H 4250 2100 40  0000 L CNN
-F 1 "ISP" H 4200 2155 30  0001 C CNN
-	1    4200 2100
+P 6550 2100
+F 0 "TP3" H 6600 2100 40  0000 L CNN
+F 1 "ISP" H 6550 2155 30  0001 C CNN
+	1    6550 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -254,10 +256,10 @@ $EndComp
 Text Notes 9900 2800 0    40   ~ 0
 Hirose DM3D-SF
 $Comp
-L GND #PWR0119
+L GND #PWR0131
 U 1 1 4FBDE98A
 P 10500 3800
-F 0 "#PWR0119" H 10500 3800 30  0001 C CNN
+F 0 "#PWR0131" H 10500 3800 30  0001 C CNN
 F 1 "GND" H 10500 3730 30  0001 C CNN
 	1    10500 3800
 	1    0    0    -1  
@@ -299,10 +301,10 @@ $EndComp
 Text Notes 600  700  0    70   ~ 0
 Notes:\n- 
 $Comp
-L GND #PWR0120
+L GND #PWR0132
 U 1 1 4E23313A
 P 8800 3700
-F 0 "#PWR0120" H 8800 3700 30  0001 C CNN
+F 0 "#PWR0132" H 8800 3700 30  0001 C CNN
 F 1 "GND" H 8800 3630 30  0001 C CNN
 	1    8800 3700
 	1    0    0    -1  
@@ -348,19 +350,19 @@ F 1 "470p" V 7800 2850 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0121
+L GND #PWR0133
 U 1 1 4E232F75
 P 7100 3400
-F 0 "#PWR0121" H 7100 3400 30  0001 C CNN
+F 0 "#PWR0133" H 7100 3400 30  0001 C CNN
 F 1 "GND" H 7100 3330 30  0001 C CNN
 	1    7100 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0122
+L GND #PWR0134
 U 1 1 4E232F44
 P 6450 2850
-F 0 "#PWR0122" H 6450 2850 30  0001 C CNN
+F 0 "#PWR0134" H 6450 2850 30  0001 C CNN
 F 1 "GND" H 6450 2780 30  0001 C CNN
 	1    6450 2850
 	1    0    0    -1  

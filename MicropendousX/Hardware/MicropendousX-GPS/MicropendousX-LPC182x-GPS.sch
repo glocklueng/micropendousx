@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/8/2012 3:21:19 PM
+EESchema Schematic File Version 2  date 6/27/2012 5:02:37 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 10
 Title "MicropendousX-LPC182x-GPS"
-Date "8 jun 2012"
+Date "27 jun 2012"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/8/2012 3:21:19 PM
+EESchema Schematic File Version 2  date 6/27/2012 5:02:37 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 10
 Title "MicropendousX-LPC182x-GPS"
-Date "8 jun 2012"
+Date "27 jun 2012"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -44,129 +44,153 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
+Connection ~ 5900 3300
+Wire Wire Line
+	6000 3300 5850 3300
+Wire Wire Line
+	5500 3300 5650 3300
+Wire Wire Line
+	7050 5850 7250 5850
+Wire Wire Line
+	7650 5850 7450 5850
+Wire Wire Line
+	5450 5850 5650 5850
+Wire Wire Line
+	6050 5950 5850 5950
+Connection ~ 6750 4800
+Wire Wire Line
+	6350 4750 6350 4800
+Wire Wire Line
+	6350 4800 6450 4800
+Wire Wire Line
+	6000 4800 6000 4750
+Wire Wire Line
+	6850 5000 6850 5050
+Wire Wire Line
+	6000 5050 6000 5000
+Wire Wire Line
+	6700 3800 6500 3800
+Wire Wire Line
+	7100 3250 7200 3250
+Connection ~ 6550 2800
+Wire Wire Line
+	6550 2750 6550 2800
+Connection ~ 6600 3800
+Wire Wire Line
+	6050 2100 6150 2100
+Wire Wire Line
+	6150 2100 6150 2050
+Connection ~ 6450 6400
+Connection ~ 6550 6400
+Connection ~ 6650 6400
+Wire Wire Line
+	6750 6400 6350 6400
+Connection ~ 5800 2700
+Wire Wire Line
+	5800 2650 5800 2700
+Connection ~ 5900 3150
+Wire Wire Line
+	5900 3150 5900 3075
+Wire Wire Line
+	5900 3075 5925 3075
+Wire Wire Line
+	5925 3075 5925 3025
+Wire Wire Line
+	5925 3025 5900 3025
+Wire Wire Line
+	5900 3025 5900 2900
+Wire Wire Line
+	6000 3150 5600 3150
+Wire Wire Line
+	7200 3650 7200 3700
+Wire Wire Line
+	6650 2100 6450 2100
+Wire Wire Line
+	6650 2300 6450 2300
+Wire Wire Line
+	6550 2350 6550 2300
+Connection ~ 6550 2300
+Wire Wire Line
+	6000 3050 5600 3050
+Wire Wire Line
+	5700 2900 5700 3050
+Connection ~ 5700 3050
+Wire Wire Line
+	5900 2700 5700 2700
+Wire Wire Line
+	6550 2050 6550 2100
+Connection ~ 6550 2100
+Wire Wire Line
+	6550 6400 6550 6450
+Wire Wire Line
+	6450 5350 6450 5400
+Wire Wire Line
+	5750 2050 5750 2100
+Wire Wire Line
+	5750 2100 5850 2100
+Wire Wire Line
+	6600 3850 6600 3800
+Wire Wire Line
+	6500 2800 6600 2800
+Wire Wire Line
+	7100 3050 7200 3050
+Wire Wire Line
+	7100 3450 7200 3450
+Wire Wire Line
+	7050 4750 7050 4800
+Wire Wire Line
+	6650 5350 6650 5400
+Wire Wire Line
+	7050 4800 6650 4800
+Connection ~ 6950 4800
+Wire Wire Line
+	6950 5000 6750 5000
+Connection ~ 6850 5000
+Wire Wire Line
+	6350 5050 6350 5000
+Connection ~ 6350 4800
+Wire Wire Line
+	6050 5850 5850 5850
+Wire Wire Line
+	5450 5950 5650 5950
+Wire Wire Line
+	5600 3300 5600 3200
+Connection ~ 5600 3300
+Wire Wire Line
+	5600 3200 5900 3200
+Wire Wire Line
+	5900 3200 5900 3300
 $Comp
-L VDD_MOT #PWR065
+L R_MINI R55
+U 1 1 4FDBB68A
+P 5750 3300
+F 0 "R55" H 5680 3350 25  0000 C CNN
+F 1 "0" H 5820 3350 20  0000 C CNN
+	1    5750 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 3500
+Text GLabel 6550 7550 2    40   UnSpc ~ 0
+GPS_FIX
+Text GLabel 6550 7650 2    40   UnSpc ~ 0
+GPS_1PPS
+Text Label 6550 7550 2    20   ~ 0
+GPS_FIX
+Text Label 6550 7650 2    20   ~ 0
+GPS_1PPS
+$Comp
+L VDD_MOT #PWR077
 U 1 1 4FCC7765
 P 5800 2650
-F 0 "#PWR065" H 5800 2750 30  0001 C CNN
+F 0 "#PWR077" H 5800 2750 30  0001 C CNN
 F 1 "VDD_MOT" H 5800 2750 30  0000 C CNN
 	1    5800 2650
 	1    0    0    -1  
 $EndComp
-Text Label 7050 5950 0    20   ~ 0
-GPS_1PPS
 Text Label 7050 5850 0    20   ~ 0
 GPS_FIX
 Text Label 6050 5850 2    20   ~ 0
 GPS_TX
-Wire Wire Line
-	7050 5950 7250 5950
-Wire Wire Line
-	7650 5950 7450 5950
-Wire Wire Line
-	5450 5950 5650 5950
-Wire Wire Line
-	6050 5850 5850 5850
-Connection ~ 6350 4800
-Wire Wire Line
-	6350 5050 6350 5000
-Connection ~ 6850 5000
-Wire Wire Line
-	6950 5000 6750 5000
-Connection ~ 6950 4800
-Wire Wire Line
-	6650 4800 7050 4800
-Wire Wire Line
-	6650 5350 6650 5400
-Wire Wire Line
-	7050 4800 7050 4750
-Wire Wire Line
-	7100 3450 7200 3450
-Wire Wire Line
-	7100 3050 7200 3050
-Wire Wire Line
-	6500 2800 6600 2800
-Wire Wire Line
-	6600 3850 6600 3800
-Wire Wire Line
-	5850 2100 5750 2100
-Wire Wire Line
-	5750 2100 5750 2050
-Wire Wire Line
-	6450 5350 6450 5400
-Wire Wire Line
-	6550 6400 6550 6450
-Connection ~ 6550 2100
-Wire Wire Line
-	6550 2050 6550 2100
-Wire Wire Line
-	5900 2700 5700 2700
-Connection ~ 5700 3050
-Wire Wire Line
-	5700 2900 5700 3050
-Wire Wire Line
-	6000 3050 5600 3050
-Connection ~ 6550 2300
-Wire Wire Line
-	6550 2350 6550 2300
-Wire Wire Line
-	6650 2300 6450 2300
-Wire Wire Line
-	6650 2100 6450 2100
-Wire Wire Line
-	7200 3650 7200 3700
-Wire Wire Line
-	6000 3150 5600 3150
-Wire Wire Line
-	5900 2900 5900 3025
-Wire Wire Line
-	5900 3025 5925 3025
-Wire Wire Line
-	5925 3025 5925 3075
-Wire Wire Line
-	5925 3075 5900 3075
-Wire Wire Line
-	5900 3075 5900 3150
-Connection ~ 5900 3150
-Wire Wire Line
-	5800 2650 5800 2700
-Connection ~ 5800 2700
-Wire Wire Line
-	6750 6400 6350 6400
-Connection ~ 6650 6400
-Connection ~ 6550 6400
-Connection ~ 6450 6400
-Wire Wire Line
-	6150 2050 6150 2100
-Wire Wire Line
-	6150 2100 6050 2100
-Connection ~ 6600 3800
-Wire Wire Line
-	6550 2750 6550 2800
-Connection ~ 6550 2800
-Wire Wire Line
-	7100 3250 7200 3250
-Wire Wire Line
-	6700 3800 6500 3800
-Wire Wire Line
-	6000 5050 6000 5000
-Wire Wire Line
-	6850 5000 6850 5050
-Wire Wire Line
-	6000 4800 6000 4750
-Wire Wire Line
-	6450 4800 6350 4800
-Wire Wire Line
-	6350 4800 6350 4750
-Connection ~ 6750 4800
-Wire Wire Line
-	6050 5950 5850 5950
-Wire Wire Line
-	5450 5850 5650 5850
-Wire Wire Line
-	7650 5850 7450 5850
-Wire Wire Line
-	7050 5850 7250 5850
 Text Label 6050 5950 2    20   ~ 0
 GPS_RX
 $Comp
@@ -179,19 +203,10 @@ F 1 "330" H 7420 5900 20  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_MINI R53
-U 1 1 4FCC372E
-P 7350 5950
-F 0 "R53" H 7280 6000 25  0000 C CNN
-F 1 "330" H 7420 6000 20  0000 C CNN
-	1    7350 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR066
+L GND #PWR078
 U 1 1 4FC9B834
 P 6350 5050
-F 0 "#PWR066" H 6350 5050 30  0001 C CNN
+F 0 "#PWR078" H 6350 5050 30  0001 C CNN
 F 1 "GND" H 6350 4980 30  0001 C CNN
 	1    6350 5050
 	1    0    0    -1  
@@ -226,19 +241,19 @@ F 1 "330" H 5820 5900 20  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD_GPS #PWR067
+L VDD_GPS #PWR079
 U 1 1 4FC9B715
 P 6650 5350
-F 0 "#PWR067" H 6650 5450 30  0001 C CNN
+F 0 "#PWR079" H 6650 5450 30  0001 C CNN
 F 1 "VDD_GPS" H 6650 5450 30  0000 C CNN
 	1    6650 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD_GPS #PWR068
+L VDD_GPS #PWR080
 U 1 1 4FC9B6F4
 P 7050 4750
-F 0 "#PWR068" H 7050 4850 30  0001 C CNN
+F 0 "#PWR080" H 7050 4850 30  0001 C CNN
 F 1 "VDD_GPS" H 7050 4850 30  0000 C CNN
 	1    7050 4750
 	1    0    0    -1  
@@ -262,10 +277,10 @@ F 1 "FB" H 6600 4750 22  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR069
+L GND #PWR081
 U 1 1 4FC9B518
 P 6850 5050
-F 0 "#PWR069" H 6850 5050 30  0001 C CNN
+F 0 "#PWR081" H 6850 5050 30  0001 C CNN
 F 1 "GND" H 6850 4980 30  0001 C CNN
 	1    6850 5050
 	1    0    0    -1  
@@ -289,19 +304,19 @@ F 1 "0u1" V 6050 4950 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR070
+L GND #PWR082
 U 1 1 4FC9B50C
 P 6000 5050
-F 0 "#PWR070" H 6000 5050 30  0001 C CNN
+F 0 "#PWR082" H 6000 5050 30  0001 C CNN
 F 1 "GND" H 6000 4980 30  0001 C CNN
 	1    6000 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR071
+L +BATT #PWR083
 U 1 1 4FC9B505
 P 6000 4750
-F 0 "#PWR071" H 6000 4700 20  0001 C CNN
+F 0 "#PWR083" H 6000 4700 20  0001 C CNN
 F 1 "+BATT" H 6000 4850 30  0000 C CNN
 	1    6000 4750
 	1    0    0    -1  
@@ -317,20 +332,20 @@ Motion and Orientation Sensor
 Text Notes 6400 4450 0    100  ~ 0
 GPS
 $Comp
-L VDD_MOT #PWR072
+L VDD_MOT #PWR084
 U 1 1 4FC827CB
 P 6550 2750
-F 0 "#PWR072" H 6550 2850 30  0001 C CNN
+F 0 "#PWR084" H 6550 2850 30  0001 C CNN
 F 1 "VDD_MOT" H 6550 2850 30  0000 C CNN
 	1    6550 2750
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6400 3750
 $Comp
-L GND #PWR073
+L GND #PWR085
 U 1 1 4FC827B7
 P 6600 3850
-F 0 "#PWR073" H 6600 3850 30  0001 C CNN
+F 0 "#PWR085" H 6600 3850 30  0001 C CNN
 F 1 "GND" H 6600 3780 30  0001 C CNN
 	1    6600 3850
 	1    0    0    -1  
@@ -360,58 +375,53 @@ F 1 "FB" H 6000 2050 22  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VDD_MOT #PWR074
+L VDD_MOT #PWR086
 U 1 1 4FC72B71
 P 6150 2050
-F 0 "#PWR074" H 6150 2150 30  0001 C CNN
+F 0 "#PWR086" H 6150 2150 30  0001 C CNN
 F 1 "VDD_MOT" H 6150 2150 30  0000 C CNN
 	1    6150 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD_MOT #PWR075
+L VDD_MOT #PWR087
 U 1 1 4FC72B64
 P 6550 2050
-F 0 "#PWR075" H 6550 2150 30  0001 C CNN
+F 0 "#PWR087" H 6550 2150 30  0001 C CNN
 F 1 "VDD_MOT" H 6550 2150 30  0000 C CNN
 	1    6550 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 5950 2    40   Output ~ 0
-P3_1-GPIO5_8
-Text Notes 8150 5975 0    40   ~ 0
-From EMI Sheet
-Text Notes 8150 5875 0    40   ~ 0
-From EMI Sheet
-Text Notes 5000 3325 0    40   ~ 0
-From EMI Sheet
-Text Notes 5025 3525 0    40   ~ 0
+Text GLabel 7050 5950 2    40   Output ~ 0
+P1_15-GPIO0_2
+Text Notes 7600 5975 0    40   ~ 0
+From LCD Sheet
+Text Notes 8250 5875 0    40   ~ 0
+From LCD Sheet
+Text Notes 4300 3325 0    40   ~ 0
 From EMI Sheet
 Text GLabel 7650 5850 2    40   Output ~ 0
-P1_5-GPIO1_8
-Text GLabel 6000 3500 0    40   Output ~ 0
-P2_6-GPIO5_6
-Text GLabel 6000 3300 0    40   Output ~ 0
-P2_2-GPIO5_2
+P1_18-GPIO0_13
+Text GLabel 5500 3300 0    40   Output ~ 0
+P2_8-GPIO5_7-BOOT
 Text GLabel 6000 3400 0    40   Output ~ 0
 WAKEUP_Movement
 Text Notes 4475 5975 0    40   ~ 0
 From EMI Sheet
-
 $Comp
-L VDDIO_3V3 #PWR076
+L VDDIO_3V3 #PWR088
 U 1 1 4FC6975B
 P 6350 4750
-F 0 "#PWR076" H 6350 4850 30  0001 C CNN
+F 0 "#PWR088" H 6350 4850 30  0001 C CNN
 F 1 "VDDIO_3V3" H 6350 4850 30  0000 C CNN
 	1    6350 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD_3V3 #PWR077
+L VDD_3V3 #PWR089
 U 1 1 4FC696E5
 P 5750 2050
-F 0 "#PWR077" H 5750 2150 30  0001 C CNN
+F 0 "#PWR089" H 5750 2150 30  0001 C CNN
 F 1 "VDD_3V3" H 5750 2150 30  0000 C CNN
 	1    5750 2050
 	1    0    0    -1  
@@ -419,19 +429,19 @@ $EndComp
 Text Notes 4475 5875 0    40   ~ 0
 From EMI Sheet
 $Comp
-L GND #PWR078
+L GND #PWR090
 U 1 1 4FBE0C68
 P 6550 6450
-F 0 "#PWR078" H 6550 6450 30  0001 C CNN
+F 0 "#PWR090" H 6550 6450 30  0001 C CNN
 F 1 "GND" H 6550 6380 30  0001 C CNN
 	1    6550 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR079
+L +BATT #PWR091
 U 1 1 4FBE0B32
 P 6450 5350
-F 0 "#PWR079" H 6450 5300 20  0001 C CNN
+F 0 "#PWR091" H 6450 5300 20  0001 C CNN
 F 1 "+BATT" H 6450 5450 30  0000 C CNN
 	1    6450 5350
 	1    0    0    -1  
@@ -459,19 +469,19 @@ I2C0_SCL
 Text GLabel 3650 3150 2    40   BiDi ~ 0
 I2C0_SDA
 $Comp
-L GND #PWR080
+L GND #PWR092
 U 1 1 4FBE083B
 P 6550 2350
-F 0 "#PWR080" H 6550 2350 30  0001 C CNN
+F 0 "#PWR092" H 6550 2350 30  0001 C CNN
 F 1 "GND" H 6550 2280 30  0001 C CNN
 	1    6550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR081
+L GND #PWR093
 U 1 1 4FBE0836
 P 7200 3700
-F 0 "#PWR081" H 7200 3700 30  0001 C CNN
+F 0 "#PWR093" H 7200 3700 30  0001 C CNN
 F 1 "GND" H 7200 3630 30  0001 C CNN
 	1    7200 3700
 	1    0    0    -1  

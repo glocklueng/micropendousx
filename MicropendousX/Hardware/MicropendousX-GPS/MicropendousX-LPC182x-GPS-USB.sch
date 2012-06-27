@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/8/2012 3:21:19 PM
+EESchema Schematic File Version 2  date 6/27/2012 5:02:37 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 7 10
 Title "MicropendousX-LPC182x-GPS"
-Date "8 jun 2012"
+Date "27 jun 2012"
 Rev "1.0"
 Comp "Opendous Inc."
 Comment1 ""
@@ -44,12 +44,7 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.MicropendousX.org"
 $EndDescr
-Wire Wire Line
-	7350 3600 7350 3000
-Wire Wire Line
-	7350 3000 7400 3000
-Wire Wire Line
-	7350 3800 7350 3850
+NoConn ~ 7400 3000
 Wire Wire Line
 	7200 2950 7200 2900
 Wire Wire Line
@@ -120,56 +115,13 @@ Wire Wire Line
 	7400 2800 7050 2800
 Wire Wire Line
 	6600 2700 7400 2700
-Wire Wire Line
-	7050 3300 7050 3250
-Wire Wire Line
-	7050 3500 7350 3500
-Connection ~ 7350 3500
-$Comp
-L VDD_3V3 #PWR0123
-U 1 1 4FD24176
-P 7050 3250
-F 0 "#PWR0123" H 7050 3350 30  0001 C CNN
-F 1 "VDD_3V3" H 7050 3350 30  0000 C CNN
-	1    7050 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_MINI R8
-U 1 1 4FD2416E
-P 7050 3400
-F 0 "R8" V 7075 3450 25  0000 C CNN
-F 1 "10k" V 7025 3450 20  0000 C CNN
-	1    7050 3400
-	0    -1   -1   0   
-$EndComp
 Text Notes 6435 2795 0    20   ~ 0
 use
 NoConn ~ 4150 3450
 Text Notes 4450 3475 0    40   ~ 0
 USB0_ID has an internal pull-up resistor to indicate B Device
-$Comp
-L GNDPWR #PWR0124
-U 1 1 4E22B264
-P 7350 3850
-F 0 "#PWR0124" H 7350 3900 40  0001 C CNN
-F 1 "GNDPWR" H 7345 3795 20  0000 C CNN
-	1    7350 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ESD CR3
-U 1 1 4DE902EB
-P 7350 3700
-F 0 "CR3" H 7350 3760 30  0000 C CNN
-F 1 "ESD" H 7350 3650 20  0001 C CNN
-	1    7350 3700
-	0    -1   1    0   
-$EndComp
 Text Notes 4650 2150 0    100  ~ 0
 USB Device Mode
-Text Notes 5700 4700 0    60   ~ 0
-DELETE
 Text Notes 4450 3375 0    40   ~ 0
 VBUS pin will remain high for several seconds after USB disconnect
 NoConn ~ 4150 3650
@@ -190,24 +142,6 @@ USB0_DP
 Text GLabel 7350 2750 0    20   Input ~ 0
 GND_microAB
 $Comp
-L R_MINI R1
-U 1 1 4E22B3C1
-P 5850 4800
-F 0 "R1" H 5780 4850 25  0000 C CNN
-F 1 "0" H 5920 4850 20  0000 C CNN
-	1    5850 4800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L R_MINI R2
-U 1 1 4E22B3C0
-P 5850 4900
-F 0 "R2" H 5780 4950 25  0000 C CNN
-F 1 "0" H 5920 4950 20  0000 C CNN
-	1    5850 4900
-	-1   0    0    -1  
-$EndComp
-$Comp
 L ESD CR2
 U 1 1 4E22B334
 P 5450 2800
@@ -226,41 +160,41 @@ F 1 "ESD" H 5650 2750 20  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR0125
+L GNDPWR #PWR0135
 U 1 1 4E22B328
 P 5550 2950
-F 0 "#PWR0125" H 5550 3000 40  0001 C CNN
+F 0 "#PWR0135" H 5550 3000 40  0001 C CNN
 F 1 "GNDPWR" H 5545 2895 20  0000 C CNN
 	1    5550 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR0126
+L VBUS #PWR0136
 U 1 1 4E22B1E2
 P 4200 3350
-F 0 "#PWR0126" H 4200 3450 30  0001 C CNN
+F 0 "#PWR0136" H 4200 3450 30  0001 C CNN
 F 1 "VBUS" V 4200 3500 30  0000 C CNN
 	1    4200 3350
 	0    1    1    0   
 $EndComp
 Text Notes 7632 3700 0    60   ~ 0
-Notes:\n- USB VBUS Fuse F1 limits inrush current with\n   its 0.5 ohm typical resistance\n- FBX ferrite bead is high DCR 0805\n- FBY ferrite beads are high current 0805\n- Choose PTC fuse with 750mA Ihold for temperature compensation\n- pull-up on USB ID pin indicates B device
+Notes:\n- USB VBUS Fuse F1 limits inrush current with\n   its 0.5 ohm typical resistance\n- FBX ferrite bead is high DCR 0805\n- FBY ferrite beads are high current 0805\n- Choose PTC fuse with 750mA Ihold for temperature compensation\n- internal pull-up on USB ID pin indicates B device
 Text Notes 7783 3350 0    20   ~ 0
 High DCR
 $Comp
-L GNDPWR #PWR0127
+L GNDPWR #PWR0137
 U 1 1 4DE90351
 P 8050 3350
-F 0 "#PWR0127" H 8050 3400 40  0001 C CNN
+F 0 "#PWR0137" H 8050 3400 40  0001 C CNN
 F 1 "GNDPWR" H 8045 3295 20  0000 C CNN
 	1    8050 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0128
+L GND #PWR0138
 U 1 1 4DE90350
 P 7650 3350
-F 0 "#PWR0128" H 7650 3350 30  0001 C CNN
+F 0 "#PWR0138" H 7650 3350 30  0001 C CNN
 F 1 "GND" H 7650 3280 30  0001 C CNN
 	1    7650 3350
 	-1   0    0    -1  
@@ -293,10 +227,10 @@ F 1 "F" H 6425 2625 20  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR0129
+L VBUS #PWR0139
 U 1 1 4DE2120B
 P 6200 2700
-F 0 "#PWR0129" H 6200 2800 30  0001 C CNN
+F 0 "#PWR0139" H 6200 2800 30  0001 C CNN
 F 1 "VBUS" V 6200 2850 30  0000 C CNN
 	1    6200 2700
 	0    -1   1    0   
@@ -304,19 +238,19 @@ $EndComp
 Text Notes 7714 2350 0    50   ~ 0
 To Host
 $Comp
-L GND #PWR0130
+L GND #PWR0140
 U 1 1 4DE20AD7
 P 6750 2900
-F 0 "#PWR0130" H 6750 2900 30  0001 C CNN
+F 0 "#PWR0140" H 6750 2900 30  0001 C CNN
 F 1 "GND" H 6750 2830 30  0001 C CNN
 	1    6750 2900
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR0131
+L GNDPWR #PWR0141
 U 1 1 4DE20ACC
 P 7200 2950
-F 0 "#PWR0131" H 7200 3000 40  0001 C CNN
+F 0 "#PWR0141" H 7200 3000 40  0001 C CNN
 F 1 "GNDPWR" H 7195 2895 20  0000 C CNN
 	1    7200 2950
 	1    0    0    -1  
